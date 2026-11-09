@@ -1,0 +1,232 @@
+{
+  "root": "results/hscc_v1",
+  "models": {
+    "A": "claude-sonnet-5-5",
+    "B": "gpt-5"
+  },
+  "n_boot": 2000,
+  "per_model": {
+    "A": {
+      "model": "claude-sonnet-5-5",
+      "n_all": 325,
+      "n_valid": 325,
+      "n_failed": 0,
+      "exact_10_all_case": {
+        "point": 0.24,
+        "ci95": [
+          0.1938,
+          0.2892
+        ]
+      },
+      "exact_10_valid": {
+        "point": 0.24,
+        "ci95": [
+          0.1938,
+          0.2892
+        ]
+      },
+      "exact_6_valid": {
+        "point": 0.6369,
+        "ci95": [
+          0.5877,
+          0.6892
+        ]
+      },
+      "major_error_rate_valid": {
+        "point": 0.1846,
+        "ci95": [
+          0.1446,
+          0.2277
+        ]
+      },
+      "heading_or_worse_error_rate_valid": {
+        "point": 0.2677,
+        "ci95": [
+          0.2185,
+          0.3169
+        ]
+      },
+      "mean_severity_ordinal_valid": {
+        "point": 2.1754,
+        "ci95": [
+          1.9815,
+          2.3631
+        ]
+      },
+      "ece_raw": {
+        "point": 0.1836,
+        "ci95": [
+          0.1496,
+          0.2287
+        ]
+      },
+      "ece_calibrated": {
+        "point": 0.0308,
+        "ci95": [
+          0.0276,
+          0.0826
+        ]
+      },
+      "brier_raw": {
+        "point": 0.1701,
+        "ci95": [
+          0.1561,
+          0.1846
+        ]
+      },
+      "brier_calibrated": {
+        "point": 0.1359,
+        "ci95": [
+          0.1125,
+          0.1606
+        ]
+      },
+      "selective_risk_raw_at_70%": {
+        "point": 0.6828,
+        "ci95": [
+          0.6256,
+          0.7489
+        ]
+      },
+      "selective_risk_calibrated_at_70%": {
+        "point": 0.6828,
+        "ci95": [
+          0.6256,
+          0.7489
+        ]
+      },
+      "distinct_raw_confidence_values": 20
+    },
+    "B": {
+      "model": "gpt-5",
+      "n_all": 325,
+      "n_valid": 325,
+      "n_failed": 0,
+      "exact_10_all_case": {
+        "point": 0.2646,
+        "ci95": [
+          0.2154,
+          0.3138
+        ]
+      },
+      "exact_10_valid": {
+        "point": 0.2646,
+        "ci95": [
+          0.2154,
+          0.3138
+        ]
+      },
+      "exact_6_valid": {
+        "point": 0.6031,
+        "ci95": [
+          0.5508,
+          0.6554
+        ]
+      },
+      "major_error_rate_valid": {
+        "point": 0.1754,
+        "ci95": [
+          0.1354,
+          0.2185
+        ]
+      },
+      "heading_or_worse_error_rate_valid": {
+        "point": 0.2831,
+        "ci95": [
+          0.2338,
+          0.3354
+        ]
+      },
+      "mean_severity_ordinal_valid": {
+        "point": 2.1938,
+        "ci95": [
+          2.0,
+          2.3939
+        ]
+      },
+      "ece_raw": {
+        "point": 0.3289,
+        "ci95": [
+          0.2853,
+          0.3756
+        ]
+      },
+      "ece_calibrated": {
+        "point": 0.0733,
+        "ci95": [
+          0.0485,
+          0.1253
+        ]
+      },
+      "brier_raw": {
+        "point": 0.2727,
+        "ci95": [
+          0.2584,
+          0.288
+        ]
+      },
+      "brier_calibrated": {
+        "point": 0.1655,
+        "ci95": [
+          0.1406,
+          0.1913
+        ]
+      },
+      "selective_risk_raw_at_70%": {
+        "point": 0.6828,
+        "ci95": [
+          0.6167,
+          0.7401
+        ]
+      },
+      "selective_risk_calibrated_at_70%": {
+        "point": 0.6828,
+        "ci95": [
+          0.6167,
+          0.7401
+        ]
+      },
+      "distinct_raw_confidence_values": 49
+    }
+  },
+  "paired_A_minus_B": {
+    "exact_10_all_case": {
+      "point": -0.0246,
+      "ci95": [
+        -0.0738,
+        0.0277
+      ]
+    },
+    "n_both_valid": 325,
+    "major_error_rate_both_valid": {
+      "point": 0.0092,
+      "ci95": [
+        -0.0215,
+        0.04
+      ]
+    },
+    "heading_or_worse_error_rate_both_valid": {
+      "point": -0.0154,
+      "ci95": [
+        -0.0492,
+        0.0185
+      ]
+    },
+    "mean_severity_ordinal_both_valid": {
+      "point": -0.0185,
+      "ci95": [
+        -0.1723,
+        0.1355
+      ]
+    }
+  },
+  "pooled_routing": {
+    "selective_risk_raw": 0.6813186813186813,
+    "selective_risk_calibrated": 0.676923076923077,
+    "improvement": 0.00439560439560438,
+    "ci95_raw_minus_calibrated": [
+      -0.00659340659340657,
+      0.01758241758241763
+    ]
+  }
+}

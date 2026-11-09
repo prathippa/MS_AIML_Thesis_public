@@ -1,0 +1,79 @@
+{
+  "version": "2.1-rebuilt",
+  "created_at": "2026-10-30T07:40:22.217731+00:00",
+  "dataset_revision": "mirror-Dayanand314Krishna@0a66ad345d3fc9828f362836d86b31e20798513c",
+  "evidence_mode": "none",
+  "multi_policy": "exclude",
+  "models": {
+    "A": {
+      "label": "A",
+      "provider": "anthropic",
+      "model": "claude-sonnet-5-5",
+      "api_key_env": "ANTHROPIC_API_KEY"
+    },
+    "B": {
+      "label": "B",
+      "provider": "openai",
+      "model": "gpt-5",
+      "api_key_env": "OPENAI_API_KEY"
+    },
+    "J": {
+      "label": "J",
+      "provider": "openai",
+      "model": "gpt-5-mini",
+      "api_key_env": "OPENAI_API_KEY"
+    }
+  },
+  "decoding": {
+    "anthropic": {
+      "max_tokens": 4000
+    },
+    "groq": {
+      "max_tokens": 4000,
+      "temperature": 0.0,
+      "seed": 7
+    },
+    "openai": {
+      "max_completion_tokens": 4000
+    }
+  },
+  "method": "platt",
+  "max_calls": 100,
+  "human_size": 30,
+  "n_boot": 2000,
+  "seed": 7,
+  "judge_runs": 3,
+  "judge_per_stratum": 15,
+  "coverage": 0.7,
+  "coverages": [
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "target_risk": 0.1,
+  "routing_unit": "model_case_prediction",
+  "failure_policy": "Failed/missing = wrong in all-case accuracy; always escalate",
+  "source_hashes": {
+    "annotations.py": "726fd7c7baef2e88b5653111173066480d45fb94ee763c80e9812635f012f4d4",
+    "budget.py": "e8adcac4d1c5d6d9e1c62c8c3973fd3fea89282fd355680d72890430d37d0236",
+    "calibration.py": "d886d59032d0545efd1fabc8ec2e8cf69ef8c1aa045442ecce09a4eaa18babb6",
+    "config.py": "b8cac700e8765a85ffcd90e7155715b87b539c50fa3c8c5fca470e7fbc8c629e",
+    "data_loader.py": "aefa6a1313cdf2dc3e2b118b882b241ffc94b56ff022c10bd5965cc9dc8e1219",
+    "empirical_report.py": "f9cfac576c29a4bbc444afb7c095f8a8e61cfdfe412d04d335864d56ac15a4ce",
+    "evidence.py": "363cb1d53d88c37f95053b7bd1609e32dbcb68eb789a46d7accb60f8451630c2",
+    "generation.py": "1983418d895347613d57d1afffce37058acd6abd21168793edbc12d76b34bf28",
+    "hts_hierarchy.py": "890bd1ba95c176d6814288e1f02e767930a1e9ea715c70e0dbf474d30c04d687",
+    "judge.py": "1147b6b01b5cfe5f49ad85d2c070e7c687c334a4de118472d285ebd919bc986b",
+    "make_report.py": "a9002ba3d7bf4449ee389c98ad220e55f3c52f01990393fce532818202c63a57",
+    "metrics.py": "da1ea0345a4eedaed34c39ad5d891756e8272bb1e7e15a318f3b4462edc7d2e5",
+    "pipeline.py": "07f8dbf7f4fa5df0a275716967eb23c03498aa3bcb1bf782fb2f99861f6eaadd",
+    "reporting.py": "02290b171aba5e9728242a304a8ce210ad7cc2525c6ee688fce9df6bfb51e392",
+    "routing.py": "4ecfa94984b8dc60a672f0bbc53f87856a7f0476fd72c3d8eb18466eff921d53",
+    "run_study.py": "fe4d55d22658763a2ffb6141fa736f01aef8b802efcb5c1073c166a42e099560",
+    "study_io.py": "32cb3602cd1bc6c2b707d5e18f196d5aa56394f0aa9d08c122109b77aeea5121"
+  },
+  "ci_scope": "Conditional on frozen calibrators; pooled bootstrap clusters product cases"
+}

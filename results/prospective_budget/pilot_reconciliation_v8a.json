@@ -1,0 +1,10 @@
+{
+  "recorded_attempts_reconciled": 165,
+  "inputs_sha256": {
+    "results/prospective_v8/validation/generations_A.jsonl": "7df85be75751b7bb2235ac1cfba976bb2ad9658b6a7f35099b7d9364453dd9e2",
+    "results/prospective_v8/validation/generations_B.jsonl": "9d7576d0759f47d23339195364c0cd52aeacf7901b1749787d3613c445492b6c"
+  },
+  "before_snapshot_sha256": "bac3aa2fa7bbe981db9bd58e5cc7ed5685cd0102cae4951900cd6652e239b4c3",
+  "conservative_usage_plus_unknown_reservations_eur": 2.965055,
+  "accounting": "Official token rates times 1.5 EUR/USD fee/FX allowance; not actual invoice cost. Unknown charges retain original reservation. No reservation deleted."
+}

@@ -1,0 +1,2 @@
+172 passed (pytest -q, run on this package, 9 November 2026)
+29 of 29 thesis claims hold (analysis/thesis_claims.py)

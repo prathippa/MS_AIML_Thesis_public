@@ -1,0 +1,104 @@
+{
+  "sha256": "d7790cee3a81adcb2c22168d3e4a2e999d0421c94e5d24c10d848b529bcb6a10",
+  "contents": {
+    "plan": {
+      "status": "frozen",
+      "deadline": "2026-12-10",
+      "budget_eur": 100,
+      "new_api_spend_eur": 0,
+      "candidate_development_n": 200,
+      "candidate_evaluation_n": 400,
+      "sample_size_status": "Fixed 400 evaluation products; precision-driven, not a formal 80%-power claim. Existing ATLAS B combined-v-confidence 50% interval half-width ~0.0765 at n=169 scales to ~0.0497 at n=400 under similar variability. This is a planning approximation; actual intervals may be wider.",
+      "unit": "product",
+      "designations": [
+        "A",
+        "B"
+      ],
+      "candidate_policies": [
+        "confidence",
+        "agreement",
+        "schedule",
+        "combined"
+      ],
+      "candidate_coverages": [
+        0.3,
+        0.5,
+        0.7
+      ],
+      "primary_comparison": {
+        "designated_model": "B",
+        "policy": "combined",
+        "baseline": "confidence",
+        "coverage": 0.5,
+        "outcome": "exact_code_selective_risk",
+        "difference": "combined minus confidence",
+        "criterion": "two-sided paired product-bootstrap 95% CI entirely below zero",
+        "bootstrap_resamples": 2000,
+        "seed": 7
+      },
+      "evaluation_outcomes_seen": false,
+      "verified_price_table": {
+        "A": {
+          "model": "claude-sonnet-5-5",
+          "usd_input_per_million": 2,
+          "usd_output_per_million": 10,
+          "max_request_eur": "0.075",
+          "max_prompt_utf8_bytes": 2048,
+          "max_output_tokens": 4000,
+          "source_url": "https://platform.claude.com/docs/en/models/sonnet-5-5/overview",
+          "verified_date": "2026-11-04",
+          "authenticated_model_access": "HTTP 200"
+        },
+        "B": {
+          "model": "gpt-5",
+          "usd_input_per_million": 1.25,
+          "usd_output_per_million": 10,
+          "max_request_eur": "0.075",
+          "max_prompt_utf8_bytes": 2048,
+          "max_output_tokens": 4000,
+          "source_url": "https://developers.openai.com/api/docs/models/gpt-5",
+          "verified_date": "2026-11-04",
+          "authenticated_model_access": "HTTP 200"
+        }
+      },
+      "currency_guard_integrated": true,
+      "original_protocol_changes": "none; new study must use its own protocol and output directory",
+      "requirements_before_generation": [
+        "Fix primary comparison and coverage, supporting comparisons and multiplicity policy",
+        "Document candidate data overlap and historical-release limitations",
+        "Justify cohort size against achievable precision",
+        "Check authenticated model availability and current provider charges",
+        "Reserve a conservative monetary bound before every request, including possible failures",
+        "Freeze protocol before inspecting new evaluation outputs"
+      ],
+      "paid_entry_point": "analysis/launch_prospective.py",
+      "frozen_date": "2026-11-04",
+      "secondary_comparisons": "All four policies, both designations, 30/50/70% coverage, wrong-chapter rates and full curves; descriptive pointwise intervals, no extra confirmatory claims",
+      "development_use": "200 products for calibration and technical diagnostics only; no policy/model/coverage selection after evaluation starts",
+      "outcome_integrity": "New evaluation model outputs not seen before this freeze; original tests informed design and are not reused as confirmation",
+      "request_output_cap": 4000,
+      "decoding_change": "New study caps both models at 4000 output tokens instead of original 8000; failed/truncated predictions retained as failures, no retrospective cap changes",
+      "max_requests": 1320,
+      "budget_accounting": "Every attempt reserves EUR 0.075 permanently, including malformed retries and failures. Shared ledger across prospective stages. 1200 base calls reserve EUR 90; 1320 attempts reserve EUR 99. No refunds based on estimated actual usage.",
+      "price_bound_basis": "Text only, no tools or caching writes. Prompt UTF8 bytes <=2048; input budget 4096 tokens including ample framing allowance. Output <=4000 tokens including reasoning. At max USD2/M input and USD10/M output, <=USD0.048192 per call; multiplying by 1.5 EUR per USD for FX/fees/tax contingency gives EUR0.072288, rounded up to EUR0.075. Factor is a conservative accounting allowance, not a quoted exchange rate.",
+      "models": {
+        "A": "claude-sonnet-5-5",
+        "B": "gpt-5"
+      },
+      "credentials_file_external": "/Users/prathippadevi/Downloads/MS_thesis_keys/.env",
+      "candidate_data_status": "Public ATLAS training split, heuristic deduplication only; no claim of absent model-training exposure or complete ruling independence; all 400 evaluations retained regardless of gold schedule membership",
+      "candidate_files": {
+        "data/prospective_candidate_v8/development_records.jsonl": "32f8f2364baa0885d4b7d4655413fbb2cfa63cad03c78c75f6083705e412d018",
+        "data/prospective_candidate_v8/evaluation.jsonl": "cf387027029b984886e05247144f68aa11b711c2616aae353e8f406afb124d51",
+        "data/prospective_candidate_v8/development.jsonl": "230becfef3d38eeeff11ac672533aba8e1ac11549adfb4c06f115510747d3db5",
+        "data/prospective_candidate_v8/evaluation_records.jsonl": "decbc789e1de533220f6742a39895825b4889fb9fa92a1dcd71b74d4da294871"
+      }
+    },
+    "sources": {
+      "launch_prospective.py": "12b054bc53b357afe34c1474667554d94fdeb451471c51bc98380a1f33a71d14",
+      "euro_guard.py": "e2821eb8c0a1e07fbdb97fddd8b5a4b8640c9490404047b4365445ba109f8251",
+      "product_routing.py": "89e585671381d584b9eca036db2d09ceeafeea5a823c62f9af5fce440df0a7f4",
+      "analyse_prospective.py": "fb4f8e21759b4a095fa86272cd7ee4bacbc8fda0516667df0fa60371627a900b"
+    }
+  }
+}

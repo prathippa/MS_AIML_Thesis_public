@@ -1,0 +1,39 @@
+{
+  "status": "draft",
+  "deadline": "2026-12-10",
+  "budget_eur": 100,
+  "new_api_spend_eur": 0,
+  "candidate_development_n": 200,
+  "candidate_evaluation_n": 400,
+  "sample_size_status": "provisional; precision/power justification pending",
+  "unit": "product",
+  "designations": [
+    "A",
+    "B"
+  ],
+  "candidate_policies": [
+    "confidence",
+    "agreement",
+    "schedule",
+    "combined"
+  ],
+  "candidate_coverages": [
+    0.3,
+    0.5,
+    0.7
+  ],
+  "primary_comparison": null,
+  "evaluation_outcomes_seen": false,
+  "verified_price_table": null,
+  "currency_guard_integrated": true,
+  "original_protocol_changes": "none; new study must use its own protocol and output directory",
+  "requirements_before_generation": [
+    "Fix primary comparison and coverage, supporting comparisons and multiplicity policy",
+    "Document candidate data overlap and historical-release limitations",
+    "Justify cohort size against achievable precision",
+    "Check authenticated model availability and current provider charges",
+    "Reserve a conservative monetary bound before every request, including possible failures",
+    "Freeze protocol before inspecting new evaluation outputs"
+  ],
+  "paid_entry_point": "analysis/generate_prospective.py"
+}

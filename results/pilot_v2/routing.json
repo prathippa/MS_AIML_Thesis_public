@@ -1,0 +1,278 @@
+{
+  "primary_coverage": 0.7,
+  "n_pooled": 20,
+  "unit": "model_case_prediction",
+  "selective_risk_raw": 0.8571428571428572,
+  "selective_risk_calibrated": 0.7857142857142857,
+  "improvement": 0.07142857142857151,
+  "raw": {
+    "requested_coverage": 0.7,
+    "coverage": 0.7,
+    "threshold": 0.38,
+    "n_streamlined": 14,
+    "selective_risk": 0.8571428571428572,
+    "accuracy_streamlined": 0.14285714285714285,
+    "n_escalated": 6,
+    "review_workload": 0.30000000000000004
+  },
+  "calibrated": {
+    "requested_coverage": 0.7,
+    "coverage": 0.7,
+    "threshold": 0.10000000056417596,
+    "n_streamlined": 14,
+    "selective_risk": 0.7857142857142857,
+    "accuracy_streamlined": 0.21428571428571427,
+    "n_escalated": 6,
+    "review_workload": 0.30000000000000004
+  },
+  "ci95_raw_minus_calibrated": [
+    0.0,
+    0.1428571428571429
+  ],
+  "n_case_clusters": 10,
+  "ci_scope": "Conditional on frozen calibrators; pooled bootstrap clusters product cases",
+  "curve_raw": [
+    {
+      "requested_coverage": 0.5,
+      "coverage": 0.5,
+      "threshold": 0.45,
+      "n_streamlined": 10,
+      "selective_risk": 0.8,
+      "accuracy_streamlined": 0.2,
+      "n_escalated": 10,
+      "review_workload": 0.5,
+      "all_prediction_coverage": 0.5
+    },
+    {
+      "requested_coverage": 0.6,
+      "coverage": 0.6,
+      "threshold": 0.42,
+      "n_streamlined": 12,
+      "selective_risk": 0.8333333333333334,
+      "accuracy_streamlined": 0.16666666666666666,
+      "n_escalated": 8,
+      "review_workload": 0.4,
+      "all_prediction_coverage": 0.6
+    },
+    {
+      "requested_coverage": 0.7,
+      "coverage": 0.7,
+      "threshold": 0.38,
+      "n_streamlined": 14,
+      "selective_risk": 0.8571428571428572,
+      "accuracy_streamlined": 0.14285714285714285,
+      "n_escalated": 6,
+      "review_workload": 0.30000000000000004,
+      "all_prediction_coverage": 0.7
+    },
+    {
+      "requested_coverage": 0.8,
+      "coverage": 0.8,
+      "threshold": 0.3,
+      "n_streamlined": 16,
+      "selective_risk": 0.8125,
+      "accuracy_streamlined": 0.1875,
+      "n_escalated": 4,
+      "review_workload": 0.19999999999999996,
+      "all_prediction_coverage": 0.8
+    },
+    {
+      "requested_coverage": 0.9,
+      "coverage": 0.9,
+      "threshold": 0.3,
+      "n_streamlined": 18,
+      "selective_risk": 0.7777777777777778,
+      "accuracy_streamlined": 0.2222222222222222,
+      "n_escalated": 2,
+      "review_workload": 0.09999999999999998,
+      "all_prediction_coverage": 0.9
+    },
+    {
+      "requested_coverage": 1.0,
+      "coverage": 1.0,
+      "threshold": 0.15,
+      "n_streamlined": 20,
+      "selective_risk": 0.8,
+      "accuracy_streamlined": 0.2,
+      "n_escalated": 0,
+      "review_workload": 0.0,
+      "all_prediction_coverage": 1.0
+    }
+  ],
+  "threshold_raw": {
+    "validation": {
+      "threshold": null,
+      "coverage": 0.0,
+      "n_streamlined": 0,
+      "selective_risk": null,
+      "accuracy_streamlined": null,
+      "n_escalated": 20
+    },
+    "test": {
+      "coverage": 0.0,
+      "n_streamlined": 0,
+      "selective_risk": null,
+      "accuracy_streamlined": null,
+      "n_escalated": 20,
+      "all_prediction_coverage": 0.0
+    },
+    "guaranteed_risk_control": false
+  },
+  "curve_cal": [
+    {
+      "requested_coverage": 0.5,
+      "coverage": 0.5,
+      "threshold": 0.10000000056417596,
+      "n_streamlined": 10,
+      "selective_risk": 0.7,
+      "accuracy_streamlined": 0.3,
+      "n_escalated": 10,
+      "review_workload": 0.5,
+      "all_prediction_coverage": 0.5
+    },
+    {
+      "requested_coverage": 0.6,
+      "coverage": 0.6,
+      "threshold": 0.10000000056417596,
+      "n_streamlined": 12,
+      "selective_risk": 0.75,
+      "accuracy_streamlined": 0.25,
+      "n_escalated": 8,
+      "review_workload": 0.4,
+      "all_prediction_coverage": 0.6
+    },
+    {
+      "requested_coverage": 0.7,
+      "coverage": 0.7,
+      "threshold": 0.10000000056417596,
+      "n_streamlined": 14,
+      "selective_risk": 0.7857142857142857,
+      "accuracy_streamlined": 0.21428571428571427,
+      "n_escalated": 6,
+      "review_workload": 0.30000000000000004,
+      "all_prediction_coverage": 0.7
+    },
+    {
+      "requested_coverage": 0.8,
+      "coverage": 0.8,
+      "threshold": 0.0988744289734572,
+      "n_streamlined": 16,
+      "selective_risk": 0.8125,
+      "accuracy_streamlined": 0.1875,
+      "n_escalated": 4,
+      "review_workload": 0.19999999999999996,
+      "all_prediction_coverage": 0.8
+    },
+    {
+      "requested_coverage": 0.9,
+      "coverage": 0.9,
+      "threshold": 0.0988744289734572,
+      "n_streamlined": 18,
+      "selective_risk": 0.7777777777777778,
+      "accuracy_streamlined": 0.2222222222222222,
+      "n_escalated": 2,
+      "review_workload": 0.09999999999999998,
+      "all_prediction_coverage": 0.9
+    },
+    {
+      "requested_coverage": 1.0,
+      "coverage": 1.0,
+      "threshold": 0.05774778723983688,
+      "n_streamlined": 20,
+      "selective_risk": 0.8,
+      "accuracy_streamlined": 0.2,
+      "n_escalated": 0,
+      "review_workload": 0.0,
+      "all_prediction_coverage": 1.0
+    }
+  ],
+  "threshold_cal": {
+    "validation": {
+      "threshold": null,
+      "coverage": 0.0,
+      "n_streamlined": 0,
+      "selective_risk": null,
+      "accuracy_streamlined": null,
+      "n_escalated": 20
+    },
+    "test": {
+      "coverage": 0.0,
+      "n_streamlined": 0,
+      "selective_risk": null,
+      "accuracy_streamlined": null,
+      "n_escalated": 20,
+      "all_prediction_coverage": 0.0
+    },
+    "guaranteed_risk_control": false
+  },
+  "denominators": {
+    "validation": {
+      "all_predictions": 20,
+      "valid_predictions": 20,
+      "forced_escalations": 0
+    },
+    "test": {
+      "all_predictions": 20,
+      "valid_predictions": 20,
+      "forced_escalations": 0
+    }
+  },
+  "within_model": {
+    "A": {
+      "primary_coverage": 0.7,
+      "n_pooled": 10,
+      "unit": "model_case_prediction",
+      "selective_risk_raw": 0.7142857142857143,
+      "selective_risk_calibrated": 0.7142857142857143,
+      "improvement": 0.0,
+      "raw": {
+        "requested_coverage": 0.7,
+        "coverage": 0.7,
+        "threshold": 0.3,
+        "n_streamlined": 7,
+        "selective_risk": 0.7142857142857143,
+        "accuracy_streamlined": 0.2857142857142857,
+        "n_escalated": 3,
+        "review_workload": 0.30000000000000004
+      },
+      "calibrated": {
+        "requested_coverage": 0.7,
+        "coverage": 0.7,
+        "threshold": 0.0988744289734572,
+        "n_streamlined": 7,
+        "selective_risk": 0.7142857142857143,
+        "accuracy_streamlined": 0.2857142857142857,
+        "n_escalated": 3,
+        "review_workload": 0.30000000000000004
+      }
+    },
+    "B": {
+      "primary_coverage": 0.7,
+      "n_pooled": 10,
+      "unit": "model_case_prediction",
+      "selective_risk_raw": 0.8571428571428572,
+      "selective_risk_calibrated": 0.8571428571428572,
+      "improvement": 0.0,
+      "raw": {
+        "requested_coverage": 0.7,
+        "coverage": 0.7,
+        "threshold": 0.45,
+        "n_streamlined": 7,
+        "selective_risk": 0.8571428571428572,
+        "accuracy_streamlined": 0.14285714285714285,
+        "n_escalated": 3,
+        "review_workload": 0.30000000000000004
+      },
+      "calibrated": {
+        "requested_coverage": 0.7,
+        "coverage": 0.7,
+        "threshold": 0.10000000056417596,
+        "n_streamlined": 7,
+        "selective_risk": 0.8571428571428572,
+        "accuracy_streamlined": 0.14285714285714285,
+        "n_escalated": 3,
+        "review_workload": 0.30000000000000004
+      }
+    }
+  }
+}

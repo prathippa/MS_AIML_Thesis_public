@@ -1,0 +1,6 @@
+{
+  "launcher_pid": 21482,
+  "entry_point": "analysis/launch_prospective.py",
+  "credential_storage": "external file; values not copied",
+  "idle_sleep_prevention": "caffeinate -i while process runs"
+}

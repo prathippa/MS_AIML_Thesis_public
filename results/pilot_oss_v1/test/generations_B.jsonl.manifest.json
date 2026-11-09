@@ -1,0 +1,68 @@
+{
+  "sha256": "be706ae23441ebf18511ee014e54f539cba963154e42d5b4382af1716aa30775",
+  "contents": {
+    "model": "openai/gpt-oss-120b",
+    "decoding": {
+      "max_tokens": 8000,
+      "temperature": 0.0,
+      "seed": 7
+    },
+    "cases": [
+      {
+        "case_id": "test:0",
+        "description": "cast carbon steel fittings made to ASTM A216 specification, comprised of two flanges connected with three nuts and bolts, used for connecting pipes"
+      },
+      {
+        "case_id": "test:1",
+        "description": "4[N-(2,4-Diamino-6-Pteridinylmethyl)-N-Methylamino] Benzoic Acid Sodium Salt"
+      },
+      {
+        "case_id": "test:2",
+        "description": "gasoline-powered spark ignition internal combustion piston engines used to operate various pumps"
+      },
+      {
+        "case_id": "test:3",
+        "description": "unvulcanized synthetic rubber in soft natural and standard natural forms from New Zealand"
+      },
+      {
+        "case_id": "test:4",
+        "description": "polyvinyl chloride (PVC) sheets used in furniture manufacturing"
+      },
+      {
+        "case_id": "test:5",
+        "description": "a polyurethane aqueous dispersion used in cosmetic formulations"
+      },
+      {
+        "case_id": "test:6",
+        "description": "plastic pallets made of high density polyethylene used for the delivery, storage, and transport of goods"
+      },
+      {
+        "case_id": "test:7",
+        "description": "a hydrogen gas sensor printed circuit board assembly"
+      },
+      {
+        "case_id": "test:8",
+        "description": "Aluminum isopropoxide, CAS No. 555-31-7"
+      },
+      {
+        "case_id": "test:9",
+        "description": "polyvinyl chloride (PVC) flooring with click-lock installation, consisting of a 4 mm PVC base, a .5 mm PVC backing, and a .5 mm decorative wood veneer layer"
+      }
+    ],
+    "evidence": {
+      "test:0": [],
+      "test:1": [],
+      "test:2": [],
+      "test:3": [],
+      "test:4": [],
+      "test:5": [],
+      "test:6": [],
+      "test:7": [],
+      "test:8": [],
+      "test:9": []
+    },
+    "retry_once": true,
+    "system_prompt": "You are a customs tariff classification assistant for the United States Harmonized Tariff Schedule (HTS). Given a product description and supporting tariff evidence, assign the single most appropriate 10-digit U.S. HTS code.\n\nReturn ONLY a JSON object, with no surrounding text, in exactly this form:\n{\"hts_code\": \"<10 digits>\", \"confidence\": <number between 0 and 1>, \"rationale\": \"<one or two sentences>\", \"evidence_ids\": [\"<id>\", ...]}\n\nRules:\n- hts_code must be exactly 10 digits (keep leading zeros).\n- confidence is your estimated probability that the FULL 10-digit code is correct, as a decimal from 0 to 1.\n- evidence_ids lists the identifiers of the supplied evidence items you relied on.\n- Output JSON only.",
+    "source": "06dc83dcf422d6d544abb2e41853a8100241d31b79da3ab6f2ae9364eec54a7f"
+  }
+}

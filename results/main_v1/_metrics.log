@@ -1,0 +1,80 @@
+{
+  "A": {
+    "n_all": 169,
+    "n_valid": 169,
+    "n_failed": 0,
+    "n_missing": 0,
+    "all_case_exact10_accuracy": 0.20118343195266272,
+    "valid_output_metrics": {
+      "n": 169,
+      "conventional": {
+        "exact_10": 0.20118343195266272,
+        "exact_6": 0.6094674556213018,
+        "chapter_acc": 0.8698224852071006,
+        "heading_acc": 0.6982248520710059,
+        "rate_line_acc": 0.40236686390532544
+      },
+      "prefix_accuracy": {
+        "prefix_2_chapter": 0.8698224852071006,
+        "prefix_4_heading": 0.6982248520710059,
+        "prefix_6_subheading": 0.6094674556213018,
+        "prefix_8_rate_line": 0.40236686390532544,
+        "prefix_10_full": 0.20118343195266272
+      },
+      "severity_distribution": {
+        "correct_10": 0.20118343195266272,
+        "wrong_stat_suffix": 0.20118343195266272,
+        "wrong_rate_line": 0.20710059171597633,
+        "wrong_subheading": 0.08875739644970414,
+        "wrong_heading": 0.17159763313609466,
+        "wrong_chapter": 0.1301775147928994
+      },
+      "mean_partial_credit": {
+        "balanced": 0.5636094674556213,
+        "subheading_heavy": 0.5461538461538461,
+        "extension_heavy": 0.4949704142011834
+      },
+      "major_error_rate": 0.1301775147928994,
+      "mean_severity_ordinal": 2.2189349112426036
+    }
+  },
+  "B": {
+    "n_all": 169,
+    "n_valid": 169,
+    "n_failed": 0,
+    "n_missing": 0,
+    "all_case_exact10_accuracy": 0.3136094674556213,
+    "valid_output_metrics": {
+      "n": 169,
+      "conventional": {
+        "exact_10": 0.3136094674556213,
+        "exact_6": 0.6035502958579881,
+        "chapter_acc": 0.8698224852071006,
+        "heading_acc": 0.6982248520710059,
+        "rate_line_acc": 0.46745562130177515
+      },
+      "prefix_accuracy": {
+        "prefix_2_chapter": 0.8698224852071006,
+        "prefix_4_heading": 0.6982248520710059,
+        "prefix_6_subheading": 0.6035502958579881,
+        "prefix_8_rate_line": 0.46745562130177515,
+        "prefix_10_full": 0.3136094674556213
+      },
+      "severity_distribution": {
+        "correct_10": 0.3136094674556213,
+        "wrong_stat_suffix": 0.15384615384615385,
+        "wrong_rate_line": 0.13609467455621302,
+        "wrong_subheading": 0.09467455621301775,
+        "wrong_heading": 0.17159763313609466,
+        "wrong_chapter": 0.1301775147928994
+      },
+      "mean_partial_credit": {
+        "balanced": 0.5917159763313611,
+        "subheading_heavy": 0.5736686390532545,
+        "extension_heavy": 0.5378698224852071
+      },
+      "major_error_rate": 0.1301775147928994,
+      "mean_severity_ordinal": 2.0473372781065087
+    }
+  }
+}

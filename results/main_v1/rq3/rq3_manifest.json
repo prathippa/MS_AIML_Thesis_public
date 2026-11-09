@@ -1,0 +1,28 @@
+{
+  "source_root": "results/main_v1",
+  "scored_test_hashes": {
+    "A": "c9f8da25f403ce41f44f9c149b6f5b88a56ab280be94259a09c963a6a5200593",
+    "B": "b7e488ed0191eeb0a3296a3aac8c4d64da8c37acfeb2a2ad1d281fe663aed3b9"
+  },
+  "hts_export": {
+    "file": "c2b51667fd9dcf04f3428ac41789392db23e86ed773abba78a5038881c70a478",
+    "release": "2026HTSRev22"
+  },
+  "rulings_dump": {
+    "file": "0c9fd8224d0085bf5a834d83b70846fed9f8fc89e6e66ceb88b0812d58758311",
+    "dataset": "orlandowhite/hts-cross-rulings",
+    "revision": "050ee2144e757db476a6c81cc54e160afd5586d5",
+    "n_rulings": 54232
+  },
+  "k": 3,
+  "exclusion": "all rulings with the case's gold 10-digit code + held-out text containment",
+  "evidence_visible_to_generators": false,
+  "sample_hash": "7aa38c47073a2d3c4daf6b559d317f87ff95e7437e465a4b9e0505a6493d8586",
+  "n_cases": 60,
+  "strata": {
+    "correct_high": 15,
+    "correct_low": 15,
+    "near_miss": 15,
+    "major_error": 15
+  }
+}

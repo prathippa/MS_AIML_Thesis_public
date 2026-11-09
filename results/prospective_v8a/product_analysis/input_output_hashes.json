@@ -1,0 +1,11 @@
+{
+  "inputs": {
+    "A": "68a464692ae135f304b75af9e7546fb2b807e2a07902a244e768f028c8f02f07",
+    "B": "412fd832afd8e31340e9d01a4fb1f731dade783a9b797b046853db3a59c09583"
+  },
+  "outputs": {
+    "results.json": "bba3547ac9cfc5d4756268f44b90b6eabeea82aecad9a4bd563ccd7f2764edc6",
+    "primary.json": "377a12e93c76a7dd2151b130b1d69e89c92f978a10829d2903b2e18d54887425",
+    "summary.md": "4c478ff900bfafae1ff3657a20dd3fe487f8810883be5b534bdbf9cb2a24d27d"
+  }
+}

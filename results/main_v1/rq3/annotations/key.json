@@ -1,0 +1,156 @@
+{
+  "mapping": [
+    {
+      "annotation_id": "H001",
+      "prediction_id": "test:44|B",
+      "content_hash": "6e63bbb590198696b27e472a666e930985576a0425f9e55399a1560c61948958"
+    },
+    {
+      "annotation_id": "H002",
+      "prediction_id": "test:105|A",
+      "content_hash": "14e450b822e2554c920507e702584a6f8f6d03d794ef9b044b5a4c105aab0178"
+    },
+    {
+      "annotation_id": "H003",
+      "prediction_id": "test:118|A",
+      "content_hash": "346f3b608103833f87cae41c399a6a61f606dbbff68b16c77d5579ee32df528e"
+    },
+    {
+      "annotation_id": "H004",
+      "prediction_id": "test:37|A",
+      "content_hash": "172477f0a65d2a2ddf792718675711c41e3469a32a8f23be846f70d22510472f"
+    },
+    {
+      "annotation_id": "H005",
+      "prediction_id": "test:174|B",
+      "content_hash": "0b76d090313d7959ace169e1efe73c12a59bd2feddef8f94fd823e24f72136ae"
+    },
+    {
+      "annotation_id": "H006",
+      "prediction_id": "test:125|A",
+      "content_hash": "93e2357b96005b0751b2b374b11b8c1260892e57fed59dcf4c54e8eb0e0c290b"
+    },
+    {
+      "annotation_id": "H007",
+      "prediction_id": "test:8|B",
+      "content_hash": "83de140e61576f19e7c0f11f0182f3e1d7ebf191710b73b5282f112bb008738e"
+    },
+    {
+      "annotation_id": "H008",
+      "prediction_id": "test:158|A",
+      "content_hash": "77fc8cdeba94f39c314e67f23349d602aaa8b55d228ca7083f5dd8757f344bea"
+    },
+    {
+      "annotation_id": "H009",
+      "prediction_id": "test:121|A",
+      "content_hash": "8eb04103d055fb1364ef0e8937707f630dea615e9dabccd858612125139e5b34"
+    },
+    {
+      "annotation_id": "H010",
+      "prediction_id": "test:34|A",
+      "content_hash": "0555988892274e3db87e4a166ac0d8855172687e6d064a800d7eaf5e19f8a362"
+    },
+    {
+      "annotation_id": "H011",
+      "prediction_id": "test:83|B",
+      "content_hash": "4061e38719fbc1966b8b95fb4039ea9034494dad176f056df8f9cc9f5a7daa89"
+    },
+    {
+      "annotation_id": "H012",
+      "prediction_id": "test:101|B",
+      "content_hash": "d3261553c4bbcf0e427f3b9e7427b7f772e38e5414df02b83a14754bcedcfd39"
+    },
+    {
+      "annotation_id": "H013",
+      "prediction_id": "test:51|B",
+      "content_hash": "08544a7764d7e6636dd33c87f42770def22aacc18159b94d2d38cc99f4b99aa1"
+    },
+    {
+      "annotation_id": "H014",
+      "prediction_id": "test:95|B",
+      "content_hash": "c32e3c95144ccc6ef2c7be5a6da01c195922556f24e6211f90cf5c78aceb592b"
+    },
+    {
+      "annotation_id": "H015",
+      "prediction_id": "test:4|B",
+      "content_hash": "43901050db22dad76f2b68a6a80db9ad9354b8e10696b7f3ff1b3bf7ed1fc693"
+    },
+    {
+      "annotation_id": "H016",
+      "prediction_id": "test:40|B",
+      "content_hash": "19a5d08bbf0078e0068aab751b314947a1cc79887dbab0b811f3ea9ad84ab79b"
+    },
+    {
+      "annotation_id": "H017",
+      "prediction_id": "test:155|B",
+      "content_hash": "c7261a4ded929d4a09060ec48034a098e8e4fcb07226a90cf5972688b8b8d1b1"
+    },
+    {
+      "annotation_id": "H018",
+      "prediction_id": "test:79|A",
+      "content_hash": "e958b60174810b193d6a334f61bdfd3af35332c2e7519f2b70aa3af747ec1c58"
+    },
+    {
+      "annotation_id": "H019",
+      "prediction_id": "test:163|B",
+      "content_hash": "244ba5f15100c479a59021f582de948245ac3904e915a1f2f6f2e3a1b81b33eb"
+    },
+    {
+      "annotation_id": "H020",
+      "prediction_id": "test:66|A",
+      "content_hash": "910fa4312e34f922e596a32f5f5bd33a3197f70152ce9647d3aa199ddec99d26"
+    },
+    {
+      "annotation_id": "H021",
+      "prediction_id": "test:190|A",
+      "content_hash": "b9144b30558ea0b2f20400fb432fb8a026fd490ba6193d6c6643c36d70f2a0d4"
+    },
+    {
+      "annotation_id": "H022",
+      "prediction_id": "test:48|B",
+      "content_hash": "718ea79dd5102b0865659a9acb99318d6efb450c2ec2564dc9efca9fc740436f"
+    },
+    {
+      "annotation_id": "H023",
+      "prediction_id": "test:109|B",
+      "content_hash": "cbf485e5bf32234e8992b7823ed0eb32901b79f72d3d9092c9b7c13ed111ee35"
+    },
+    {
+      "annotation_id": "H024",
+      "prediction_id": "test:147|B",
+      "content_hash": "f83b5cf11d8dac701d45d25de367dc88c1c80434365540998529c90eb7994e3d"
+    },
+    {
+      "annotation_id": "H025",
+      "prediction_id": "test:143|B",
+      "content_hash": "da3d8b2517efaa39b4c058cdbafba0261e53c31300a1ee30175962398249bd14"
+    },
+    {
+      "annotation_id": "H026",
+      "prediction_id": "test:45|A",
+      "content_hash": "2dd6541f03cfee9490954d591552dc87f7f82a08362758853aacac5afe1da404"
+    },
+    {
+      "annotation_id": "H027",
+      "prediction_id": "test:41|B",
+      "content_hash": "652a93b6ceb6ed637e67c26f5da4202625f6209190923db4aa4e9bb4cdfdaae5"
+    },
+    {
+      "annotation_id": "H028",
+      "prediction_id": "test:56|B",
+      "content_hash": "b6cf55a14ffbb8fc2f59f3deb91bf8e48f4f2c13229d7a03caca710f57cbe8e3"
+    },
+    {
+      "annotation_id": "H029",
+      "prediction_id": "test:10|A",
+      "content_hash": "9320d543c09390517780f85f5117c506fec1134ff5cbb06cfa10c4331e26d2dc"
+    },
+    {
+      "annotation_id": "H030",
+      "prediction_id": "test:164|A",
+      "content_hash": "b8b0b7b7c6d6dc156ce34837678ce481fa80f84520e077567d2dc896f1acfcd3"
+    }
+  ],
+  "hash": "bdd00167b9bfc57f22374441cde2f81c6f6a32359afad2da2a6106a34f553f6a",
+  "sampling": "random distinct-product subset of diagnostic judge sample"
+}

@@ -1,0 +1,1016 @@
+{
+  "sha256": "bec40718589ff2c786f5f04c7e1475964bb043ff55833d1269508b2c50783d7b",
+  "contents": {
+    "model": "gpt-5",
+    "decoding": {
+      "max_completion_tokens": 4000
+    },
+    "cases": [
+      {
+        "case_id": "validation:17589",
+        "description": "a cold rolling wire reduction system"
+      },
+      {
+        "case_id": "validation:4333",
+        "description": "a wireless headphone system that includes a built-in FM radio receiver and can connect to various audio devices"
+      },
+      {
+        "case_id": "validation:11615",
+        "description": "a traffic guard rail made from Memaplex designed to absorb impact and protect buildings and machinery from vehicle collisions"
+      },
+      {
+        "case_id": "validation:16774",
+        "description": "an aqueous dispersion of a vinyl acetate copolymer, primarily composed of vinyl acetate"
+      },
+      {
+        "case_id": "validation:12516",
+        "description": "decorative magnetic garage door attachments"
+      },
+      {
+        "case_id": "validation:12352",
+        "description": "heat recovery ventilators"
+      },
+      {
+        "case_id": "validation:10132",
+        "description": "mens knitted garments made of cotton and rayon with various designs and features"
+      },
+      {
+        "case_id": "validation:6128",
+        "description": "two framed glass mirrors with wooden pegs designed to be hung on the wall"
+      },
+      {
+        "case_id": "validation:11957",
+        "description": "resinous polyol modified methylated melamine-formaldehyde resin solutions and styrene-allyl alcohol modified methylated melamine-formaldehyde resin solutions"
+      },
+      {
+        "case_id": "validation:4188",
+        "description": "indoor and outdoor fountains that create a tranquil atmosphere and include submersible pumps"
+      },
+      {
+        "case_id": "validation:4582",
+        "description": "Benzophenone-1, Benzophenone-2, and Benzophenone-3 used as UV absorbers for cosmetics"
+      },
+      {
+        "case_id": "validation:4567",
+        "description": "a range of solvent dyes including Bordeaux DNN, Red NB, Scarlet Y, Red DTXB, and Red KMA"
+      },
+      {
+        "case_id": "validation:14951",
+        "description": "a boys jacket constructed of knit polyester fabric with a brushed inside surface, featuring a full frontal zipper, a mesh-lined hood, long sleeves with knit cuffs, side entry patch pockets, color block insets, an embroidered logo, and a banded bottom"
+      },
+      {
+        "case_id": "validation:15374",
+        "description": "elastomeric fluoropolymer \"VITON\" in primary form"
+      },
+      {
+        "case_id": "validation:12896",
+        "description": "work gloves made of High Performance Polyethylene Fiber with polyurethane palm coating"
+      },
+      {
+        "case_id": "validation:3280",
+        "description": "mens and boys knit pullovers made of 100% polyester"
+      },
+      {
+        "case_id": "validation:1446",
+        "description": "a self-adhesive tape packaged with a dispenser and a felt-tipped pen"
+      },
+      {
+        "case_id": "validation:16363",
+        "description": "a laminated felt material used in the manufacture of ankle braces"
+      },
+      {
+        "case_id": "validation:11378",
+        "description": "polyvinyl butyral trimmings used in the manufacture of safety glass"
+      },
+      {
+        "case_id": "validation:9142",
+        "description": "a Sumi Tube used in ignition coils"
+      },
+      {
+        "case_id": "validation:10184",
+        "description": "an Electric Needle Felting Machine intended for home use"
+      },
+      {
+        "case_id": "validation:14105",
+        "description": "Ruffle Trimmed Bikini Bottom, size 6, made of 75% nylon and 25% spandex, fully lined with a covered elastic waistband and elasticized leg openings"
+      },
+      {
+        "case_id": "validation:5888",
+        "description": "a co-extrusion blow-molding machine used to produce multi-layered plastic containers"
+      },
+      {
+        "case_id": "validation:5675",
+        "description": "men's knitted sweaters made from polyester and nylon, featuring zippers and pockets, and produced in El Salvador"
+      },
+      {
+        "case_id": "validation:6837",
+        "description": "household bath fans, including models with light, heater, and heating lamps"
+      },
+      {
+        "case_id": "validation:1012",
+        "description": "a women's coat made of 100% finely knit polyester fabric, extending from the shoulders to the knee, with long sleeves and a full frontal opening secured by a four snap closure above the waist"
+      },
+      {
+        "case_id": "validation:13587",
+        "description": "toddler garments consisting of a boys shirt and pants made of 100% cotton knit fabric, and a girls shirt and pants made of 100% cotton knit fabric, both sets featuring a pumpkin motif"
+      },
+      {
+        "case_id": "validation:4118",
+        "description": "a women's bonded double layer pullover made from 100% cashmere and 100% cotton"
+      },
+      {
+        "case_id": "validation:7990",
+        "description": "CNC machines used to texture the surface of metal work rolls using laser and electrical discharge methods"
+      },
+      {
+        "case_id": "validation:17162",
+        "description": "a ladies hobo style handbag made of 90% wool and 10% nylon, measuring 10\" in length by 9\" in height with a 3\" wide gusset and a single shoulder strap"
+      },
+      {
+        "case_id": "validation:15105",
+        "description": "steel pipe fittings, specifically threaded unions made of nonalloy steel and a galvanized nonalloy steel threaded dielectric nipple"
+      },
+      {
+        "case_id": "validation:2231",
+        "description": "a disposable polyamide/polyethylene bag filled with sodium bicarbonate powder, used in hemodialysis"
+      },
+      {
+        "case_id": "validation:12390",
+        "description": "a fan tray used in networking or telecommunication equipment"
+      },
+      {
+        "case_id": "validation:15543",
+        "description": "parts of microwave ovens, specifically an escutcheon base and a plastic timer switch knob"
+      },
+      {
+        "case_id": "validation:6513",
+        "description": "a gas fuel injector designed for motor vehicles"
+      },
+      {
+        "case_id": "validation:2354",
+        "description": "self-adhesive plastic labels composed of polyvinyl chloride, intended for application to a door jam of a truck, containing printed material about patents"
+      },
+      {
+        "case_id": "validation:12320",
+        "description": "Propofol (2,6-Bis(1-Methylethyl)Phenol) imported from Italy"
+      },
+      {
+        "case_id": "validation:4618",
+        "description": "DC/DC converters for Ethernet"
+      },
+      {
+        "case_id": "validation:14859",
+        "description": "a 2-in-1 LED light ceiling fan"
+      },
+      {
+        "case_id": "validation:2275",
+        "description": "a men's knit jacket made from 100% polyester with a napped finish and various features including a stand-up collar, zipper closure, storm flap, long sleeves with elastic cuffs, zippered pockets, and a drawcord bottom"
+      },
+      {
+        "case_id": "validation:14695",
+        "description": "plastic coated paper sheets from Japan"
+      },
+      {
+        "case_id": "validation:675",
+        "description": "a 52-piece dinnerware set consisting of stoneware, flatware, and glassware, including dinner plates, dessert plates, soup bowls, mugs, knives, forks, spoons, teaspoons, and tumblers"
+      },
+      {
+        "case_id": "validation:3227",
+        "description": "a gas welding and cutting outfit including a torch handle, cutting attachment, nozzles, regulators, hoses, goggles, spark lighter, and case"
+      },
+      {
+        "case_id": "validation:16063",
+        "description": "2-(1-piperazine)phenol"
+      },
+      {
+        "case_id": "validation:10144",
+        "description": "Hermafix glue dispenser and Hermafix refill roll"
+      },
+      {
+        "case_id": "validation:2509",
+        "description": "Benzyl Acetate Natural (CAS # 140-11-4)"
+      },
+      {
+        "case_id": "validation:6297",
+        "description": "girls sleepwear including a nightgown, trousers, and pullovers made of 100% polyester"
+      },
+      {
+        "case_id": "validation:6864",
+        "description": "1-Benzylpiperazine HCL (CAS 72878-35-4) used as a pharmaceutical intermediate"
+      },
+      {
+        "case_id": "validation:17096",
+        "description": "1-(3-Dimethylaminopropyl)-3-ethylcarbodiimide hydrochloride, a pharmaceutical intermediate"
+      },
+      {
+        "case_id": "validation:9717",
+        "description": "a stainless steel self-priming jet pump used to infuse pressurized water in a hot tub"
+      },
+      {
+        "case_id": "validation:18150",
+        "description": "a fastener assortment containing various drill bits, thread protectors, hex driver bits, hurricane bolts, and wing nuts"
+      },
+      {
+        "case_id": "validation:10318",
+        "description": "a Large Tote Bag Tool Set that includes pliers and various jewelry-making accessories"
+      },
+      {
+        "case_id": "validation:11572",
+        "description": "girls garments, specifically a swing style pullover and a blouse, made from cotton and imported from Thailand"
+      },
+      {
+        "case_id": "validation:8356",
+        "description": "power handle/battery packs for surgical cautery pens"
+      },
+      {
+        "case_id": "validation:9611",
+        "description": "five framed glass mirrors from China"
+      },
+      {
+        "case_id": "validation:13245",
+        "description": "Procom-2 and its associated modules used for photogrammetrical surveying"
+      },
+      {
+        "case_id": "validation:6681",
+        "description": "6-O-acetylsucralose (CAS # 105066-21-5)"
+      },
+      {
+        "case_id": "validation:11995",
+        "description": "a dust collection tube system designed for woodworking that connects tools to a wet/dry vacuum"
+      },
+      {
+        "case_id": "validation:12847",
+        "description": "mens knit pullovers made from 100% polyester with a stand-up collar and zipper closure"
+      },
+      {
+        "case_id": "validation:1407",
+        "description": "a universal AC/DC pump motor with an output of 0.14 HP"
+      },
+      {
+        "case_id": "validation:11268",
+        "description": "PVC laminated woven textile fabric used in the manufacture of spa covers"
+      },
+      {
+        "case_id": "validation:3837",
+        "description": "a multipurpose tool that includes an axe, shovel, pick, mattock, rake, and hoe attachments"
+      },
+      {
+        "case_id": "validation:12333",
+        "description": "pyrene"
+      },
+      {
+        "case_id": "validation:13664",
+        "description": "a woven textile fabric coated with cellular polyurethane"
+      },
+      {
+        "case_id": "validation:898",
+        "description": "1-Naphthaldehyde, CAS # 66-77-3, imported in bulk form from China"
+      },
+      {
+        "case_id": "validation:12700",
+        "description": "boys outerwear made from 100% polyester fleece fabric, featuring a rib-knitted waistband and cuffs, a full-front zippered opening, a stand-up collar, and open pockets at the lower front"
+      },
+      {
+        "case_id": "validation:15256",
+        "description": "audio/video FM receivers, model numbers YMC-500 and YMC-700, that are incapable of operating without an external source of power, have multiple HDMI and video inputs, a USB port, and include an FM tuner"
+      },
+      {
+        "case_id": "validation:15333",
+        "description": "extruded lay flat-tubing composed of polyethylene, imported on rolls and used to create bags for storage or packaging"
+      },
+      {
+        "case_id": "validation:6715",
+        "description": "1-(3-Hydroxyphenyl)-Piperazine (MHPP)"
+      },
+      {
+        "case_id": "validation:12064",
+        "description": "a women's hooded cold weather synthetic leather coat"
+      },
+      {
+        "case_id": "validation:3950",
+        "description": "Dodecylbenzene used as an emulsifier for agricultural chemicals"
+      },
+      {
+        "case_id": "validation:5316",
+        "description": "a 3-in-1 magnetic sweeper designed to magnetically attract ferrous metal debris from various surfaces"
+      },
+      {
+        "case_id": "validation:4823",
+        "description": "a 410-piece nail assortment kit containing galvanized carbon steel nails of various sizes packaged in a transparent plastic box"
+      },
+      {
+        "case_id": "validation:2455",
+        "description": "spring latches used as safety devices in baking ovens"
+      },
+      {
+        "case_id": "validation:5908",
+        "description": "a toddler boys three-piece apparel set consisting of a t-shirt, pants, and a padded vest"
+      },
+      {
+        "case_id": "validation:601",
+        "description": "a chassis mounted concrete pump with an extendible boom"
+      },
+      {
+        "case_id": "validation:3253",
+        "description": "microprocessor temperature controllers used in hot runner systems for injection molding machines"
+      },
+      {
+        "case_id": "validation:7335",
+        "description": "a ladies sleeveless faux leather mixed media dress"
+      },
+      {
+        "case_id": "validation:4817",
+        "description": "ethylene vinyl acetate (EVA) foam sheets"
+      },
+      {
+        "case_id": "validation:3718",
+        "description": "ladies' bodysuit constructed of knitted nylon fabric with lace-like panels, adjustable spaghetti shoulder straps, and elasticized leg openings"
+      },
+      {
+        "case_id": "validation:11029",
+        "description": "assorted hooks made of threaded, vinyl-coated, zinc-plated steel wire, designed for storage of various household articles"
+      },
+      {
+        "case_id": "validation:12730",
+        "description": "a CNC-controlled multi-functional machine designed for processing cylindrical gears, capable of turning, drilling, milling, hobbing, chamfering, and deburring"
+      },
+      {
+        "case_id": "validation:330",
+        "description": "men's knit lounge pants made of 100% cotton with an elastic waistband and side seam pockets"
+      },
+      {
+        "case_id": "validation:13501",
+        "description": "a mixture of methacrylic acid esters and other components used in the manufacture of acrylic polymers"
+      },
+      {
+        "case_id": "validation:3059",
+        "description": "sunglasses kits that include sunglasses, magnetic visor clips, microfiber lens cleaning cloths, and carrying cases"
+      },
+      {
+        "case_id": "validation:5904",
+        "description": "off-the-road tires suitable for use on earthmovers, loaders, dozers, graders, and industrial applications with a herring-bone or similar tread design"
+      },
+      {
+        "case_id": "validation:16150",
+        "description": "a babies t-shirt made from 100% cotton knit fabric"
+      },
+      {
+        "case_id": "validation:13265",
+        "description": "metallized plastic garlands made of PVC"
+      },
+      {
+        "case_id": "validation:11787",
+        "description": "a manifold gauge set used to dispense R134 gas refrigerants for charging automobile air conditioners"
+      },
+      {
+        "case_id": "validation:1925",
+        "description": "decorated tinplate canisters from Hong Kong"
+      },
+      {
+        "case_id": "validation:15697",
+        "description": "automotive compressor parts designed for use in air conditioning compressors for motor vehicles"
+      },
+      {
+        "case_id": "validation:2037",
+        "description": "a drain flange that includes a stainless steel cap and is part of a pop-up valve assembly for sinks"
+      },
+      {
+        "case_id": "validation:9572",
+        "description": "a women's coat made from 80% acrylic, 15% wool, 3% polyester, and 2% nylon knit fabric that reaches below the knee and features a button-on detachable knit collar, a full frontal opening with one button closure at the neck, long sleeves with ribbed knit cuffs, and a ribbed knit bottom"
+      },
+      {
+        "case_id": "validation:14362",
+        "description": "a plastic shampoo bottle shaped like \"Elmo\" from the Muppets"
+      },
+      {
+        "case_id": "validation:9557",
+        "description": "a set of BBQ tools including a shaker, tongs, and a brush"
+      },
+      {
+        "case_id": "validation:6577",
+        "description": "2-oxoethyl butyrate (butyryoxyacetaldehyde)"
+      },
+      {
+        "case_id": "validation:10305",
+        "description": "a boy's pullover, vest, and pants set from China or Thailand"
+      },
+      {
+        "case_id": "validation:8491",
+        "description": "a men's vest made from 100% acrylic, interlock knit fabric, featuring a V-shaped neckline, oversized armholes, and a rib knit bottom"
+      },
+      {
+        "case_id": "validation:7362",
+        "description": "a Butcher Handheld Meat Saw Set that includes a butcher meat saw, a bone dust scraper, a curved boning knife, and a replacement blade for the butcher meat saw"
+      },
+      {
+        "case_id": "validation:7581",
+        "description": "a Pulse Jack used in LAN and telecommunications equipment"
+      },
+      {
+        "case_id": "validation:11227",
+        "description": "unpopulated printed circuit boards with 3 or more layers"
+      },
+      {
+        "case_id": "validation:16354",
+        "description": "lined valves made of carbon or stainless steel housing, lined with a corrosion-resistant plastomer, used in fluid control for corrosive applications in various industries"
+      },
+      {
+        "case_id": "validation:15537",
+        "description": "a women's full-length slip made of 75% nylon and 25% spandex with adjustable shoulder straps and lace-like fabric at the bottom"
+      },
+      {
+        "case_id": "validation:14704",
+        "description": "prepared slides for microscopic study, including a textile sample and a grasshopper specimen"
+      },
+      {
+        "case_id": "validation:9154",
+        "description": "Benzyl-1-Piperazine Carboxylate"
+      },
+      {
+        "case_id": "validation:7743",
+        "description": "a Trigger pump lever used on a handpump spray bottle for hair products"
+      },
+      {
+        "case_id": "validation:1702",
+        "description": "lamp sockets designed to accept a GT-8 size bulb for signal lighting requirements"
+      },
+      {
+        "case_id": "validation:6407",
+        "description": "an electric forklift, model number CPD10"
+      },
+      {
+        "case_id": "validation:18137",
+        "description": "automotive Turn Signaling Equipment Housing with Lenses"
+      },
+      {
+        "case_id": "validation:10505",
+        "description": "tinted reading glasses"
+      },
+      {
+        "case_id": "validation:6387",
+        "description": "an auxiliary faucet kit used with a water treatment system"
+      },
+      {
+        "case_id": "validation:13799",
+        "description": "an infant garment set consisting of a T-shirt and shorts made of knit cotton fabric, designed for boys in sizes 12, 18, and 24 months, as well as toddler sizes 2T, 3T, and 4T"
+      },
+      {
+        "case_id": "validation:9409",
+        "description": "polyethylene retail carrier bags with drawstring handles, measuring 13 inches in height by 11 inches in width, printed, and made from polyethylene plastic sheeting"
+      },
+      {
+        "case_id": "validation:10239",
+        "description": "a long women's knitted sweatercoat"
+      },
+      {
+        "case_id": "validation:13462",
+        "description": "a plastic device designed to help users massage hard-to-reach spots on their body, featuring handles for easier gripping"
+      },
+      {
+        "case_id": "validation:8201",
+        "description": "two spools of plastic coated textile fabric for use in the manufacture of care labels in the textile industry"
+      },
+      {
+        "case_id": "validation:15927",
+        "description": "a woman's coat made of 50% wool and 50% acrylic, featuring a full frontal opening with a 3 button closure, long sleeves, patch pockets, and shoulder pads"
+      },
+      {
+        "case_id": "validation:971",
+        "description": "plastic cores used for winding adhesive tape rolls"
+      },
+      {
+        "case_id": "validation:12350",
+        "description": "fuel pumps designed to dispense fuel from above-ground or mobile storage tanks, fitted or designed to be fitted with a measuring device"
+      },
+      {
+        "case_id": "validation:3738",
+        "description": "polyethylene film used as packaging material imported on rolls from Italy"
+      },
+      {
+        "case_id": "validation:17502",
+        "description": "sun protection swimwear for infants from Australia"
+      },
+      {
+        "case_id": "validation:16192",
+        "description": "Noxtite PA-404K elastomeric acrylic polymer"
+      },
+      {
+        "case_id": "validation:11207",
+        "description": "Carmine Color #40"
+      },
+      {
+        "case_id": "validation:7240",
+        "description": "a laser profile gauge used to measure the profiles of hot-rolled steel sections"
+      },
+      {
+        "case_id": "validation:13097",
+        "description": "styrene-maleic anhydride (SMA)"
+      },
+      {
+        "case_id": "validation:11948",
+        "description": "a Spark Plasma Sintering System"
+      },
+      {
+        "case_id": "validation:13063",
+        "description": "2-Amino-6-Methoxy-9H-Purine"
+      },
+      {
+        "case_id": "validation:4844",
+        "description": "Acrylic Resin BK 4950"
+      },
+      {
+        "case_id": "validation:16587",
+        "description": "stators and rotors for hermetic and semi-hermetic sealed compressors used in refrigeration units"
+      },
+      {
+        "case_id": "validation:8679",
+        "description": "a set consisting of a digital camera, a video projector, and a tripod designed for 3D structured light scanning"
+      },
+      {
+        "case_id": "validation:6771",
+        "description": "a Dixie-elevator dispenser designed for use in a vending machine"
+      },
+      {
+        "case_id": "validation:13206",
+        "description": "a scraper cutter used for scratching costed paper to create pictures or lettering"
+      },
+      {
+        "case_id": "validation:12332",
+        "description": "women's and girls' upper body garments from South Korea"
+      },
+      {
+        "case_id": "validation:226",
+        "description": "sodium xylene sulfonate (CAS#1300-72-7) from Turkey"
+      },
+      {
+        "case_id": "validation:1388",
+        "description": "a women's jacket made from knit fleece fabric with a hood, zipper, and kangaroo pockets"
+      },
+      {
+        "case_id": "validation:2699",
+        "description": "Sulfamide (Sulfuryl Amide)"
+      },
+      {
+        "case_id": "validation:4988",
+        "description": "a Priority Zoning Circulator Printed Circuit Board"
+      },
+      {
+        "case_id": "validation:5872",
+        "description": "a Ricoh Priport JP5000 Digital Duplicator"
+      },
+      {
+        "case_id": "validation:1247",
+        "description": "a PVC/Textile tarpaulin type material made of 100% polyester fabric laminated with PVC"
+      },
+      {
+        "case_id": "validation:356",
+        "description": "a rear chuck sleeve for a power drill"
+      },
+      {
+        "case_id": "validation:14770",
+        "description": "a hydraulic crane assembled in Canada from various components"
+      },
+      {
+        "case_id": "validation:754",
+        "description": "a children's long sleeve round neck pullover sweater made from 100% acrylic"
+      },
+      {
+        "case_id": "validation:13194",
+        "description": "unassembled and substantially complete carbon steel propane tanks from Brazil"
+      },
+      {
+        "case_id": "validation:9071",
+        "description": "Sodium Taurocholate"
+      },
+      {
+        "case_id": "validation:13502",
+        "description": "a men's knit pullover made of 100% polyester with a brushed interior, featuring a hood, long sleeves with elasticized cuffs, a pouch pocket, and a self-fabric bottom band"
+      },
+      {
+        "case_id": "validation:874",
+        "description": "a plastic dispenser that holds disposable steel microtome blades"
+      },
+      {
+        "case_id": "validation:10232",
+        "description": "a cigar humidor made of stainless steel with a wooden top and wrapped in faux leather (plastic)"
+      },
+      {
+        "case_id": "validation:16308",
+        "description": "a remote-activated bicycle alarm with a motion sensor and a 110-dB siren"
+      },
+      {
+        "case_id": "validation:8220",
+        "description": "BASF Ultrason E3010 polyether sulfone resin"
+      },
+      {
+        "case_id": "validation:1623",
+        "description": "two-piece women's knitted ensembles made of 100% cotton, consisting of a jacket and trousers, and a pullover and trousers, both featuring elastic waistbands and kangaroo pockets"
+      },
+      {
+        "case_id": "validation:9284",
+        "description": "a bent axis hydraulic motor"
+      },
+      {
+        "case_id": "validation:2505",
+        "description": "a stainless steel bar toolset that includes ice tongs, a cocktail strainer, a cheese knife, and a bottle opener"
+      },
+      {
+        "case_id": "validation:7683",
+        "description": "an injected molded plastic panel used in an automated cricket incubation facility"
+      },
+      {
+        "case_id": "validation:5806",
+        "description": "Titanium Oxychloride, CAS # 13780-39-7"
+      },
+      {
+        "case_id": "validation:12108",
+        "description": "a wedding cake server set consisting of a serrated stainless steel knife and cake server with plastic handles, each decorated with a removable white ribbon bow"
+      },
+      {
+        "case_id": "validation:11367",
+        "description": "Phenol, 4,4'-sulfonylbis[2-(2-propenyl)- (CAS 41481-66-7)"
+      },
+      {
+        "case_id": "validation:15586",
+        "description": "night vision driving glasses with yellow tinted lenses"
+      },
+      {
+        "case_id": "validation:15961",
+        "description": "a solid state RF generator"
+      },
+      {
+        "case_id": "validation:2990",
+        "description": "Tangle Free Cord Kit"
+      },
+      {
+        "case_id": "validation:7465",
+        "description": "foamed polystyrene board suitable for silkscreen printing, used in interior decoration, pictures, posters, and sign boards"
+      },
+      {
+        "case_id": "validation:11844",
+        "description": "unvulcanized gutta-percha cord"
+      },
+      {
+        "case_id": "validation:5180",
+        "description": "valve bodies and components used in pneumatic power transmission valves for railroad freight cars"
+      },
+      {
+        "case_id": "validation:11317",
+        "description": "a metal bulb planter with a black oxide coating, deep cone, beveled edges, graduated for depth, and an ergonomic plastic handle"
+      },
+      {
+        "case_id": "validation:1309",
+        "description": "Eltrombopag Olamine in bulk form"
+      },
+      {
+        "case_id": "validation:7372",
+        "description": "a women's knit poncho made of acrylic, nylon, and mohair"
+      },
+      {
+        "case_id": "validation:14848",
+        "description": "Zinc Oxide from China"
+      },
+      {
+        "case_id": "validation:15368",
+        "description": "a polyurethane prepolymer characterized by easy dispersion in water, excellent bonding strength, and water resistance, suitable for spray foam applications"
+      },
+      {
+        "case_id": "validation:12305",
+        "description": "a pneumatic cable tying/lacing tool"
+      },
+      {
+        "case_id": "validation:15958",
+        "description": "friction disks used on false twist texturing machines"
+      },
+      {
+        "case_id": "validation:14755",
+        "description": "plastic injection molds used in the production of plastic components such as door handles and plastic trim for automobiles"
+      },
+      {
+        "case_id": "validation:15973",
+        "description": "a vacuum interrupter used in high voltage power applications"
+      },
+      {
+        "case_id": "validation:10667",
+        "description": "a control unit from China"
+      },
+      {
+        "case_id": "validation:13978",
+        "description": "self-adhesive tape made of polyvinyl chloride with a rubber-based adhesive, imported in rolls of 100 feet and varying widths from 2 to 4 inches"
+      },
+      {
+        "case_id": "validation:16519",
+        "description": "Rear Crankshaft Retainer Assembly"
+      },
+      {
+        "case_id": "validation:7019",
+        "description": "a set of wall anchors and screws with wood pins in a plastic storage container"
+      },
+      {
+        "case_id": "validation:12950",
+        "description": "women's knit pajamas with a matching drawstring carrying bag, made of 65% polyester and 35% cotton"
+      },
+      {
+        "case_id": "validation:16877",
+        "description": "an Automated Train Control System"
+      },
+      {
+        "case_id": "validation:7293",
+        "description": "conveyor belts reinforced only with textile materials, made of vulcanized rubber, specifically the Contiflex NA styles with varying plies and dimensions"
+      },
+      {
+        "case_id": "validation:7274",
+        "description": "mirror heaters designed for automobiles to melt ice and snow"
+      },
+      {
+        "case_id": "validation:12343",
+        "description": "automotive cylinder heads used in gasoline and diesel engines"
+      },
+      {
+        "case_id": "validation:17120",
+        "description": "E-Series Ultrasonic meters used to measure the flow of liquids in various applications"
+      },
+      {
+        "case_id": "validation:12203",
+        "description": "polyethylene recycling bin liner bags"
+      },
+      {
+        "case_id": "validation:2070",
+        "description": "a spinning wheel made predominantly of wood with some metal parts, designed for spinning yarn from raw fiber"
+      },
+      {
+        "case_id": "validation:11554",
+        "description": "steel poles used in the Level 10 Erector Rack, a professional painters drying rack assembly"
+      },
+      {
+        "case_id": "validation:4123",
+        "description": "unground ball bearings used in mechanical fittings"
+      },
+      {
+        "case_id": "validation:14203",
+        "description": "mens knit pants constructed from 46% polyester, 38% nylon, and 16% spandex, featuring a covered elastic waistband, a small key pocket, reflective logos, and zippered openings at the ankles"
+      },
+      {
+        "case_id": "validation:4311",
+        "description": "3-Fluoroaniline, CAS # 372-19-0, imported in bulk form from China"
+      },
+      {
+        "case_id": "validation:8953",
+        "description": "a 15 piece Newborn Gift Set for infants aged 0-3 months, including bodysuits, tank shirts, lap-shoulder tees, pants, bibs, mittens, booties, and washcloths"
+      },
+      {
+        "case_id": "validation:5402",
+        "description": "an Antique AM/FM Tuning Radio"
+      },
+      {
+        "case_id": "validation:15212",
+        "description": "an underwater fixing tool kit that uses propellants to attach fastening pins to steel and concrete"
+      },
+      {
+        "case_id": "validation:4597",
+        "description": "miniature sleeping bag display models"
+      },
+      {
+        "case_id": "validation:6396",
+        "description": "a vehicle security system that grips the steering wheel and includes electronic components such as lights, a siren, and a remote control"
+      },
+      {
+        "case_id": "validation:8744",
+        "description": "assorted electrical components including a glass cartridge fuse, electromechanical relays, and sensors"
+      },
+      {
+        "case_id": "validation:1713",
+        "description": "a temperature sensitive faucet light"
+      },
+      {
+        "case_id": "validation:13156",
+        "description": "Superchlon CR-10, a chlorinated rubber product derived from natural and synthetic polyisoprene"
+      },
+      {
+        "case_id": "validation:6527",
+        "description": "mens thermal undergarments made of 100% cotton"
+      },
+      {
+        "case_id": "validation:17088",
+        "description": "a long-sleeved cardigan-styled sweater for girls made of 100% cotton from China"
+      },
+      {
+        "case_id": "validation:10333",
+        "description": "a tire valve used to provide the means of inflation for a tire and wheel assembly"
+      },
+      {
+        "case_id": "validation:5687",
+        "description": "a men's and boys' jacket made of knit fabric, coated with cellular plastic, featuring ribbed cuffs, a waistband, a pointed collar, two slash pockets, and a zippered snap flap closure"
+      },
+      {
+        "case_id": "validation:16833",
+        "description": "a bottle opener necklace made of zinc and leather"
+      }
+    ],
+    "evidence": {
+      "validation:17589": [],
+      "validation:4333": [],
+      "validation:11615": [],
+      "validation:16774": [],
+      "validation:12516": [],
+      "validation:12352": [],
+      "validation:10132": [],
+      "validation:6128": [],
+      "validation:11957": [],
+      "validation:4188": [],
+      "validation:4582": [],
+      "validation:4567": [],
+      "validation:14951": [],
+      "validation:15374": [],
+      "validation:12896": [],
+      "validation:3280": [],
+      "validation:1446": [],
+      "validation:16363": [],
+      "validation:11378": [],
+      "validation:9142": [],
+      "validation:10184": [],
+      "validation:14105": [],
+      "validation:5888": [],
+      "validation:5675": [],
+      "validation:6837": [],
+      "validation:1012": [],
+      "validation:13587": [],
+      "validation:4118": [],
+      "validation:7990": [],
+      "validation:17162": [],
+      "validation:15105": [],
+      "validation:2231": [],
+      "validation:12390": [],
+      "validation:15543": [],
+      "validation:6513": [],
+      "validation:2354": [],
+      "validation:12320": [],
+      "validation:4618": [],
+      "validation:14859": [],
+      "validation:2275": [],
+      "validation:14695": [],
+      "validation:675": [],
+      "validation:3227": [],
+      "validation:16063": [],
+      "validation:10144": [],
+      "validation:2509": [],
+      "validation:6297": [],
+      "validation:6864": [],
+      "validation:17096": [],
+      "validation:9717": [],
+      "validation:18150": [],
+      "validation:10318": [],
+      "validation:11572": [],
+      "validation:8356": [],
+      "validation:9611": [],
+      "validation:13245": [],
+      "validation:6681": [],
+      "validation:11995": [],
+      "validation:12847": [],
+      "validation:1407": [],
+      "validation:11268": [],
+      "validation:3837": [],
+      "validation:12333": [],
+      "validation:13664": [],
+      "validation:898": [],
+      "validation:12700": [],
+      "validation:15256": [],
+      "validation:15333": [],
+      "validation:6715": [],
+      "validation:12064": [],
+      "validation:3950": [],
+      "validation:5316": [],
+      "validation:4823": [],
+      "validation:2455": [],
+      "validation:5908": [],
+      "validation:601": [],
+      "validation:3253": [],
+      "validation:7335": [],
+      "validation:4817": [],
+      "validation:3718": [],
+      "validation:11029": [],
+      "validation:12730": [],
+      "validation:330": [],
+      "validation:13501": [],
+      "validation:3059": [],
+      "validation:5904": [],
+      "validation:16150": [],
+      "validation:13265": [],
+      "validation:11787": [],
+      "validation:1925": [],
+      "validation:15697": [],
+      "validation:2037": [],
+      "validation:9572": [],
+      "validation:14362": [],
+      "validation:9557": [],
+      "validation:6577": [],
+      "validation:10305": [],
+      "validation:8491": [],
+      "validation:7362": [],
+      "validation:7581": [],
+      "validation:11227": [],
+      "validation:16354": [],
+      "validation:15537": [],
+      "validation:14704": [],
+      "validation:9154": [],
+      "validation:7743": [],
+      "validation:1702": [],
+      "validation:6407": [],
+      "validation:18137": [],
+      "validation:10505": [],
+      "validation:6387": [],
+      "validation:13799": [],
+      "validation:9409": [],
+      "validation:10239": [],
+      "validation:13462": [],
+      "validation:8201": [],
+      "validation:15927": [],
+      "validation:971": [],
+      "validation:12350": [],
+      "validation:3738": [],
+      "validation:17502": [],
+      "validation:16192": [],
+      "validation:11207": [],
+      "validation:7240": [],
+      "validation:13097": [],
+      "validation:11948": [],
+      "validation:13063": [],
+      "validation:4844": [],
+      "validation:16587": [],
+      "validation:8679": [],
+      "validation:6771": [],
+      "validation:13206": [],
+      "validation:12332": [],
+      "validation:226": [],
+      "validation:1388": [],
+      "validation:2699": [],
+      "validation:4988": [],
+      "validation:5872": [],
+      "validation:1247": [],
+      "validation:356": [],
+      "validation:14770": [],
+      "validation:754": [],
+      "validation:13194": [],
+      "validation:9071": [],
+      "validation:13502": [],
+      "validation:874": [],
+      "validation:10232": [],
+      "validation:16308": [],
+      "validation:8220": [],
+      "validation:1623": [],
+      "validation:9284": [],
+      "validation:2505": [],
+      "validation:7683": [],
+      "validation:5806": [],
+      "validation:12108": [],
+      "validation:11367": [],
+      "validation:15586": [],
+      "validation:15961": [],
+      "validation:2990": [],
+      "validation:7465": [],
+      "validation:11844": [],
+      "validation:5180": [],
+      "validation:11317": [],
+      "validation:1309": [],
+      "validation:7372": [],
+      "validation:14848": [],
+      "validation:15368": [],
+      "validation:12305": [],
+      "validation:15958": [],
+      "validation:14755": [],
+      "validation:15973": [],
+      "validation:10667": [],
+      "validation:13978": [],
+      "validation:16519": [],
+      "validation:7019": [],
+      "validation:12950": [],
+      "validation:16877": [],
+      "validation:7293": [],
+      "validation:7274": [],
+      "validation:12343": [],
+      "validation:17120": [],
+      "validation:12203": [],
+      "validation:2070": [],
+      "validation:11554": [],
+      "validation:4123": [],
+      "validation:14203": [],
+      "validation:4311": [],
+      "validation:8953": [],
+      "validation:5402": [],
+      "validation:15212": [],
+      "validation:4597": [],
+      "validation:6396": [],
+      "validation:8744": [],
+      "validation:1713": [],
+      "validation:13156": [],
+      "validation:6527": [],
+      "validation:17088": [],
+      "validation:10333": [],
+      "validation:5687": [],
+      "validation:16833": []
+    },
+    "retry_once": true,
+    "system_prompt": "You are a customs tariff classification assistant for the United States Harmonized Tariff Schedule (HTS). Given a product description and supporting tariff evidence, assign the single most appropriate 10-digit U.S. HTS code.\n\nReturn ONLY a JSON object, with no surrounding text, in exactly this form:\n{\"hts_code\": \"<10 digits>\", \"confidence\": <number between 0 and 1>, \"rationale\": \"<one or two sentences>\", \"evidence_ids\": [\"<id>\", ...]}\n\nRules:\n- hts_code must be exactly 10 digits (keep leading zeros).\n- confidence is your estimated probability that the FULL 10-digit code is correct, as a decimal from 0 to 1.\n- evidence_ids lists the identifiers of the supplied evidence items you relied on.\n- Output JSON only.",
+    "source": "06dc83dcf422d6d544abb2e41853a8100241d31b79da3ab6f2ae9364eec54a7f"
+  }
+}

@@ -1,0 +1,41 @@
+    "input_count": 200,
+    "included_count": 154,
+    "excluded_count": 46,
+    "input_count": 200,
+    "included_count": 169,
+    "excluded_count": 31,
+== generate A validation 09:23
+  "cached": 154,
+  "requests_used": 154
+}
+== generate A test 09:41
+  "cached": 169,
+  "requests_used": 323
+}
+== generate B validation 10:00
+  "cached": 154,
+  "requests_used": 477
+}
+== generate B test 12:16
+  "cached": 169,
+  "requests_used": 646
+}
+== metrics 15:09
+    }
+  }
+}
+== calibrate 15:09
+    }
+  }
+}
+== route 15:09
+    }
+  }
+}
+== report 15:09
+  "human_annotations_complete": false,
+  "judge_validity_established": false
+}
+DONE 15:09
+
+[exited with code 0]

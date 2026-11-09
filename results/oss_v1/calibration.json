@@ -1,0 +1,40 @@
+{
+  "A": {
+    "n_validation_valid": 154,
+    "n_test_valid": 169,
+    "method": "platt",
+    "raw": {
+      "ece": 0.14171597633136096,
+      "brier": 0.17146094674556214
+    },
+    "calibrated": {
+      "ece": 0.07769186733868513,
+      "brier": 0.15697006940317226
+    },
+    "state": {
+      "method": "platt",
+      "constant": null,
+      "slope": 1.4052151372747526,
+      "intercept": -0.9696515763700814
+    }
+  },
+  "B": {
+    "n_validation_valid": 154,
+    "n_test_valid": 168,
+    "method": "platt",
+    "raw": {
+      "ece": 0.68375,
+      "brier": 0.5015648809523809
+    },
+    "calibrated": {
+      "ece": 0.011363635892530201,
+      "brier": 0.017667397526820443
+    },
+    "state": {
+      "method": "platt",
+      "constant": null,
+      "slope": 0.0,
+      "intercept": -5.030437848367904
+    }
+  }
+}

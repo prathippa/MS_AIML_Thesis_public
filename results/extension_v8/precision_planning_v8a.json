@@ -1,0 +1,45 @@
+{
+  "method": "5000 paired empirical product resamples at each proposed n; validation only, fixed policy ranking, seed 20261104. Conditional precision illustration, not power or guaranteed minimum detectable effect. Duplicated empirical support and distribution shift limit extrapolation.",
+  "results": {
+    "main_v1": {
+      "planning_products": 154,
+      "sizes": {
+        "400": {
+          "conditional_bootstrap_interval_width": 0.07000000000000006,
+          "approximate_half_width": 0.03500000000000003,
+          "sd": 0.01879011795350261
+        },
+        "700": {
+          "conditional_bootstrap_interval_width": 0.05999999999999994,
+          "approximate_half_width": 0.02999999999999997,
+          "sd": 0.014658927159999046
+        },
+        "900": {
+          "conditional_bootstrap_interval_width": 0.05111111111111111,
+          "approximate_half_width": 0.025555555555555554,
+          "sd": 0.013148041449275888
+        }
+      }
+    },
+    "hscc_v1": {
+      "planning_products": 307,
+      "sizes": {
+        "400": {
+          "conditional_bootstrap_interval_width": 0.07499999999999996,
+          "approximate_half_width": 0.03749999999999998,
+          "sd": 0.018542049307412156
+        },
+        "700": {
+          "conditional_bootstrap_interval_width": 0.05714285714285705,
+          "approximate_half_width": 0.028571428571428525,
+          "sd": 0.014312369314523852
+        },
+        "900": {
+          "conditional_bootstrap_interval_width": 0.051111111111110996,
+          "approximate_half_width": 0.025555555555555498,
+          "sd": 0.012767690415137492
+        }
+      }
+    }
+  }
+}

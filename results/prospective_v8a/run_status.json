@@ -1,0 +1,27 @@
+{
+  "state": "complete",
+  "detail": null,
+  "updated_at": "2026-11-05T01:09:31.065827+00:00",
+  "pid": 24379,
+  "counts": {
+    "validation/A": {
+      "completed": 100,
+      "failed": 0
+    },
+    "validation/B": {
+      "completed": 100,
+      "failed": 0
+    },
+    "test/A": {
+      "completed": 700,
+      "failed": 0
+    },
+    "test/B": {
+      "completed": 700,
+      "failed": 0
+    }
+  },
+  "conservative_usage_plus_outstanding_reservations_eur": 43.181903,
+  "budget_eur": 100,
+  "actual_invoice_cost": "not yet reconciled; reservations are conservative upper bounds"
+}

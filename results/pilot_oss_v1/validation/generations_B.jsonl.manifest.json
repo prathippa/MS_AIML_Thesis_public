@@ -1,0 +1,68 @@
+{
+  "sha256": "db39ac251b0191f7c83d6cfa306b16b4176e28ed8963edd56ccdffbc05063f78",
+  "contents": {
+    "model": "openai/gpt-oss-120b",
+    "decoding": {
+      "max_tokens": 8000,
+      "temperature": 0.0,
+      "seed": 7
+    },
+    "cases": [
+      {
+        "case_id": "validation:0",
+        "description": "Polivac film composed of polyethylene terephthalate (PET) laminated to polyethylene film, used for packaging products"
+      },
+      {
+        "case_id": "validation:1",
+        "description": "tablecloth fabric made of laminated PVC film and polyester"
+      },
+      {
+        "case_id": "validation:2",
+        "description": "a liquid crystal lighting device"
+      },
+      {
+        "case_id": "validation:3",
+        "description": "vinyl tiles made from polyvinyl chloride (PVC)"
+      },
+      {
+        "case_id": "validation:4",
+        "description": "a brake pad press used in the manufacture of vehicle brake pads"
+      },
+      {
+        "case_id": "validation:5",
+        "description": "boys T-shirts made of 50% cotton and 50% polyester, finely knit jersey fabric, featuring a rib knit crew neckline, short hemmed sleeves, and a straight hemmed bottom"
+      },
+      {
+        "case_id": "validation:6",
+        "description": "4-[N-(2,4-Diamino-6-PT Eridynyl Methyl) Amino Benzoic Acid Sodium Salt (CAS 100929-45-1)"
+      },
+      {
+        "case_id": "validation:7",
+        "description": "a home beer dispenser designed to dispense bottled beer using a hand-operated valve and compressed carbon dioxide"
+      },
+      {
+        "case_id": "validation:8",
+        "description": "hand-held tool attachments designed for use with the Black & Decker 20V Matrix Power Unit"
+      },
+      {
+        "case_id": "validation:9",
+        "description": "a five piece tool pouch kit containing an aluminum carabiner clip, combination pliers, utility knife, and carpenter's pencil"
+      }
+    ],
+    "evidence": {
+      "validation:0": [],
+      "validation:1": [],
+      "validation:2": [],
+      "validation:3": [],
+      "validation:4": [],
+      "validation:5": [],
+      "validation:6": [],
+      "validation:7": [],
+      "validation:8": [],
+      "validation:9": []
+    },
+    "retry_once": true,
+    "system_prompt": "You are a customs tariff classification assistant for the United States Harmonized Tariff Schedule (HTS). Given a product description and supporting tariff evidence, assign the single most appropriate 10-digit U.S. HTS code.\n\nReturn ONLY a JSON object, with no surrounding text, in exactly this form:\n{\"hts_code\": \"<10 digits>\", \"confidence\": <number between 0 and 1>, \"rationale\": \"<one or two sentences>\", \"evidence_ids\": [\"<id>\", ...]}\n\nRules:\n- hts_code must be exactly 10 digits (keep leading zeros).\n- confidence is your estimated probability that the FULL 10-digit code is correct, as a decimal from 0 to 1.\n- evidence_ids lists the identifiers of the supplied evidence items you relied on.\n- Output JSON only.",
+    "source": "06dc83dcf422d6d544abb2e41853a8100241d31b79da3ab6f2ae9364eec54a7f"
+  }
+}

@@ -1,0 +1,778 @@
+{
+ "hts_codes_10digit": 19949,
+ "main_v1": {
+  "calibration_change": {
+   "A": {
+    "n": 169,
+    "mean_raw_conf": 0.387,
+    "mean_cal_conf": 0.199,
+    "accuracy": 0.201,
+    "ece_reduction": 0.114,
+    "ece_reduction_ci95": [
+     0.043,
+     0.17
+    ],
+    "brier_reduction": 0.033,
+    "brier_reduction_ci95": [
+     0.011,
+     0.056
+    ]
+   },
+   "B": {
+    "n": 169,
+    "mean_raw_conf": 0.55,
+    "mean_cal_conf": 0.198,
+    "accuracy": 0.314,
+    "ece_reduction": 0.097,
+    "ece_reduction_ci95": [
+     -0.043,
+     0.207
+    ],
+    "brier_reduction": 0.038,
+    "brier_reduction_ci95": [
+     -0.015,
+     0.086
+    ]
+   }
+  },
+  "constant_prevalence_baseline": {
+   "A": {
+    "n_test": 169,
+    "validation_prevalence": 0.182,
+    "brier_constant_prevalence": 0.161,
+    "brier_calibrated": 0.118,
+    "brier_gain_over_constant": 0.043,
+    "brier_gain_ci95": [
+     0.018,
+     0.069
+    ],
+    "calibrated_beats_constant": true
+   },
+   "B": {
+    "n_test": 169,
+    "validation_prevalence": 0.175,
+    "brier_constant_prevalence": 0.234,
+    "brier_calibrated": 0.212,
+    "brier_gain_over_constant": 0.022,
+    "brier_gain_ci95": [
+     -0.005,
+     0.051
+    ],
+    "calibrated_beats_constant": false
+   }
+  },
+  "threshold_transfer": {
+   "threshold_raw": {
+    "threshold": 0.8,
+    "validation_n": 15,
+    "test_n": 20,
+    "test_errors": 8,
+    "test_risk": 0.4,
+    "test_risk_wilson95": [
+     0.219,
+     0.613
+    ]
+   },
+   "threshold_cal": {
+    "threshold": 0.670597332874046,
+    "validation_n": 15,
+    "test_n": 18,
+    "test_errors": 7,
+    "test_risk": 0.38888888888888884,
+    "test_risk_wilson95": [
+     0.203,
+     0.614
+    ]
+   }
+  },
+  "model_priority_baseline": {
+   "validation_accuracy": {
+    "A": 0.182,
+    "B": 0.175
+   },
+   "priority_model": "A",
+   "k": 237,
+   "n_pooled": 338,
+   "risk_model_priority": 0.722,
+   "streamlined_by_model": {
+    "A": 169,
+    "B": 68
+   },
+   "risk_raw": 0.654,
+   "risk_calibrated": 0.688
+  },
+  "version_audit": {
+   "A": {
+    "n": 169,
+    "gold_valid_2026": 0.858,
+    "pred_valid_2026": 0.515,
+    "pred_ending_0000": 0.26,
+    "national_digit_errors": 69,
+    "national_digit_error_breakdown": {
+     "both_valid_2026": 28,
+     "pred_not_in_2026_8digit_exists": 20,
+     "pred_not_in_2026_8digit_missing": 16,
+     "gold_not_in_2026": 5
+    },
+    "exact_matches_on_obsolete_gold": 8,
+    "accuracy_10_when_gold_valid": 0.179,
+    "n_gold_valid": 145
+   },
+   "B": {
+    "n": 169,
+    "gold_valid_2026": 0.858,
+    "pred_valid_2026": 0.615,
+    "pred_ending_0000": 0.308,
+    "national_digit_errors": 49,
+    "national_digit_error_breakdown": {
+     "pred_not_in_2026_8digit_exists": 17,
+     "gold_not_in_2026": 5,
+     "both_valid_2026": 22,
+     "pred_not_in_2026_8digit_missing": 5
+    },
+    "exact_matches_on_obsolete_gold": 9,
+    "accuracy_10_when_gold_valid": 0.303,
+    "n_gold_valid": 145
+   }
+  },
+  "tie_averaged_routing": {
+   "pooled": {
+    "risk_raw": 0.654,
+    "risk_calibrated": 0.685,
+    "raw_minus_calibrated": -0.031,
+    "ci95": [
+     -0.055,
+     -0.001
+    ]
+   },
+   "A": {
+    "risk_raw": 0.728,
+    "risk_calibrated": 0.728,
+    "tied_at_cut": 49,
+    "needed_from_tie": 34
+   },
+   "B": {
+    "risk_raw": 0.602,
+    "risk_calibrated": 0.602,
+    "tied_at_cut": 2,
+    "needed_from_tie": 2
+   }
+  },
+  "national_suffix_ceiling": {
+   "validation": {
+    "A": {
+     "n": 154,
+     "exact_10": 0.182,
+     "invalid_pred": 61,
+     "same_rate_line": 15,
+     "ceiling_gain_pts": 9.7,
+     "single_line_snap": 1,
+     "snap_gain_pts": 0.6
+    },
+    "B": {
+     "n": 154,
+     "exact_10": 0.175,
+     "invalid_pred": 59,
+     "same_rate_line": 18,
+     "ceiling_gain_pts": 11.7,
+     "single_line_snap": 1,
+     "snap_gain_pts": 0.6
+    }
+   },
+   "test": {
+    "A": {
+     "n": 169,
+     "exact_10": 0.201,
+     "invalid_pred": 82,
+     "same_rate_line": 24,
+     "ceiling_gain_pts": 14.2,
+     "single_line_snap": 1,
+     "snap_gain_pts": 0.6
+    },
+    "B": {
+     "n": 169,
+     "exact_10": 0.314,
+     "invalid_pred": 65,
+     "same_rate_line": 23,
+     "ceiling_gain_pts": 13.6,
+     "single_line_snap": 1,
+     "snap_gain_pts": 0.6
+    }
+   }
+  },
+  "rq3_cluster": {
+   "n_predictions": 60,
+   "n_products": 55,
+   "products_in_two_predictions": 5,
+   "auc": 0.741,
+   "auc_ci95_product_clustered": [
+    0.6,
+    0.869
+   ],
+   "correct_by_majority_label": {
+    "supported": 17,
+    "uncertain": 9,
+    "unsupported": 4
+   }
+  },
+  "worked_cases": [
+   {
+    "why": "correct to 8 digits, wrong statistical suffix, both codes valid in 2026",
+    "prediction_id": "test:155|B",
+    "description": "a men's knitted pullover made of 70% cotton and 30% nylon, featuring a ribbed neckband, long sleeves with rib knit cuffs, and a rib knit bottom",
+    "gold": "6110202067",
+    "pred": "6110202069",
+    "tier": "wrong_stat_suffix",
+    "confidence": 0.62,
+    "calibrated": 0.218,
+    "gold_in_2026": true,
+    "pred_in_2026": true,
+    "evaluator": "supported",
+    "rationale": "A men’s knitted pullover made chiefly of cotton falls under heading 6110 for pullovers; with cotton predominating, it classifies under 6110.20, and as a men’s “other” article (not a sweatshirt), under 6110.20.2069."
+   },
+   {
+    "why": "most confident wrong-chapter prediction",
+    "prediction_id": "test:178|B",
+    "description": "a USB Flash Drive",
+    "gold": "8471709000",
+    "pred": "8523510000",
+    "tier": "wrong_chapter",
+    "confidence": 0.88,
+    "calibrated": 0.835,
+    "gold_in_2026": true,
+    "pred_in_2026": true,
+    "evaluator": null,
+    "rationale": "USB flash drives are solid-state non-volatile storage devices classified in heading 8523; the appropriate subheading is for solid-state non-volatile storage devices."
+   },
+   {
+    "why": "benchmark-correct, evaluator uncertain",
+    "prediction_id": "test:166|A",
+    "description": "high density polyethylene (HDPE) used in blow molding applications",
+    "gold": "3901205000",
+    "pred": "3901205000",
+    "tier": "correct_10",
+    "confidence": 0.6,
+    "calibrated": 0.367,
+    "gold_in_2026": true,
+    "pred_in_2026": true,
+    "evaluator": "uncertain",
+    "rationale": "HDPE resin for blow molding is polyethylene in primary forms with a specific gravity of 0.94 or more, which falls under heading 3901, subheading 3901.20. No evidence was supplied, so I chose the general 'other' statistical suffix from memory of the schedule."
+   },
+   {
+    "why": "gold code no longer in the 2026 schedule",
+    "prediction_id": "test:125|B",
+    "description": "metal recliner mechanisms",
+    "gold": "9401905080",
+    "pred": "9401905081",
+    "tier": "wrong_stat_suffix",
+    "confidence": 0.45,
+    "calibrated": 0.069,
+    "gold_in_2026": false,
+    "pred_in_2026": false,
+    "evaluator": null,
+    "rationale": "Metal recliner mechanisms are parts of seats for furniture and are classified as other metal parts of seats under heading 9401 when not specifically for aircraft or motor vehicles."
+   },
+   {
+    "why": "near miss judged supported by the evaluator",
+    "prediction_id": "test:155|B",
+    "description": "a men's knitted pullover made of 70% cotton and 30% nylon, featuring a ribbed neckband, long sleeves with rib knit cuffs, and a rib knit bottom",
+    "gold": "6110202067",
+    "pred": "6110202069",
+    "tier": "wrong_stat_suffix",
+    "confidence": 0.62,
+    "calibrated": 0.218,
+    "gold_in_2026": true,
+    "pred_in_2026": true,
+    "evaluator": "supported",
+    "rationale": "A men’s knitted pullover made chiefly of cotton falls under heading 6110 for pullovers; with cotton predominating, it classifies under 6110.20, and as a men’s “other” article (not a sweatshirt), under 6110.20.2069."
+   }
+  ],
+  "rq3_withholding": {
+   "withheld": {
+    "n_correct": 12,
+    "supported": 5,
+    "not_supported": 7
+   },
+   "none_withheld": {
+    "n_correct": 18,
+    "supported": 12,
+    "not_supported": 6
+   },
+   "mean_rulings_withheld": 0.4,
+   "mean_rulings_in_pack": 3.0
+  }
+ },
+ "oss_v1": {
+  "calibration_change": {
+   "A": {
+    "n": 169,
+    "mean_raw_conf": 0.389,
+    "mean_cal_conf": 0.205,
+    "accuracy": 0.254,
+    "ece_reduction": 0.064,
+    "ece_reduction_ci95": [
+     -0.048,
+     0.138
+    ],
+    "brier_reduction": 0.014,
+    "brier_reduction_ci95": [
+     -0.01,
+     0.037
+    ]
+   },
+   "B": {
+    "n": 168,
+    "mean_raw_conf": 0.702,
+    "mean_cal_conf": 0.006,
+    "accuracy": 0.018,
+    "ece_reduction": 0.672,
+    "ece_reduction_ci95": [
+     0.626,
+     0.706
+    ],
+    "brier_reduction": 0.484,
+    "brier_reduction_ci95": [
+     0.444,
+     0.521
+    ]
+   }
+  },
+  "constant_prevalence_baseline": {
+   "A": {
+    "n_test": 169,
+    "validation_prevalence": 0.188,
+    "brier_constant_prevalence": 0.194,
+    "brier_calibrated": 0.157,
+    "brier_gain_over_constant": 0.037,
+    "brier_gain_ci95": [
+     0.009,
+     0.065
+    ],
+    "calibrated_beats_constant": true
+   },
+   "B": {
+    "n_test": 168,
+    "validation_prevalence": 0.006,
+    "brier_constant_prevalence": 0.018,
+    "brier_calibrated": 0.018,
+    "brier_gain_over_constant": 0.0,
+    "brier_gain_ci95": [
+     -0.0,
+     0.0
+    ],
+    "calibrated_beats_constant": false
+   }
+  },
+  "threshold_transfer": {
+   "threshold_raw": {
+    "threshold": null,
+    "validation_n": 0,
+    "test_n": 0,
+    "test_errors": 0,
+    "test_risk": null,
+    "test_risk_wilson95": null
+   },
+   "threshold_cal": {
+    "threshold": 0.7615403180803889,
+    "validation_n": 6,
+    "test_n": 3,
+    "test_errors": 1,
+    "test_risk": 0.33333333333333337,
+    "test_risk_wilson95": [
+     0.061,
+     0.792
+    ]
+   }
+  },
+  "model_priority_baseline": {
+   "validation_accuracy": {
+    "A": 0.188,
+    "B": 0.006
+   },
+   "priority_model": "A",
+   "k": 236,
+   "n_pooled": 338,
+   "risk_model_priority": 0.809,
+   "streamlined_by_model": {
+    "A": 169,
+    "B": 67
+   },
+   "risk_raw": 0.864,
+   "risk_calibrated": 0.814
+  },
+  "version_audit": {
+   "A": {
+    "n": 169,
+    "gold_valid_2026": 0.858,
+    "pred_valid_2026": 0.58,
+    "pred_ending_0000": 0.225,
+    "national_digit_errors": 60,
+    "national_digit_error_breakdown": {
+     "both_valid_2026": 27,
+     "pred_not_in_2026_8digit_exists": 18,
+     "pred_not_in_2026_8digit_missing": 10,
+     "gold_not_in_2026": 5
+    },
+    "exact_matches_on_obsolete_gold": 7,
+    "accuracy_10_when_gold_valid": 0.248,
+    "n_gold_valid": 145
+   },
+   "B": {
+    "n": 168,
+    "gold_valid_2026": 0.857,
+    "pred_valid_2026": 0.125,
+    "pred_ending_0000": 0.655,
+    "national_digit_errors": 8,
+    "national_digit_error_breakdown": {
+     "pred_not_in_2026_8digit_missing": 6,
+     "pred_not_in_2026_8digit_exists": 2
+    },
+    "exact_matches_on_obsolete_gold": 1,
+    "accuracy_10_when_gold_valid": 0.014,
+    "n_gold_valid": 144
+   }
+  },
+  "tie_averaged_routing": {
+   "pooled": {
+    "risk_raw": 0.863,
+    "risk_calibrated": 0.813,
+    "raw_minus_calibrated": 0.051,
+    "ci95": [
+     0.023,
+     0.079
+    ]
+   },
+   "A": {
+    "risk_raw": 0.671,
+    "risk_calibrated": 0.671,
+    "tied_at_cut": 51,
+    "needed_from_tie": 35
+   },
+   "B": {
+    "risk_raw": 0.983,
+    "risk_calibrated": 0.982,
+    "tied_at_cut": 20,
+    "needed_from_tie": 3
+   }
+  },
+  "national_suffix_ceiling": {
+   "validation": {
+    "A": {
+     "n": 154,
+     "exact_10": 0.188,
+     "invalid_pred": 59,
+     "same_rate_line": 13,
+     "ceiling_gain_pts": 8.4,
+     "single_line_snap": 0,
+     "snap_gain_pts": 0.0
+    },
+    "B": {
+     "n": 154,
+     "exact_10": 0.006,
+     "invalid_pred": 131,
+     "same_rate_line": 4,
+     "ceiling_gain_pts": 2.6,
+     "single_line_snap": 0,
+     "snap_gain_pts": 0.0
+    }
+   },
+   "test": {
+    "A": {
+     "n": 169,
+     "exact_10": 0.254,
+     "invalid_pred": 71,
+     "same_rate_line": 21,
+     "ceiling_gain_pts": 12.4,
+     "single_line_snap": 0,
+     "snap_gain_pts": 0.0
+    },
+    "B": {
+     "n": 168,
+     "exact_10": 0.018,
+     "invalid_pred": 147,
+     "same_rate_line": 3,
+     "ceiling_gain_pts": 1.8,
+     "single_line_snap": 1,
+     "snap_gain_pts": 0.6
+    }
+   }
+  },
+  "oss_audit": {
+   "resolved_models": {
+    "openai/gpt-oss-120b": 169
+   },
+   "stop_reasons": {
+    "stop": 169
+   },
+   "median_reasoning_tokens": 643.0,
+   "pred_valid_2026": {
+    "gpt_oss": 0.125,
+    "claude": 0.58
+   },
+   "pred_ending_0000": {
+    "gpt_oss": 0.655,
+    "claude": 0.225
+   },
+   "pred_ending_000000": 0.006,
+   "prefix_accuracy_gpt_oss": {
+    "2": 0.744,
+    "4": 0.298,
+    "6": 0.065,
+    "8": 0.03,
+    "10": 0.018
+   },
+   "distinct_confidences": 26,
+   "examples": [
+    {
+     "case": "test:0",
+     "gold": "7307199060",
+     "pred": "7307100000",
+     "conf": 0.95,
+     "tier": "wrong_subheading",
+     "rationale": "Cast carbon steel pipe fittings (flanges, nuts, bolts) used for pipe connections fall under heading 7307.10 for cast iron or steel fittings for fluid conveyance."
+    },
+    {
+     "case": "test:1",
+     "gold": "2933597000",
+     "pred": "2936909000",
+     "conf": 0.55,
+     "tier": "wrong_heading",
+     "rationale": "The substance is a heterocyclic organic compound (a benzoic acid salt with a diamino-pteridine moiety) and not specifically listed elsewhere, so it falls under heading 2936.90 for other heterocyclic compounds."
+    },
+    {
+     "case": "test:2",
+     "gold": "8407909060",
+     "pred": "8407900000",
+     "conf": 0.55,
+     "tier": "wrong_rate_line",
+     "rationale": "The product is a gasoline‑powered spark‑ignition internal combustion piston engine not used for vehicle propulsion, which falls under heading 8407 for such engines; subheading 8407.90 covers other engines of this type."
+    },
+    {
+     "case": "test:3",
+     "gold": "4002800000",
+     "pred": "4006900000",
+     "conf": 0.6,
+     "tier": "wrong_heading",
+     "rationale": "Unvulcanized synthetic rubber in primary (soft) forms falls under Chapter 40, heading 4006 for synthetic rubber in primary forms; lacking polymer specifics, the generic subheading 4006.90 is appropriate."
+    },
+    {
+     "case": "test:4",
+     "gold": "3920490000",
+     "pred": "3915120000",
+     "conf": 0.9,
+     "tier": "wrong_heading",
+     "rationale": "PVC sheets are classified under heading 3915 for extruded plastic plates, sheets and shapes, with subheading .12 for polyvinyl chloride."
+    },
+    {
+     "case": "test:6",
+     "gold": "3909505000",
+     "pred": "3904100000",
+     "conf": 0.7,
+     "tier": "wrong_heading",
+     "rationale": "Polyurethane aqueous dispersions are classified under Chapter 39 as polyurethane polymers in primary forms, which corresponds to heading 3904.10.00."
+    }
+   ]
+  }
+ },
+ "hscc_v1": {
+  "calibration_change": {
+   "A": {
+    "n": 325,
+    "mean_raw_conf": 0.421,
+    "mean_cal_conf": 0.218,
+    "accuracy": 0.24,
+    "ece_reduction": 0.153,
+    "ece_reduction_ci95": [
+     0.076,
+     0.188
+    ],
+    "brier_reduction": 0.034,
+    "brier_reduction_ci95": [
+     0.017,
+     0.051
+    ]
+   },
+   "B": {
+    "n": 325,
+    "mean_raw_conf": 0.582,
+    "mean_cal_conf": 0.261,
+    "accuracy": 0.265,
+    "ece_reduction": 0.256,
+    "ece_reduction_ci95": [
+     0.184,
+     0.302
+    ],
+    "brier_reduction": 0.107,
+    "brier_reduction_ci95": [
+     0.077,
+     0.136
+    ]
+   }
+  },
+  "constant_prevalence_baseline": {
+   "A": {
+    "n_test": 325,
+    "validation_prevalence": 0.218,
+    "brier_constant_prevalence": 0.183,
+    "brier_calibrated": 0.136,
+    "brier_gain_over_constant": 0.047,
+    "brier_gain_ci95": [
+     0.028,
+     0.066
+    ],
+    "calibrated_beats_constant": true
+   },
+   "B": {
+    "n_test": 325,
+    "validation_prevalence": 0.252,
+    "brier_constant_prevalence": 0.195,
+    "brier_calibrated": 0.166,
+    "brier_gain_over_constant": 0.029,
+    "brier_gain_ci95": [
+     0.011,
+     0.047
+    ],
+    "calibrated_beats_constant": true
+   }
+  },
+  "threshold_transfer": {
+   "threshold_raw": {
+    "threshold": 0.82,
+    "validation_n": 31,
+    "test_n": 30,
+    "test_errors": 2,
+    "test_risk": 0.06666666666666665,
+    "test_risk_wilson95": [
+     0.018,
+     0.213
+    ]
+   },
+   "threshold_cal": {
+    "threshold": 0.7494179832753356,
+    "validation_n": 31,
+    "test_n": 30,
+    "test_errors": 2,
+    "test_risk": 0.06666666666666665,
+    "test_risk_wilson95": [
+     0.018,
+     0.213
+    ]
+   }
+  },
+  "model_priority_baseline": {
+   "validation_accuracy": {
+    "A": 0.218,
+    "B": 0.252
+   },
+   "priority_model": "B",
+   "k": 455,
+   "n_pooled": 650,
+   "risk_model_priority": 0.679,
+   "streamlined_by_model": {
+    "B": 325,
+    "A": 130
+   },
+   "risk_raw": 0.681,
+   "risk_calibrated": 0.677
+  },
+  "version_audit": {
+   "A": {
+    "n": 325,
+    "gold_valid_2026": 0.985,
+    "pred_valid_2026": 0.554,
+    "pred_ending_0000": 0.258,
+    "national_digit_errors": 129,
+    "national_digit_error_breakdown": {
+     "pred_not_in_2026_8digit_missing": 43,
+     "both_valid_2026": 42,
+     "pred_not_in_2026_8digit_exists": 41,
+     "gold_not_in_2026": 3
+    },
+    "exact_matches_on_obsolete_gold": 1,
+    "accuracy_10_when_gold_valid": 0.241,
+    "n_gold_valid": 320
+   },
+   "B": {
+    "n": 325,
+    "gold_valid_2026": 0.985,
+    "pred_valid_2026": 0.674,
+    "pred_ending_0000": 0.258,
+    "national_digit_errors": 110,
+    "national_digit_error_breakdown": {
+     "pred_not_in_2026_8digit_missing": 23,
+     "both_valid_2026": 54,
+     "pred_not_in_2026_8digit_exists": 30,
+     "gold_not_in_2026": 3
+    },
+    "exact_matches_on_obsolete_gold": 1,
+    "accuracy_10_when_gold_valid": 0.266,
+    "n_gold_valid": 320
+   }
+  },
+  "tie_averaged_routing": {
+   "pooled": {
+    "risk_raw": 0.683,
+    "risk_calibrated": 0.677,
+    "raw_minus_calibrated": 0.006,
+    "ci95": [
+     -0.006,
+     0.016
+    ]
+   },
+   "A": {
+    "risk_raw": 0.688,
+    "risk_calibrated": 0.688,
+    "tied_at_cut": 86,
+    "needed_from_tie": 27
+   },
+   "B": {
+    "risk_raw": 0.681,
+    "risk_calibrated": 0.681,
+    "tied_at_cut": 36,
+    "needed_from_tie": 28
+   }
+  },
+  "national_suffix_ceiling": {
+   "validation": {
+    "A": {
+     "n": 307,
+     "exact_10": 0.218,
+     "invalid_pred": 133,
+     "same_rate_line": 23,
+     "ceiling_gain_pts": 7.5,
+     "single_line_snap": 2,
+     "snap_gain_pts": 0.7
+    },
+    "B": {
+     "n": 306,
+     "exact_10": 0.252,
+     "invalid_pred": 111,
+     "same_rate_line": 22,
+     "ceiling_gain_pts": 7.2,
+     "single_line_snap": 2,
+     "snap_gain_pts": 0.7
+    }
+   },
+   "test": {
+    "A": {
+     "n": 325,
+     "exact_10": 0.24,
+     "invalid_pred": 145,
+     "same_rate_line": 31,
+     "ceiling_gain_pts": 9.5,
+     "single_line_snap": 1,
+     "snap_gain_pts": 0.3
+    },
+    "B": {
+     "n": 325,
+     "exact_10": 0.265,
+     "invalid_pred": 106,
+     "same_rate_line": 30,
+     "ceiling_gain_pts": 9.2,
+     "single_line_snap": 1,
+     "snap_gain_pts": 0.3
+    }
+   }
+  }
+ }
+}

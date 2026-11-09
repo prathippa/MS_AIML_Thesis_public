@@ -1,0 +1,66 @@
+{
+  "n": 60,
+  "judge_model": "google/gemini-3.8-flash",
+  "majority_labels": {
+    "supported": 23,
+    "uncertain": 19,
+    "unsupported": 18,
+    "null": 0
+  },
+  "by_stratum": {
+    "correct_high": {
+      "supported": 12,
+      "uncertain": 1,
+      "unsupported": 2,
+      "null": 0
+    },
+    "correct_low": {
+      "supported": 5,
+      "uncertain": 8,
+      "unsupported": 2,
+      "null": 0
+    },
+    "major_error": {
+      "supported": 2,
+      "uncertain": 5,
+      "unsupported": 8,
+      "null": 0
+    },
+    "near_miss": {
+      "supported": 4,
+      "uncertain": 5,
+      "unsupported": 6,
+      "null": 0
+    }
+  },
+  "mean_consistency": 0.9444444444444444,
+  "unanimous_rate": 0.8333333333333334,
+  "abstentions": 0,
+  "validity_vs_gold": {
+    "auc_support_correct_vs_wrong": 0.7411111111111112,
+    "auc_ci95": [
+      0.6001084538375973,
+      0.8685885588985387
+    ],
+    "bootstrap_unit": "product",
+    "n_products": 55,
+    "p_supported_given_correct": 0.5666666666666667,
+    "p_unsupported_given_major_error_wrong_chapter": {
+      "n": 7,
+      "rate": 0.5714285714285714
+    },
+    "p_supported_given_major_error_wrong_chapter": {
+      "n": 7,
+      "rate": 0.14285714285714285
+    },
+    "p_unsupported_given_heading_or_worse": {
+      "n": 10,
+      "rate": 0.5
+    },
+    "p_supported_given_heading_or_worse": {
+      "n": 10,
+      "rate": 0.2
+    }
+  },
+  "provision_exact_10_rate": 0.6166666666666667
+}

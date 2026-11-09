@@ -1,0 +1,1758 @@
+{
+  "A": {
+    "comparisons": [
+      {
+        "policy": "confidence",
+        "requested_coverage": 0.3,
+        "n_products": 700,
+        "n_streamlined": 210,
+        "n_referred": 490,
+        "coverage": 0.3,
+        "selective_risk": 0.6095238095238096,
+        "wrong_chapter_risk": 0.07142857142857142,
+        "risk_minus_confidence": 0.0,
+        "paired_ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "policy": "agreement",
+        "requested_coverage": 0.3,
+        "n_products": 700,
+        "n_streamlined": 210,
+        "n_referred": 490,
+        "coverage": 0.3,
+        "selective_risk": 0.5714285714285714,
+        "wrong_chapter_risk": 0.12380952380952381,
+        "risk_minus_confidence": -0.03809523809523818,
+        "paired_ci95": [
+          -0.09047619047619049,
+          0.01904761904761898
+        ]
+      },
+      {
+        "policy": "schedule",
+        "requested_coverage": 0.3,
+        "n_products": 700,
+        "n_streamlined": 210,
+        "n_referred": 490,
+        "coverage": 0.3,
+        "selective_risk": 0.5428571428571428,
+        "wrong_chapter_risk": 0.10952380952380952,
+        "risk_minus_confidence": -0.06666666666666676,
+        "paired_ci95": [
+          -0.10952380952380952,
+          -0.01904761904761898
+        ]
+      },
+      {
+        "policy": "combined",
+        "requested_coverage": 0.3,
+        "n_products": 700,
+        "n_streamlined": 210,
+        "n_referred": 490,
+        "coverage": 0.3,
+        "selective_risk": 0.5666666666666667,
+        "wrong_chapter_risk": 0.12380952380952381,
+        "risk_minus_confidence": -0.04285714285714293,
+        "paired_ci95": [
+          -0.09523809523809523,
+          0.014285714285714346
+        ]
+      },
+      {
+        "policy": "confidence",
+        "requested_coverage": 0.5,
+        "n_products": 700,
+        "n_streamlined": 350,
+        "n_referred": 350,
+        "coverage": 0.5,
+        "selective_risk": 0.6714285714285714,
+        "wrong_chapter_risk": 0.10857142857142857,
+        "risk_minus_confidence": 0.0,
+        "paired_ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "policy": "agreement",
+        "requested_coverage": 0.5,
+        "n_products": 700,
+        "n_streamlined": 350,
+        "n_referred": 350,
+        "coverage": 0.5,
+        "selective_risk": 0.6657142857142857,
+        "wrong_chapter_risk": 0.11714285714285715,
+        "risk_minus_confidence": -0.005714285714285672,
+        "paired_ci95": [
+          -0.02857142857142858,
+          0.011428571428571455
+        ]
+      },
+      {
+        "policy": "schedule",
+        "requested_coverage": 0.5,
+        "n_products": 700,
+        "n_streamlined": 350,
+        "n_referred": 350,
+        "coverage": 0.5,
+        "selective_risk": 0.6485714285714286,
+        "wrong_chapter_risk": 0.13428571428571429,
+        "risk_minus_confidence": -0.022857142857142798,
+        "paired_ci95": [
+          -0.05714285714285716,
+          0.0028571428571427804
+        ]
+      },
+      {
+        "policy": "combined",
+        "requested_coverage": 0.5,
+        "n_products": 700,
+        "n_streamlined": 350,
+        "n_referred": 350,
+        "coverage": 0.5,
+        "selective_risk": 0.6485714285714286,
+        "wrong_chapter_risk": 0.13142857142857142,
+        "risk_minus_confidence": -0.022857142857142798,
+        "paired_ci95": [
+          -0.05428571428571427,
+          -0.005714285714285672
+        ]
+      },
+      {
+        "policy": "confidence",
+        "requested_coverage": 0.7,
+        "n_products": 700,
+        "n_streamlined": 490,
+        "n_referred": 210,
+        "coverage": 0.7,
+        "selective_risk": 0.7285714285714285,
+        "wrong_chapter_risk": 0.11224489795918367,
+        "risk_minus_confidence": 0.0,
+        "paired_ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "policy": "agreement",
+        "requested_coverage": 0.7,
+        "n_products": 700,
+        "n_streamlined": 490,
+        "n_referred": 210,
+        "coverage": 0.7,
+        "selective_risk": 0.7285714285714285,
+        "wrong_chapter_risk": 0.12040816326530612,
+        "risk_minus_confidence": 0.0,
+        "paired_ci95": [
+          -0.010204081632653073,
+          0.008163265306122547
+        ]
+      },
+      {
+        "policy": "schedule",
+        "requested_coverage": 0.7,
+        "n_products": 700,
+        "n_streamlined": 490,
+        "n_referred": 210,
+        "coverage": 0.7,
+        "selective_risk": 0.7183673469387755,
+        "wrong_chapter_risk": 0.1326530612244898,
+        "risk_minus_confidence": -0.010204081632653073,
+        "paired_ci95": [
+          -0.026530612244897944,
+          0.0020408163265305283
+        ]
+      },
+      {
+        "policy": "combined",
+        "requested_coverage": 0.7,
+        "n_products": 700,
+        "n_streamlined": 490,
+        "n_referred": 210,
+        "coverage": 0.7,
+        "selective_risk": 0.7204081632653061,
+        "wrong_chapter_risk": 0.14081632653061224,
+        "risk_minus_confidence": -0.008163265306122436,
+        "paired_ci95": [
+          -0.026530612244897944,
+          0.0020408163265306367
+        ]
+      }
+    ],
+    "curves": {
+      "confidence": [
+        {
+          "requested_coverage": 0.1,
+          "n_products": 700,
+          "n_streamlined": 70,
+          "n_referred": 630,
+          "coverage": 0.1,
+          "selective_risk": 0.5571428571428572,
+          "wrong_chapter_risk": 0.05714285714285714
+        },
+        {
+          "requested_coverage": 0.15000000000000002,
+          "n_products": 700,
+          "n_streamlined": 105,
+          "n_referred": 595,
+          "coverage": 0.15,
+          "selective_risk": 0.5619047619047619,
+          "wrong_chapter_risk": 0.06666666666666667
+        },
+        {
+          "requested_coverage": 0.2,
+          "n_products": 700,
+          "n_streamlined": 140,
+          "n_referred": 560,
+          "coverage": 0.2,
+          "selective_risk": 0.5785714285714286,
+          "wrong_chapter_risk": 0.06428571428571428
+        },
+        {
+          "requested_coverage": 0.25,
+          "n_products": 700,
+          "n_streamlined": 175,
+          "n_referred": 525,
+          "coverage": 0.25,
+          "selective_risk": 0.5885714285714285,
+          "wrong_chapter_risk": 0.06857142857142857
+        },
+        {
+          "requested_coverage": 0.30000000000000004,
+          "n_products": 700,
+          "n_streamlined": 210,
+          "n_referred": 490,
+          "coverage": 0.3,
+          "selective_risk": 0.6095238095238096,
+          "wrong_chapter_risk": 0.07142857142857142
+        },
+        {
+          "requested_coverage": 0.35,
+          "n_products": 700,
+          "n_streamlined": 245,
+          "n_referred": 455,
+          "coverage": 0.35,
+          "selective_risk": 0.6285714285714286,
+          "wrong_chapter_risk": 0.08571428571428572
+        },
+        {
+          "requested_coverage": 0.4,
+          "n_products": 700,
+          "n_streamlined": 280,
+          "n_referred": 420,
+          "coverage": 0.4,
+          "selective_risk": 0.6357142857142857,
+          "wrong_chapter_risk": 0.08571428571428572
+        },
+        {
+          "requested_coverage": 0.45000000000000007,
+          "n_products": 700,
+          "n_streamlined": 315,
+          "n_referred": 385,
+          "coverage": 0.45,
+          "selective_risk": 0.6507936507936508,
+          "wrong_chapter_risk": 0.09523809523809523
+        },
+        {
+          "requested_coverage": 0.5,
+          "n_products": 700,
+          "n_streamlined": 350,
+          "n_referred": 350,
+          "coverage": 0.5,
+          "selective_risk": 0.6714285714285714,
+          "wrong_chapter_risk": 0.10857142857142857
+        },
+        {
+          "requested_coverage": 0.55,
+          "n_products": 700,
+          "n_streamlined": 385,
+          "n_referred": 315,
+          "coverage": 0.55,
+          "selective_risk": 0.6909090909090909,
+          "wrong_chapter_risk": 0.10649350649350649
+        },
+        {
+          "requested_coverage": 0.6,
+          "n_products": 700,
+          "n_streamlined": 420,
+          "n_referred": 280,
+          "coverage": 0.6,
+          "selective_risk": 0.7119047619047619,
+          "wrong_chapter_risk": 0.10476190476190476
+        },
+        {
+          "requested_coverage": 0.65,
+          "n_products": 700,
+          "n_streamlined": 455,
+          "n_referred": 245,
+          "coverage": 0.65,
+          "selective_risk": 0.7208791208791209,
+          "wrong_chapter_risk": 0.1076923076923077
+        },
+        {
+          "requested_coverage": 0.7000000000000001,
+          "n_products": 700,
+          "n_streamlined": 490,
+          "n_referred": 210,
+          "coverage": 0.7,
+          "selective_risk": 0.7285714285714285,
+          "wrong_chapter_risk": 0.11224489795918367
+        },
+        {
+          "requested_coverage": 0.75,
+          "n_products": 700,
+          "n_streamlined": 525,
+          "n_referred": 175,
+          "coverage": 0.75,
+          "selective_risk": 0.7428571428571429,
+          "wrong_chapter_risk": 0.11047619047619048
+        },
+        {
+          "requested_coverage": 0.8,
+          "n_products": 700,
+          "n_streamlined": 560,
+          "n_referred": 140,
+          "coverage": 0.8,
+          "selective_risk": 0.7535714285714286,
+          "wrong_chapter_risk": 0.12142857142857143
+        },
+        {
+          "requested_coverage": 0.85,
+          "n_products": 700,
+          "n_streamlined": 595,
+          "n_referred": 105,
+          "coverage": 0.85,
+          "selective_risk": 0.7680672268907563,
+          "wrong_chapter_risk": 0.13109243697478992
+        },
+        {
+          "requested_coverage": 0.9,
+          "n_products": 700,
+          "n_streamlined": 630,
+          "n_referred": 70,
+          "coverage": 0.9,
+          "selective_risk": 0.7793650793650794,
+          "wrong_chapter_risk": 0.13333333333333333
+        },
+        {
+          "requested_coverage": 0.9500000000000001,
+          "n_products": 700,
+          "n_streamlined": 665,
+          "n_referred": 35,
+          "coverage": 0.95,
+          "selective_risk": 0.7879699248120301,
+          "wrong_chapter_risk": 0.13984962406015036
+        },
+        {
+          "requested_coverage": 1.0,
+          "n_products": 700,
+          "n_streamlined": 700,
+          "n_referred": 0,
+          "coverage": 1.0,
+          "selective_risk": 0.7971428571428572,
+          "wrong_chapter_risk": 0.14714285714285713
+        }
+      ],
+      "agreement": [
+        {
+          "requested_coverage": 0.1,
+          "n_products": 700,
+          "n_streamlined": 70,
+          "n_referred": 630,
+          "coverage": 0.1,
+          "selective_risk": 0.4714285714285714,
+          "wrong_chapter_risk": 0.04285714285714286
+        },
+        {
+          "requested_coverage": 0.15000000000000002,
+          "n_products": 700,
+          "n_streamlined": 105,
+          "n_referred": 595,
+          "coverage": 0.15,
+          "selective_risk": 0.47619047619047616,
+          "wrong_chapter_risk": 0.06666666666666667
+        },
+        {
+          "requested_coverage": 0.2,
+          "n_products": 700,
+          "n_streamlined": 140,
+          "n_referred": 560,
+          "coverage": 0.2,
+          "selective_risk": 0.4857142857142857,
+          "wrong_chapter_risk": 0.06428571428571428
+        },
+        {
+          "requested_coverage": 0.25,
+          "n_products": 700,
+          "n_streamlined": 175,
+          "n_referred": 525,
+          "coverage": 0.25,
+          "selective_risk": 0.5257142857142857,
+          "wrong_chapter_risk": 0.09142857142857143
+        },
+        {
+          "requested_coverage": 0.30000000000000004,
+          "n_products": 700,
+          "n_streamlined": 210,
+          "n_referred": 490,
+          "coverage": 0.3,
+          "selective_risk": 0.5714285714285714,
+          "wrong_chapter_risk": 0.12380952380952381
+        },
+        {
+          "requested_coverage": 0.35,
+          "n_products": 700,
+          "n_streamlined": 245,
+          "n_referred": 455,
+          "coverage": 0.35,
+          "selective_risk": 0.5918367346938775,
+          "wrong_chapter_risk": 0.11836734693877551
+        },
+        {
+          "requested_coverage": 0.4,
+          "n_products": 700,
+          "n_streamlined": 280,
+          "n_referred": 420,
+          "coverage": 0.4,
+          "selective_risk": 0.625,
+          "wrong_chapter_risk": 0.11071428571428571
+        },
+        {
+          "requested_coverage": 0.45000000000000007,
+          "n_products": 700,
+          "n_streamlined": 315,
+          "n_referred": 385,
+          "coverage": 0.45,
+          "selective_risk": 0.6412698412698413,
+          "wrong_chapter_risk": 0.11428571428571428
+        },
+        {
+          "requested_coverage": 0.5,
+          "n_products": 700,
+          "n_streamlined": 350,
+          "n_referred": 350,
+          "coverage": 0.5,
+          "selective_risk": 0.6657142857142857,
+          "wrong_chapter_risk": 0.11714285714285715
+        },
+        {
+          "requested_coverage": 0.55,
+          "n_products": 700,
+          "n_streamlined": 385,
+          "n_referred": 315,
+          "coverage": 0.55,
+          "selective_risk": 0.6857142857142857,
+          "wrong_chapter_risk": 0.12467532467532468
+        },
+        {
+          "requested_coverage": 0.6,
+          "n_products": 700,
+          "n_streamlined": 420,
+          "n_referred": 280,
+          "coverage": 0.6,
+          "selective_risk": 0.7,
+          "wrong_chapter_risk": 0.12380952380952381
+        },
+        {
+          "requested_coverage": 0.65,
+          "n_products": 700,
+          "n_streamlined": 455,
+          "n_referred": 245,
+          "coverage": 0.65,
+          "selective_risk": 0.7186813186813187,
+          "wrong_chapter_risk": 0.12087912087912088
+        },
+        {
+          "requested_coverage": 0.7000000000000001,
+          "n_products": 700,
+          "n_streamlined": 490,
+          "n_referred": 210,
+          "coverage": 0.7,
+          "selective_risk": 0.7285714285714285,
+          "wrong_chapter_risk": 0.12040816326530612
+        },
+        {
+          "requested_coverage": 0.75,
+          "n_products": 700,
+          "n_streamlined": 525,
+          "n_referred": 175,
+          "coverage": 0.75,
+          "selective_risk": 0.7409523809523809,
+          "wrong_chapter_risk": 0.1219047619047619
+        },
+        {
+          "requested_coverage": 0.8,
+          "n_products": 700,
+          "n_streamlined": 560,
+          "n_referred": 140,
+          "coverage": 0.8,
+          "selective_risk": 0.7535714285714286,
+          "wrong_chapter_risk": 0.12321428571428572
+        },
+        {
+          "requested_coverage": 0.85,
+          "n_products": 700,
+          "n_streamlined": 595,
+          "n_referred": 105,
+          "coverage": 0.85,
+          "selective_risk": 0.7663865546218488,
+          "wrong_chapter_risk": 0.13445378151260504
+        },
+        {
+          "requested_coverage": 0.9,
+          "n_products": 700,
+          "n_streamlined": 630,
+          "n_referred": 70,
+          "coverage": 0.9,
+          "selective_risk": 0.7777777777777778,
+          "wrong_chapter_risk": 0.14126984126984127
+        },
+        {
+          "requested_coverage": 0.9500000000000001,
+          "n_products": 700,
+          "n_streamlined": 665,
+          "n_referred": 35,
+          "coverage": 0.95,
+          "selective_risk": 0.7879699248120301,
+          "wrong_chapter_risk": 0.14135338345864662
+        },
+        {
+          "requested_coverage": 1.0,
+          "n_products": 700,
+          "n_streamlined": 700,
+          "n_referred": 0,
+          "coverage": 1.0,
+          "selective_risk": 0.7971428571428572,
+          "wrong_chapter_risk": 0.14714285714285713
+        }
+      ],
+      "schedule": [
+        {
+          "requested_coverage": 0.1,
+          "n_products": 700,
+          "n_streamlined": 70,
+          "n_referred": 630,
+          "coverage": 0.1,
+          "selective_risk": 0.42857142857142855,
+          "wrong_chapter_risk": 0.08571428571428572
+        },
+        {
+          "requested_coverage": 0.15000000000000002,
+          "n_products": 700,
+          "n_streamlined": 105,
+          "n_referred": 595,
+          "coverage": 0.15,
+          "selective_risk": 0.4666666666666667,
+          "wrong_chapter_risk": 0.06666666666666667
+        },
+        {
+          "requested_coverage": 0.2,
+          "n_products": 700,
+          "n_streamlined": 140,
+          "n_referred": 560,
+          "coverage": 0.2,
+          "selective_risk": 0.4857142857142857,
+          "wrong_chapter_risk": 0.08571428571428572
+        },
+        {
+          "requested_coverage": 0.25,
+          "n_products": 700,
+          "n_streamlined": 175,
+          "n_referred": 525,
+          "coverage": 0.25,
+          "selective_risk": 0.5314285714285715,
+          "wrong_chapter_risk": 0.10285714285714286
+        },
+        {
+          "requested_coverage": 0.30000000000000004,
+          "n_products": 700,
+          "n_streamlined": 210,
+          "n_referred": 490,
+          "coverage": 0.3,
+          "selective_risk": 0.5428571428571428,
+          "wrong_chapter_risk": 0.10952380952380952
+        },
+        {
+          "requested_coverage": 0.35,
+          "n_products": 700,
+          "n_streamlined": 245,
+          "n_referred": 455,
+          "coverage": 0.35,
+          "selective_risk": 0.5755102040816327,
+          "wrong_chapter_risk": 0.12653061224489795
+        },
+        {
+          "requested_coverage": 0.4,
+          "n_products": 700,
+          "n_streamlined": 280,
+          "n_referred": 420,
+          "coverage": 0.4,
+          "selective_risk": 0.6035714285714285,
+          "wrong_chapter_risk": 0.125
+        },
+        {
+          "requested_coverage": 0.45000000000000007,
+          "n_products": 700,
+          "n_streamlined": 315,
+          "n_referred": 385,
+          "coverage": 0.45,
+          "selective_risk": 0.6158730158730159,
+          "wrong_chapter_risk": 0.13333333333333333
+        },
+        {
+          "requested_coverage": 0.5,
+          "n_products": 700,
+          "n_streamlined": 350,
+          "n_referred": 350,
+          "coverage": 0.5,
+          "selective_risk": 0.6485714285714286,
+          "wrong_chapter_risk": 0.13428571428571429
+        },
+        {
+          "requested_coverage": 0.55,
+          "n_products": 700,
+          "n_streamlined": 385,
+          "n_referred": 315,
+          "coverage": 0.55,
+          "selective_risk": 0.6727272727272727,
+          "wrong_chapter_risk": 0.14025974025974025
+        },
+        {
+          "requested_coverage": 0.6,
+          "n_products": 700,
+          "n_streamlined": 420,
+          "n_referred": 280,
+          "coverage": 0.6,
+          "selective_risk": 0.6952380952380952,
+          "wrong_chapter_risk": 0.14761904761904762
+        },
+        {
+          "requested_coverage": 0.65,
+          "n_products": 700,
+          "n_streamlined": 455,
+          "n_referred": 245,
+          "coverage": 0.65,
+          "selective_risk": 0.7098901098901099,
+          "wrong_chapter_risk": 0.14065934065934066
+        },
+        {
+          "requested_coverage": 0.7000000000000001,
+          "n_products": 700,
+          "n_streamlined": 490,
+          "n_referred": 210,
+          "coverage": 0.7,
+          "selective_risk": 0.7183673469387755,
+          "wrong_chapter_risk": 0.1326530612244898
+        },
+        {
+          "requested_coverage": 0.75,
+          "n_products": 700,
+          "n_streamlined": 525,
+          "n_referred": 175,
+          "coverage": 0.75,
+          "selective_risk": 0.7333333333333333,
+          "wrong_chapter_risk": 0.13142857142857142
+        },
+        {
+          "requested_coverage": 0.8,
+          "n_products": 700,
+          "n_streamlined": 560,
+          "n_referred": 140,
+          "coverage": 0.8,
+          "selective_risk": 0.75,
+          "wrong_chapter_risk": 0.12857142857142856
+        },
+        {
+          "requested_coverage": 0.85,
+          "n_products": 700,
+          "n_streamlined": 595,
+          "n_referred": 105,
+          "coverage": 0.85,
+          "selective_risk": 0.7647058823529411,
+          "wrong_chapter_risk": 0.12436974789915967
+        },
+        {
+          "requested_coverage": 0.9,
+          "n_products": 700,
+          "n_streamlined": 630,
+          "n_referred": 70,
+          "coverage": 0.9,
+          "selective_risk": 0.7761904761904762,
+          "wrong_chapter_risk": 0.13015873015873017
+        },
+        {
+          "requested_coverage": 0.9500000000000001,
+          "n_products": 700,
+          "n_streamlined": 665,
+          "n_referred": 35,
+          "coverage": 0.95,
+          "selective_risk": 0.7879699248120301,
+          "wrong_chapter_risk": 0.13834586466165413
+        },
+        {
+          "requested_coverage": 1.0,
+          "n_products": 700,
+          "n_streamlined": 700,
+          "n_referred": 0,
+          "coverage": 1.0,
+          "selective_risk": 0.7971428571428572,
+          "wrong_chapter_risk": 0.14714285714285713
+        }
+      ],
+      "combined": [
+        {
+          "requested_coverage": 0.1,
+          "n_products": 700,
+          "n_streamlined": 70,
+          "n_referred": 630,
+          "coverage": 0.1,
+          "selective_risk": 0.35714285714285715,
+          "wrong_chapter_risk": 0.07142857142857142
+        },
+        {
+          "requested_coverage": 0.15000000000000002,
+          "n_products": 700,
+          "n_streamlined": 105,
+          "n_referred": 595,
+          "coverage": 0.15,
+          "selective_risk": 0.4,
+          "wrong_chapter_risk": 0.08571428571428572
+        },
+        {
+          "requested_coverage": 0.2,
+          "n_products": 700,
+          "n_streamlined": 140,
+          "n_referred": 560,
+          "coverage": 0.2,
+          "selective_risk": 0.45,
+          "wrong_chapter_risk": 0.1
+        },
+        {
+          "requested_coverage": 0.25,
+          "n_products": 700,
+          "n_streamlined": 175,
+          "n_referred": 525,
+          "coverage": 0.25,
+          "selective_risk": 0.5314285714285715,
+          "wrong_chapter_risk": 0.10857142857142857
+        },
+        {
+          "requested_coverage": 0.30000000000000004,
+          "n_products": 700,
+          "n_streamlined": 210,
+          "n_referred": 490,
+          "coverage": 0.3,
+          "selective_risk": 0.5666666666666667,
+          "wrong_chapter_risk": 0.12380952380952381
+        },
+        {
+          "requested_coverage": 0.35,
+          "n_products": 700,
+          "n_streamlined": 245,
+          "n_referred": 455,
+          "coverage": 0.35,
+          "selective_risk": 0.5877551020408164,
+          "wrong_chapter_risk": 0.11428571428571428
+        },
+        {
+          "requested_coverage": 0.4,
+          "n_products": 700,
+          "n_streamlined": 280,
+          "n_referred": 420,
+          "coverage": 0.4,
+          "selective_risk": 0.6071428571428571,
+          "wrong_chapter_risk": 0.11785714285714285
+        },
+        {
+          "requested_coverage": 0.45000000000000007,
+          "n_products": 700,
+          "n_streamlined": 315,
+          "n_referred": 385,
+          "coverage": 0.45,
+          "selective_risk": 0.6285714285714286,
+          "wrong_chapter_risk": 0.13333333333333333
+        },
+        {
+          "requested_coverage": 0.5,
+          "n_products": 700,
+          "n_streamlined": 350,
+          "n_referred": 350,
+          "coverage": 0.5,
+          "selective_risk": 0.6485714285714286,
+          "wrong_chapter_risk": 0.13142857142857142
+        },
+        {
+          "requested_coverage": 0.55,
+          "n_products": 700,
+          "n_streamlined": 385,
+          "n_referred": 315,
+          "coverage": 0.55,
+          "selective_risk": 0.6597402597402597,
+          "wrong_chapter_risk": 0.13506493506493505
+        },
+        {
+          "requested_coverage": 0.6,
+          "n_products": 700,
+          "n_streamlined": 420,
+          "n_referred": 280,
+          "coverage": 0.6,
+          "selective_risk": 0.6857142857142857,
+          "wrong_chapter_risk": 0.14285714285714285
+        },
+        {
+          "requested_coverage": 0.65,
+          "n_products": 700,
+          "n_streamlined": 455,
+          "n_referred": 245,
+          "coverage": 0.65,
+          "selective_risk": 0.7032967032967034,
+          "wrong_chapter_risk": 0.14725274725274726
+        },
+        {
+          "requested_coverage": 0.7000000000000001,
+          "n_products": 700,
+          "n_streamlined": 490,
+          "n_referred": 210,
+          "coverage": 0.7,
+          "selective_risk": 0.7204081632653061,
+          "wrong_chapter_risk": 0.14081632653061224
+        },
+        {
+          "requested_coverage": 0.75,
+          "n_products": 700,
+          "n_streamlined": 525,
+          "n_referred": 175,
+          "coverage": 0.75,
+          "selective_risk": 0.7333333333333333,
+          "wrong_chapter_risk": 0.13714285714285715
+        },
+        {
+          "requested_coverage": 0.8,
+          "n_products": 700,
+          "n_streamlined": 560,
+          "n_referred": 140,
+          "coverage": 0.8,
+          "selective_risk": 0.7482142857142857,
+          "wrong_chapter_risk": 0.1357142857142857
+        },
+        {
+          "requested_coverage": 0.85,
+          "n_products": 700,
+          "n_streamlined": 595,
+          "n_referred": 105,
+          "coverage": 0.85,
+          "selective_risk": 0.7630252100840336,
+          "wrong_chapter_risk": 0.13109243697478992
+        },
+        {
+          "requested_coverage": 0.9,
+          "n_products": 700,
+          "n_streamlined": 630,
+          "n_referred": 70,
+          "coverage": 0.9,
+          "selective_risk": 0.7746031746031746,
+          "wrong_chapter_risk": 0.13333333333333333
+        },
+        {
+          "requested_coverage": 0.9500000000000001,
+          "n_products": 700,
+          "n_streamlined": 665,
+          "n_referred": 35,
+          "coverage": 0.95,
+          "selective_risk": 0.7864661654135339,
+          "wrong_chapter_risk": 0.14135338345864662
+        },
+        {
+          "requested_coverage": 1.0,
+          "n_products": 700,
+          "n_streamlined": 700,
+          "n_referred": 0,
+          "coverage": 1.0,
+          "selective_risk": 0.7971428571428572,
+          "wrong_chapter_risk": 0.14714285714285713
+        }
+      ]
+    }
+  },
+  "B": {
+    "comparisons": [
+      {
+        "policy": "confidence",
+        "requested_coverage": 0.3,
+        "n_products": 700,
+        "n_streamlined": 210,
+        "n_referred": 490,
+        "coverage": 0.3,
+        "selective_risk": 0.6571428571428571,
+        "wrong_chapter_risk": 0.0761904761904762,
+        "risk_minus_confidence": 0.0,
+        "paired_ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "policy": "agreement",
+        "requested_coverage": 0.3,
+        "n_products": 700,
+        "n_streamlined": 210,
+        "n_referred": 490,
+        "coverage": 0.3,
+        "selective_risk": 0.580952380952381,
+        "wrong_chapter_risk": 0.11428571428571428,
+        "risk_minus_confidence": -0.07619047619047614,
+        "paired_ci95": [
+          -0.1428571428571429,
+          -0.01904761904761909
+        ]
+      },
+      {
+        "policy": "schedule",
+        "requested_coverage": 0.3,
+        "n_products": 700,
+        "n_streamlined": 210,
+        "n_referred": 490,
+        "coverage": 0.3,
+        "selective_risk": 0.5285714285714286,
+        "wrong_chapter_risk": 0.09047619047619047,
+        "risk_minus_confidence": -0.12857142857142856,
+        "paired_ci95": [
+          -0.18571428571428572,
+          -0.08571428571428574
+        ]
+      },
+      {
+        "policy": "combined",
+        "requested_coverage": 0.3,
+        "n_products": 700,
+        "n_streamlined": 210,
+        "n_referred": 490,
+        "coverage": 0.3,
+        "selective_risk": 0.5666666666666667,
+        "wrong_chapter_risk": 0.12380952380952381,
+        "risk_minus_confidence": -0.09047619047619049,
+        "paired_ci95": [
+          -0.1523809523809524,
+          -0.033333333333333326
+        ]
+      },
+      {
+        "policy": "confidence",
+        "requested_coverage": 0.5,
+        "n_products": 700,
+        "n_streamlined": 350,
+        "n_referred": 350,
+        "coverage": 0.5,
+        "selective_risk": 0.6914285714285714,
+        "wrong_chapter_risk": 0.09428571428571429,
+        "risk_minus_confidence": 0.0,
+        "paired_ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "policy": "agreement",
+        "requested_coverage": 0.5,
+        "n_products": 700,
+        "n_streamlined": 350,
+        "n_referred": 350,
+        "coverage": 0.5,
+        "selective_risk": 0.6685714285714286,
+        "wrong_chapter_risk": 0.10857142857142857,
+        "risk_minus_confidence": -0.022857142857142798,
+        "paired_ci95": [
+          -0.042857142857142816,
+          0.011428571428571455
+        ]
+      },
+      {
+        "policy": "schedule",
+        "requested_coverage": 0.5,
+        "n_products": 700,
+        "n_streamlined": 350,
+        "n_referred": 350,
+        "coverage": 0.5,
+        "selective_risk": 0.6085714285714285,
+        "wrong_chapter_risk": 0.12285714285714286,
+        "risk_minus_confidence": -0.08285714285714285,
+        "paired_ci95": [
+          -0.10857142857142865,
+          -0.042857142857142816
+        ]
+      },
+      {
+        "policy": "combined",
+        "requested_coverage": 0.5,
+        "n_products": 700,
+        "n_streamlined": 350,
+        "n_referred": 350,
+        "coverage": 0.5,
+        "selective_risk": 0.6085714285714285,
+        "wrong_chapter_risk": 0.11428571428571428,
+        "risk_minus_confidence": -0.08285714285714285,
+        "paired_ci95": [
+          -0.10857142857142854,
+          -0.0485714285714286
+        ]
+      },
+      {
+        "policy": "confidence",
+        "requested_coverage": 0.7,
+        "n_products": 700,
+        "n_streamlined": 490,
+        "n_referred": 210,
+        "coverage": 0.7,
+        "selective_risk": 0.7224489795918367,
+        "wrong_chapter_risk": 0.11020408163265306,
+        "risk_minus_confidence": 0.0,
+        "paired_ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "policy": "agreement",
+        "requested_coverage": 0.7,
+        "n_products": 700,
+        "n_streamlined": 490,
+        "n_referred": 210,
+        "coverage": 0.7,
+        "selective_risk": 0.7163265306122449,
+        "wrong_chapter_risk": 0.11632653061224489,
+        "risk_minus_confidence": -0.006122448979591799,
+        "paired_ci95": [
+          -0.020408163265306145,
+          0.006122448979591799
+        ]
+      },
+      {
+        "policy": "schedule",
+        "requested_coverage": 0.7,
+        "n_products": 700,
+        "n_streamlined": 490,
+        "n_referred": 210,
+        "coverage": 0.7,
+        "selective_risk": 0.7061224489795919,
+        "wrong_chapter_risk": 0.12857142857142856,
+        "risk_minus_confidence": -0.01632653061224487,
+        "paired_ci95": [
+          -0.03673469387755102,
+          0.0
+        ]
+      },
+      {
+        "policy": "combined",
+        "requested_coverage": 0.7,
+        "n_products": 700,
+        "n_streamlined": 490,
+        "n_referred": 210,
+        "coverage": 0.7,
+        "selective_risk": 0.6979591836734694,
+        "wrong_chapter_risk": 0.1306122448979592,
+        "risk_minus_confidence": -0.024489795918367308,
+        "paired_ci95": [
+          -0.04285714285714293,
+          -0.008163265306122436
+        ]
+      }
+    ],
+    "curves": {
+      "confidence": [
+        {
+          "requested_coverage": 0.1,
+          "n_products": 700,
+          "n_streamlined": 70,
+          "n_referred": 630,
+          "coverage": 0.1,
+          "selective_risk": 0.5,
+          "wrong_chapter_risk": 0.0
+        },
+        {
+          "requested_coverage": 0.15000000000000002,
+          "n_products": 700,
+          "n_streamlined": 105,
+          "n_referred": 595,
+          "coverage": 0.15,
+          "selective_risk": 0.5523809523809524,
+          "wrong_chapter_risk": 0.02857142857142857
+        },
+        {
+          "requested_coverage": 0.2,
+          "n_products": 700,
+          "n_streamlined": 140,
+          "n_referred": 560,
+          "coverage": 0.2,
+          "selective_risk": 0.5857142857142857,
+          "wrong_chapter_risk": 0.05714285714285714
+        },
+        {
+          "requested_coverage": 0.25,
+          "n_products": 700,
+          "n_streamlined": 175,
+          "n_referred": 525,
+          "coverage": 0.25,
+          "selective_risk": 0.64,
+          "wrong_chapter_risk": 0.06857142857142857
+        },
+        {
+          "requested_coverage": 0.30000000000000004,
+          "n_products": 700,
+          "n_streamlined": 210,
+          "n_referred": 490,
+          "coverage": 0.3,
+          "selective_risk": 0.6571428571428571,
+          "wrong_chapter_risk": 0.0761904761904762
+        },
+        {
+          "requested_coverage": 0.35,
+          "n_products": 700,
+          "n_streamlined": 245,
+          "n_referred": 455,
+          "coverage": 0.35,
+          "selective_risk": 0.6612244897959184,
+          "wrong_chapter_risk": 0.07755102040816327
+        },
+        {
+          "requested_coverage": 0.4,
+          "n_products": 700,
+          "n_streamlined": 280,
+          "n_referred": 420,
+          "coverage": 0.4,
+          "selective_risk": 0.6714285714285714,
+          "wrong_chapter_risk": 0.08571428571428572
+        },
+        {
+          "requested_coverage": 0.45000000000000007,
+          "n_products": 700,
+          "n_streamlined": 315,
+          "n_referred": 385,
+          "coverage": 0.45,
+          "selective_risk": 0.6793650793650794,
+          "wrong_chapter_risk": 0.09206349206349207
+        },
+        {
+          "requested_coverage": 0.5,
+          "n_products": 700,
+          "n_streamlined": 350,
+          "n_referred": 350,
+          "coverage": 0.5,
+          "selective_risk": 0.6914285714285714,
+          "wrong_chapter_risk": 0.09428571428571429
+        },
+        {
+          "requested_coverage": 0.55,
+          "n_products": 700,
+          "n_streamlined": 385,
+          "n_referred": 315,
+          "coverage": 0.55,
+          "selective_risk": 0.6961038961038961,
+          "wrong_chapter_risk": 0.1012987012987013
+        },
+        {
+          "requested_coverage": 0.6,
+          "n_products": 700,
+          "n_streamlined": 420,
+          "n_referred": 280,
+          "coverage": 0.6,
+          "selective_risk": 0.7071428571428572,
+          "wrong_chapter_risk": 0.10238095238095238
+        },
+        {
+          "requested_coverage": 0.65,
+          "n_products": 700,
+          "n_streamlined": 455,
+          "n_referred": 245,
+          "coverage": 0.65,
+          "selective_risk": 0.7142857142857143,
+          "wrong_chapter_risk": 0.10329670329670329
+        },
+        {
+          "requested_coverage": 0.7000000000000001,
+          "n_products": 700,
+          "n_streamlined": 490,
+          "n_referred": 210,
+          "coverage": 0.7,
+          "selective_risk": 0.7224489795918367,
+          "wrong_chapter_risk": 0.11020408163265306
+        },
+        {
+          "requested_coverage": 0.75,
+          "n_products": 700,
+          "n_streamlined": 525,
+          "n_referred": 175,
+          "coverage": 0.75,
+          "selective_risk": 0.7333333333333333,
+          "wrong_chapter_risk": 0.11238095238095239
+        },
+        {
+          "requested_coverage": 0.8,
+          "n_products": 700,
+          "n_streamlined": 560,
+          "n_referred": 140,
+          "coverage": 0.8,
+          "selective_risk": 0.7428571428571429,
+          "wrong_chapter_risk": 0.11607142857142858
+        },
+        {
+          "requested_coverage": 0.85,
+          "n_products": 700,
+          "n_streamlined": 595,
+          "n_referred": 105,
+          "coverage": 0.85,
+          "selective_risk": 0.7512605042016807,
+          "wrong_chapter_risk": 0.12941176470588237
+        },
+        {
+          "requested_coverage": 0.9,
+          "n_products": 700,
+          "n_streamlined": 630,
+          "n_referred": 70,
+          "coverage": 0.9,
+          "selective_risk": 0.7619047619047619,
+          "wrong_chapter_risk": 0.14126984126984127
+        },
+        {
+          "requested_coverage": 0.9500000000000001,
+          "n_products": 700,
+          "n_streamlined": 665,
+          "n_referred": 35,
+          "coverage": 0.95,
+          "selective_risk": 0.7729323308270677,
+          "wrong_chapter_risk": 0.1443609022556391
+        },
+        {
+          "requested_coverage": 1.0,
+          "n_products": 700,
+          "n_streamlined": 700,
+          "n_referred": 0,
+          "coverage": 1.0,
+          "selective_risk": 0.7828571428571428,
+          "wrong_chapter_risk": 0.15
+        }
+      ],
+      "agreement": [
+        {
+          "requested_coverage": 0.1,
+          "n_products": 700,
+          "n_streamlined": 70,
+          "n_referred": 630,
+          "coverage": 0.1,
+          "selective_risk": 0.4,
+          "wrong_chapter_risk": 0.02857142857142857
+        },
+        {
+          "requested_coverage": 0.15000000000000002,
+          "n_products": 700,
+          "n_streamlined": 105,
+          "n_referred": 595,
+          "coverage": 0.15,
+          "selective_risk": 0.4666666666666667,
+          "wrong_chapter_risk": 0.047619047619047616
+        },
+        {
+          "requested_coverage": 0.2,
+          "n_products": 700,
+          "n_streamlined": 140,
+          "n_referred": 560,
+          "coverage": 0.2,
+          "selective_risk": 0.4928571428571429,
+          "wrong_chapter_risk": 0.07142857142857142
+        },
+        {
+          "requested_coverage": 0.25,
+          "n_products": 700,
+          "n_streamlined": 175,
+          "n_referred": 525,
+          "coverage": 0.25,
+          "selective_risk": 0.5257142857142857,
+          "wrong_chapter_risk": 0.09714285714285714
+        },
+        {
+          "requested_coverage": 0.30000000000000004,
+          "n_products": 700,
+          "n_streamlined": 210,
+          "n_referred": 490,
+          "coverage": 0.3,
+          "selective_risk": 0.580952380952381,
+          "wrong_chapter_risk": 0.11428571428571428
+        },
+        {
+          "requested_coverage": 0.35,
+          "n_products": 700,
+          "n_streamlined": 245,
+          "n_referred": 455,
+          "coverage": 0.35,
+          "selective_risk": 0.6040816326530613,
+          "wrong_chapter_risk": 0.10612244897959183
+        },
+        {
+          "requested_coverage": 0.4,
+          "n_products": 700,
+          "n_streamlined": 280,
+          "n_referred": 420,
+          "coverage": 0.4,
+          "selective_risk": 0.6321428571428571,
+          "wrong_chapter_risk": 0.10357142857142858
+        },
+        {
+          "requested_coverage": 0.45000000000000007,
+          "n_products": 700,
+          "n_streamlined": 315,
+          "n_referred": 385,
+          "coverage": 0.45,
+          "selective_risk": 0.6571428571428571,
+          "wrong_chapter_risk": 0.10793650793650794
+        },
+        {
+          "requested_coverage": 0.5,
+          "n_products": 700,
+          "n_streamlined": 350,
+          "n_referred": 350,
+          "coverage": 0.5,
+          "selective_risk": 0.6685714285714286,
+          "wrong_chapter_risk": 0.10857142857142857
+        },
+        {
+          "requested_coverage": 0.55,
+          "n_products": 700,
+          "n_streamlined": 385,
+          "n_referred": 315,
+          "coverage": 0.55,
+          "selective_risk": 0.6857142857142857,
+          "wrong_chapter_risk": 0.11428571428571428
+        },
+        {
+          "requested_coverage": 0.6,
+          "n_products": 700,
+          "n_streamlined": 420,
+          "n_referred": 280,
+          "coverage": 0.6,
+          "selective_risk": 0.7,
+          "wrong_chapter_risk": 0.11666666666666667
+        },
+        {
+          "requested_coverage": 0.65,
+          "n_products": 700,
+          "n_streamlined": 455,
+          "n_referred": 245,
+          "coverage": 0.65,
+          "selective_risk": 0.7076923076923077,
+          "wrong_chapter_risk": 0.11868131868131868
+        },
+        {
+          "requested_coverage": 0.7000000000000001,
+          "n_products": 700,
+          "n_streamlined": 490,
+          "n_referred": 210,
+          "coverage": 0.7,
+          "selective_risk": 0.7163265306122449,
+          "wrong_chapter_risk": 0.11632653061224489
+        },
+        {
+          "requested_coverage": 0.75,
+          "n_products": 700,
+          "n_streamlined": 525,
+          "n_referred": 175,
+          "coverage": 0.75,
+          "selective_risk": 0.7276190476190476,
+          "wrong_chapter_risk": 0.12
+        },
+        {
+          "requested_coverage": 0.8,
+          "n_products": 700,
+          "n_streamlined": 560,
+          "n_referred": 140,
+          "coverage": 0.8,
+          "selective_risk": 0.7392857142857143,
+          "wrong_chapter_risk": 0.12142857142857143
+        },
+        {
+          "requested_coverage": 0.85,
+          "n_products": 700,
+          "n_streamlined": 595,
+          "n_referred": 105,
+          "coverage": 0.85,
+          "selective_risk": 0.7512605042016807,
+          "wrong_chapter_risk": 0.12773109243697478
+        },
+        {
+          "requested_coverage": 0.9,
+          "n_products": 700,
+          "n_streamlined": 630,
+          "n_referred": 70,
+          "coverage": 0.9,
+          "selective_risk": 0.7619047619047619,
+          "wrong_chapter_risk": 0.14444444444444443
+        },
+        {
+          "requested_coverage": 0.9500000000000001,
+          "n_products": 700,
+          "n_streamlined": 665,
+          "n_referred": 35,
+          "coverage": 0.95,
+          "selective_risk": 0.7729323308270677,
+          "wrong_chapter_risk": 0.14736842105263157
+        },
+        {
+          "requested_coverage": 1.0,
+          "n_products": 700,
+          "n_streamlined": 700,
+          "n_referred": 0,
+          "coverage": 1.0,
+          "selective_risk": 0.7828571428571428,
+          "wrong_chapter_risk": 0.15
+        }
+      ],
+      "schedule": [
+        {
+          "requested_coverage": 0.1,
+          "n_products": 700,
+          "n_streamlined": 70,
+          "n_referred": 630,
+          "coverage": 0.1,
+          "selective_risk": 0.37142857142857144,
+          "wrong_chapter_risk": 0.04285714285714286
+        },
+        {
+          "requested_coverage": 0.15000000000000002,
+          "n_products": 700,
+          "n_streamlined": 105,
+          "n_referred": 595,
+          "coverage": 0.15,
+          "selective_risk": 0.44761904761904764,
+          "wrong_chapter_risk": 0.0761904761904762
+        },
+        {
+          "requested_coverage": 0.2,
+          "n_products": 700,
+          "n_streamlined": 140,
+          "n_referred": 560,
+          "coverage": 0.2,
+          "selective_risk": 0.5,
+          "wrong_chapter_risk": 0.09285714285714286
+        },
+        {
+          "requested_coverage": 0.25,
+          "n_products": 700,
+          "n_streamlined": 175,
+          "n_referred": 525,
+          "coverage": 0.25,
+          "selective_risk": 0.5028571428571429,
+          "wrong_chapter_risk": 0.09142857142857143
+        },
+        {
+          "requested_coverage": 0.30000000000000004,
+          "n_products": 700,
+          "n_streamlined": 210,
+          "n_referred": 490,
+          "coverage": 0.3,
+          "selective_risk": 0.5285714285714286,
+          "wrong_chapter_risk": 0.09047619047619047
+        },
+        {
+          "requested_coverage": 0.35,
+          "n_products": 700,
+          "n_streamlined": 245,
+          "n_referred": 455,
+          "coverage": 0.35,
+          "selective_risk": 0.5428571428571428,
+          "wrong_chapter_risk": 0.10204081632653061
+        },
+        {
+          "requested_coverage": 0.4,
+          "n_products": 700,
+          "n_streamlined": 280,
+          "n_referred": 420,
+          "coverage": 0.4,
+          "selective_risk": 0.5678571428571428,
+          "wrong_chapter_risk": 0.1
+        },
+        {
+          "requested_coverage": 0.45000000000000007,
+          "n_products": 700,
+          "n_streamlined": 315,
+          "n_referred": 385,
+          "coverage": 0.45,
+          "selective_risk": 0.5904761904761905,
+          "wrong_chapter_risk": 0.1111111111111111
+        },
+        {
+          "requested_coverage": 0.5,
+          "n_products": 700,
+          "n_streamlined": 350,
+          "n_referred": 350,
+          "coverage": 0.5,
+          "selective_risk": 0.6085714285714285,
+          "wrong_chapter_risk": 0.12285714285714286
+        },
+        {
+          "requested_coverage": 0.55,
+          "n_products": 700,
+          "n_streamlined": 385,
+          "n_referred": 315,
+          "coverage": 0.55,
+          "selective_risk": 0.638961038961039,
+          "wrong_chapter_risk": 0.13766233766233765
+        },
+        {
+          "requested_coverage": 0.6,
+          "n_products": 700,
+          "n_streamlined": 420,
+          "n_referred": 280,
+          "coverage": 0.6,
+          "selective_risk": 0.6642857142857143,
+          "wrong_chapter_risk": 0.14047619047619048
+        },
+        {
+          "requested_coverage": 0.65,
+          "n_products": 700,
+          "n_streamlined": 455,
+          "n_referred": 245,
+          "coverage": 0.65,
+          "selective_risk": 0.6835164835164835,
+          "wrong_chapter_risk": 0.12967032967032968
+        },
+        {
+          "requested_coverage": 0.7000000000000001,
+          "n_products": 700,
+          "n_streamlined": 490,
+          "n_referred": 210,
+          "coverage": 0.7,
+          "selective_risk": 0.7061224489795919,
+          "wrong_chapter_risk": 0.12857142857142856
+        },
+        {
+          "requested_coverage": 0.75,
+          "n_products": 700,
+          "n_streamlined": 525,
+          "n_referred": 175,
+          "coverage": 0.75,
+          "selective_risk": 0.7161904761904762,
+          "wrong_chapter_risk": 0.12380952380952381
+        },
+        {
+          "requested_coverage": 0.8,
+          "n_products": 700,
+          "n_streamlined": 560,
+          "n_referred": 140,
+          "coverage": 0.8,
+          "selective_risk": 0.7321428571428571,
+          "wrong_chapter_risk": 0.13035714285714287
+        },
+        {
+          "requested_coverage": 0.85,
+          "n_products": 700,
+          "n_streamlined": 595,
+          "n_referred": 105,
+          "coverage": 0.85,
+          "selective_risk": 0.746218487394958,
+          "wrong_chapter_risk": 0.13109243697478992
+        },
+        {
+          "requested_coverage": 0.9,
+          "n_products": 700,
+          "n_streamlined": 630,
+          "n_referred": 70,
+          "coverage": 0.9,
+          "selective_risk": 0.7587301587301587,
+          "wrong_chapter_risk": 0.13174603174603175
+        },
+        {
+          "requested_coverage": 0.9500000000000001,
+          "n_products": 700,
+          "n_streamlined": 665,
+          "n_referred": 35,
+          "coverage": 0.95,
+          "selective_risk": 0.7714285714285715,
+          "wrong_chapter_risk": 0.1443609022556391
+        },
+        {
+          "requested_coverage": 1.0,
+          "n_products": 700,
+          "n_streamlined": 700,
+          "n_referred": 0,
+          "coverage": 1.0,
+          "selective_risk": 0.7828571428571428,
+          "wrong_chapter_risk": 0.15
+        }
+      ],
+      "combined": [
+        {
+          "requested_coverage": 0.1,
+          "n_products": 700,
+          "n_streamlined": 70,
+          "n_referred": 630,
+          "coverage": 0.1,
+          "selective_risk": 0.32857142857142857,
+          "wrong_chapter_risk": 0.07142857142857142
+        },
+        {
+          "requested_coverage": 0.15000000000000002,
+          "n_products": 700,
+          "n_streamlined": 105,
+          "n_referred": 595,
+          "coverage": 0.15,
+          "selective_risk": 0.3904761904761905,
+          "wrong_chapter_risk": 0.08571428571428572
+        },
+        {
+          "requested_coverage": 0.2,
+          "n_products": 700,
+          "n_streamlined": 140,
+          "n_referred": 560,
+          "coverage": 0.2,
+          "selective_risk": 0.44285714285714284,
+          "wrong_chapter_risk": 0.10714285714285714
+        },
+        {
+          "requested_coverage": 0.25,
+          "n_products": 700,
+          "n_streamlined": 175,
+          "n_referred": 525,
+          "coverage": 0.25,
+          "selective_risk": 0.5314285714285715,
+          "wrong_chapter_risk": 0.10857142857142857
+        },
+        {
+          "requested_coverage": 0.30000000000000004,
+          "n_products": 700,
+          "n_streamlined": 210,
+          "n_referred": 490,
+          "coverage": 0.3,
+          "selective_risk": 0.5666666666666667,
+          "wrong_chapter_risk": 0.12380952380952381
+        },
+        {
+          "requested_coverage": 0.35,
+          "n_products": 700,
+          "n_streamlined": 245,
+          "n_referred": 455,
+          "coverage": 0.35,
+          "selective_risk": 0.5714285714285714,
+          "wrong_chapter_risk": 0.11020408163265306
+        },
+        {
+          "requested_coverage": 0.4,
+          "n_products": 700,
+          "n_streamlined": 280,
+          "n_referred": 420,
+          "coverage": 0.4,
+          "selective_risk": 0.5892857142857143,
+          "wrong_chapter_risk": 0.11428571428571428
+        },
+        {
+          "requested_coverage": 0.45000000000000007,
+          "n_products": 700,
+          "n_streamlined": 315,
+          "n_referred": 385,
+          "coverage": 0.45,
+          "selective_risk": 0.5968253968253968,
+          "wrong_chapter_risk": 0.11746031746031746
+        },
+        {
+          "requested_coverage": 0.5,
+          "n_products": 700,
+          "n_streamlined": 350,
+          "n_referred": 350,
+          "coverage": 0.5,
+          "selective_risk": 0.6085714285714285,
+          "wrong_chapter_risk": 0.11428571428571428
+        },
+        {
+          "requested_coverage": 0.55,
+          "n_products": 700,
+          "n_streamlined": 385,
+          "n_referred": 315,
+          "coverage": 0.55,
+          "selective_risk": 0.6311688311688312,
+          "wrong_chapter_risk": 0.11948051948051948
+        },
+        {
+          "requested_coverage": 0.6,
+          "n_products": 700,
+          "n_streamlined": 420,
+          "n_referred": 280,
+          "coverage": 0.6,
+          "selective_risk": 0.6571428571428571,
+          "wrong_chapter_risk": 0.1380952380952381
+        },
+        {
+          "requested_coverage": 0.65,
+          "n_products": 700,
+          "n_streamlined": 455,
+          "n_referred": 245,
+          "coverage": 0.65,
+          "selective_risk": 0.6747252747252748,
+          "wrong_chapter_risk": 0.13626373626373625
+        },
+        {
+          "requested_coverage": 0.7000000000000001,
+          "n_products": 700,
+          "n_streamlined": 490,
+          "n_referred": 210,
+          "coverage": 0.7,
+          "selective_risk": 0.6979591836734694,
+          "wrong_chapter_risk": 0.1306122448979592
+        },
+        {
+          "requested_coverage": 0.75,
+          "n_products": 700,
+          "n_streamlined": 525,
+          "n_referred": 175,
+          "coverage": 0.75,
+          "selective_risk": 0.7180952380952381,
+          "wrong_chapter_risk": 0.1295238095238095
+        },
+        {
+          "requested_coverage": 0.8,
+          "n_products": 700,
+          "n_streamlined": 560,
+          "n_referred": 140,
+          "coverage": 0.8,
+          "selective_risk": 0.7321428571428571,
+          "wrong_chapter_risk": 0.13392857142857142
+        },
+        {
+          "requested_coverage": 0.85,
+          "n_products": 700,
+          "n_streamlined": 595,
+          "n_referred": 105,
+          "coverage": 0.85,
+          "selective_risk": 0.746218487394958,
+          "wrong_chapter_risk": 0.1361344537815126
+        },
+        {
+          "requested_coverage": 0.9,
+          "n_products": 700,
+          "n_streamlined": 630,
+          "n_referred": 70,
+          "coverage": 0.9,
+          "selective_risk": 0.7587301587301587,
+          "wrong_chapter_risk": 0.1365079365079365
+        },
+        {
+          "requested_coverage": 0.9500000000000001,
+          "n_products": 700,
+          "n_streamlined": 665,
+          "n_referred": 35,
+          "coverage": 0.95,
+          "selective_risk": 0.7714285714285715,
+          "wrong_chapter_risk": 0.14586466165413534
+        },
+        {
+          "requested_coverage": 1.0,
+          "n_products": 700,
+          "n_streamlined": 700,
+          "n_referred": 0,
+          "coverage": 1.0,
+          "selective_risk": 0.7828571428571428,
+          "wrong_chapter_risk": 0.15
+        }
+      ]
+    }
+  }
+}

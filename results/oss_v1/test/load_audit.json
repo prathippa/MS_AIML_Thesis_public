@@ -1,0 +1,165 @@
+{
+  "input_count": 200,
+  "included_count": 169,
+  "excluded_count": 31,
+  "multi_policy": "exclude",
+  "exclusions": [
+    {
+      "case_id": "test:5",
+      "source_index": 5,
+      "reason": "multi_code_excluded"
+    },
+    {
+      "case_id": "test:24",
+      "source_index": 24,
+      "reason": "multi_code_excluded"
+    },
+    {
+      "case_id": "test:27",
+      "source_index": 27,
+      "reason": "multi_code_excluded"
+    },
+    {
+      "case_id": "test:28",
+      "source_index": 28,
+      "reason": "multi_code_excluded"
+    },
+    {
+      "case_id": "test:29",
+      "source_index": 29,
+      "reason": "multi_code_excluded"
+    },
+    {
+      "case_id": "test:32",
+      "source_index": 32,
+      "reason": "multi_code_excluded"
+    },
+    {
+      "case_id": "test:33",
+      "source_index": 33,
+      "reason": "multi_code_excluded"
+    },
+    {
+      "case_id": "test:67",
+      "source_index": 67,
+      "reason": "multi_code_excluded"
+    },
+    {
+      "case_id": "test:74",
+      "source_index": 74,
+      "reason": "multi_code_excluded"
+    },
+    {
+      "case_id": "test:75",
+      "source_index": 75,
+      "reason": "multi_code_excluded"
+    },
+    {
+      "case_id": "test:78",
+      "source_index": 78,
+      "reason": "multi_code_excluded"
+    },
+    {
+      "case_id": "test:80",
+      "source_index": 80,
+      "reason": "multi_code_excluded"
+    },
+    {
+      "case_id": "test:89",
+      "source_index": 89,
+      "reason": "multi_code_excluded"
+    },
+    {
+      "case_id": "test:90",
+      "source_index": 90,
+      "reason": "multi_code_excluded"
+    },
+    {
+      "case_id": "test:93",
+      "source_index": 93,
+      "reason": "multi_code_excluded"
+    },
+    {
+      "case_id": "test:102",
+      "source_index": 102,
+      "reason": "multi_code_excluded"
+    },
+    {
+      "case_id": "test:108",
+      "source_index": 108,
+      "reason": "multi_code_excluded"
+    },
+    {
+      "case_id": "test:112",
+      "source_index": 112,
+      "reason": "multi_code_excluded"
+    },
+    {
+      "case_id": "test:116",
+      "source_index": 116,
+      "reason": "multi_code_excluded"
+    },
+    {
+      "case_id": "test:119",
+      "source_index": 119,
+      "reason": "multi_code_excluded"
+    },
+    {
+      "case_id": "test:136",
+      "source_index": 136,
+      "reason": "multi_code_excluded"
+    },
+    {
+      "case_id": "test:138",
+      "source_index": 138,
+      "reason": "multi_code_excluded"
+    },
+    {
+      "case_id": "test:139",
+      "source_index": 139,
+      "reason": "multi_code_excluded"
+    },
+    {
+      "case_id": "test:142",
+      "source_index": 142,
+      "reason": "multi_code_excluded"
+    },
+    {
+      "case_id": "test:144",
+      "source_index": 144,
+      "reason": "multi_code_excluded"
+    },
+    {
+      "case_id": "test:145",
+      "source_index": 145,
+      "reason": "multi_code_excluded"
+    },
+    {
+      "case_id": "test:150",
+      "source_index": 150,
+      "reason": "multi_code_excluded"
+    },
+    {
+      "case_id": "test:160",
+      "source_index": 160,
+      "reason": "multi_code_excluded"
+    },
+    {
+      "case_id": "test:169",
+      "source_index": 169,
+      "reason": "multi_code_excluded"
+    },
+    {
+      "case_id": "test:183",
+      "source_index": 183,
+      "reason": "multi_code_excluded"
+    },
+    {
+      "case_id": "test:188",
+      "source_index": 188,
+      "reason": "no_10_digit_gold"
+    }
+  ],
+  "file_hash": "58e2d0716bc12a39fe9827e809dda974fb8ac3a5473a9f374b645774e28c5c18",
+  "records_hash": "af08b95af937ef037fbc40d93f11928812d19312786e145463c03d4b13573260"
+}

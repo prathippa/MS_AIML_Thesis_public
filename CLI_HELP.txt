@@ -1,0 +1,12 @@
+usage: run_study.py [-h] [--root ROOT]
+                    {init,prepare,evidence,generate,metrics,calibrate,route,prepare-judge,export-human,judge,validate-human,report}
+                    ...
+
+Real split-aware CLI. All root options precede the stage name.
+
+positional arguments:
+  {init,prepare,evidence,generate,metrics,calibrate,route,prepare-judge,export-human,judge,validate-human,report}
+
+options:
+  -h, --help            show this help message and exit
+  --root ROOT

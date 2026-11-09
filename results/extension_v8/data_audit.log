@@ -1,0 +1,24 @@
+{
+  "status": "candidate_cohort_no_model_calls; prospective_protocol_not_yet_final",
+  "source_sha256": "0d2af9dca04c3d49c6ee3646b5daa47ff6639dd2d0b1e441f5b4a1bd75de4877",
+  "source_revision": "0a66ad345d3fc9828f362836d86b31e20798513c",
+  "seed": 20261104,
+  "single_code_rows": 14637,
+  "distinct_descriptions": 13164,
+  "conflicting_gold_description_groups_excluded": 265,
+  "exact_description_groups_overlapping_prior": 56,
+  "exact_reasoning_matches_excluded": 0,
+  "near_prior_matches_excluded": 36,
+  "near_duplicate_rule": "char_wb TFIDF (3,5), max_features=100000, cosine >= 0.90",
+  "development_n": 200,
+  "evaluation_n": 400,
+  "limits": [
+    "Source-ruling IDs absent; heuristic deduplication cannot prove ruling independence",
+    "Public benchmark training split; model-training exposure unknown",
+    "Historical golds may differ from current tariff release",
+    "Cohort size is provisional, not justified as adequate power"
+  ],
+  "analysis_source_sha256": "7d37b6a0fb58539fa39fa57e0a0df4e51e7229a535ce9fc31db8b1f64efc8a72",
+  "development_gold_listed_count": 178,
+  "evaluation_gold_listed_count": 357
+}

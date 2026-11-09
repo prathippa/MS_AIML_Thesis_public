@@ -1,0 +1,12 @@
+{
+  "scope": "Input snapshot at reanalysis, not a historical response seal",
+  "files": {
+    "rq3_manifest.json": "0c06543f8716502f09e0cc014bb43673f68ee23f8bfaf51f6622ccc44ab048a9",
+    "judge_cases.jsonl": "2ec197009fe09d7ab42571b796af2320fa34cb9dfa63cae2dfaeff33149ebb7a",
+    "judge_case_truth.jsonl": "64b35dc925c3590cfbd09a4100e1185b732576754cbf498adebb1b8c69ed8011",
+    "judge_results.jsonl": "4653e56b3c4b4bd7bea3c14ae803618e0b7580f841a2157908315ece511ebfdd"
+  },
+  "analysis_sha256": "74fc2953bf6e059c9fbc6b48c9d9407ef585848d0bf37c42f65f51f9961bb42f",
+  "n_boot": 2000,
+  "seed": 7
+}

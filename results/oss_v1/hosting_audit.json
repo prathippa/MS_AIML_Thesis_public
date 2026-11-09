@@ -1,0 +1,2681 @@
+{
+ "counts": {
+  "Sail Research": 16,
+  "Venice": 46,
+  "Novita": 13,
+  "Mancer 2": 21,
+  "CoreWeave": 43,
+  "Near AI": 55,
+  "DeepInfra": 40,
+  "Crusoe": 16,
+  "DekaLLM": 31,
+  "AkashML": 33,
+  "Parasail": 5,
+  "Groq": 2,
+  "Together": 2,
+  "Amazon Bedrock": 2,
+  "SiliconFlow": 1,
+  "BaseTen": 2,
+  "Nebius": 1,
+  "Mara": 2,
+  "SambaNova": 1
+ },
+ "calls": [
+  {
+   "split": "validation",
+   "case_id": "validation:0",
+   "attempt": 1,
+   "response_id": "gen-1793353111-fSeZ0NgbbprH5Z4YPksn",
+   "provider": "Sail Research",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:1",
+   "attempt": 1,
+   "response_id": "gen-1793353118-9r8Hbmoiz7ujN95uTtMq",
+   "provider": "Sail Research",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:2",
+   "attempt": 1,
+   "response_id": "gen-1793353123-UfFBAwNQsM1ZiS3xlDHz",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:3",
+   "attempt": 1,
+   "response_id": "gen-1793353137-gpYVJdCGkjJY1j83JPHU",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:4",
+   "attempt": 1,
+   "response_id": "gen-1793353146-F8ptTrigv5QnbzEXYw6Q",
+   "provider": "Novita",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:5",
+   "attempt": 1,
+   "response_id": "gen-1793353152-vWC9l5ZMRhXW2RvUrNIM",
+   "provider": "Mancer 2",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:6",
+   "attempt": 1,
+   "response_id": "gen-1793353172-PjgXUuCpDGg78ZuOni0X",
+   "provider": "CoreWeave",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:7",
+   "attempt": 1,
+   "response_id": "gen-1793353188-vsDFnHyydBcR0XZzjPFC",
+   "provider": "Mancer 2",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:8",
+   "attempt": 1,
+   "response_id": "gen-1793353209-ukI5S6e6mLLAinOFvSc0",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:10",
+   "attempt": 1,
+   "response_id": "gen-1793353226-0ya9eud5zst2jF3E4P4w",
+   "provider": "DeepInfra",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:11",
+   "attempt": 1,
+   "response_id": "gen-1793353250-bNNG2a45yDtxOdQehNGt",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:12",
+   "attempt": 1,
+   "response_id": "gen-1793353265-27jE7j5kOucZsYqXaQdY",
+   "provider": "Crusoe",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:14",
+   "attempt": 1,
+   "response_id": "gen-1793353270-kb7ireHU1pEkXGWcBf3U",
+   "provider": "DeepInfra",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:15",
+   "attempt": 1,
+   "response_id": "gen-1793353281-SrGpHO9CeZ46mLP8FkfC",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:16",
+   "attempt": 1,
+   "response_id": "gen-1793353302-XR71KRzrnoLJblypS4mc",
+   "provider": "DekaLLM",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:18",
+   "attempt": 1,
+   "response_id": "gen-1793353308-OK47GIiRGzTZgZWPLHB0",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:19",
+   "attempt": 1,
+   "response_id": "gen-1793353319-nchWPVTXnmmoimRSpvly",
+   "provider": "DeepInfra",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:20",
+   "attempt": 1,
+   "response_id": "gen-1793353331-Ig1hPVldQ2KeKDKENxO8",
+   "provider": "Crusoe",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:21",
+   "attempt": 1,
+   "response_id": "gen-1793353334-JcM7bzg9dtAc5UlzfNuz",
+   "provider": "Sail Research",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:22",
+   "attempt": 1,
+   "response_id": "gen-1793353339-alN2yudA0GX8hizS8eE2",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:23",
+   "attempt": 1,
+   "response_id": "gen-1793353358-TSl0h29lz6u2LllKJaOa",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:24",
+   "attempt": 1,
+   "response_id": "gen-1793353374-q8fCyoYsbEWppuT6sA08",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:25",
+   "attempt": 1,
+   "response_id": "gen-1793353385-xO5Q43kd4P5WXIuS5vNH",
+   "provider": "CoreWeave",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:25",
+   "attempt": 2,
+   "response_id": "gen-1793353409-uYquovluUzgO3hBtuHZt",
+   "provider": "Novita",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:26",
+   "attempt": 1,
+   "response_id": "gen-1793353415-2wrHrWy7ahub6XDFoXmp",
+   "provider": "AkashML",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:27",
+   "attempt": 1,
+   "response_id": "gen-1793353420-jWj4kZ3XIXndWADTS21L",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:31",
+   "attempt": 1,
+   "response_id": "gen-1793353437-G3aadEud9C8lgG4LlzOt",
+   "provider": "DeepInfra",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:32",
+   "attempt": 1,
+   "response_id": "gen-1793353445-wg6vboe25QR1NOJHtE5S",
+   "provider": "DekaLLM",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:34",
+   "attempt": 1,
+   "response_id": "gen-1793353457-PUlaU1wOZKk1S1s7ax5L",
+   "provider": "AkashML",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:35",
+   "attempt": 1,
+   "response_id": "gen-1793353463-lHGgRij5N2IJ1V6QjoiH",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:36",
+   "attempt": 1,
+   "response_id": "gen-1793353506-5rdqHvBpKaFWMan8hAQu",
+   "provider": "DekaLLM",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:38",
+   "attempt": 1,
+   "response_id": "gen-1793353520-FJG623TCRP4Nzk7ikKbt",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:39",
+   "attempt": 1,
+   "response_id": "gen-1793353530-gG5cTgrsA72xL8Adlkov",
+   "provider": "CoreWeave",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:40",
+   "attempt": 1,
+   "response_id": "gen-1793353538-c5ECdLwQW7w8XkxdjcqW",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:41",
+   "attempt": 1,
+   "response_id": "gen-1793353552-ngOipfOHajwTUxDwPaRb",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:42",
+   "attempt": 1,
+   "response_id": "gen-1793353570-OWGKHWQIXxIQITAiYWKS",
+   "provider": "CoreWeave",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:43",
+   "attempt": 1,
+   "response_id": "gen-1793353607-X9PdJHQV4jwJNGDWHxds",
+   "provider": "DekaLLM",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:44",
+   "attempt": 1,
+   "response_id": "gen-1793353619-OHgmKmXXM7gKiFRZ5eYN",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:45",
+   "attempt": 1,
+   "response_id": "gen-1793353632-W15kBlrkOGsVvl3PSM9S",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:48",
+   "attempt": 1,
+   "response_id": "gen-1793353651-rmy66aHy4L0WXf1StmMC",
+   "provider": "AkashML",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:49",
+   "attempt": 1,
+   "response_id": "gen-1793353656-UBTuf9Ft6caZq4uUH7s1",
+   "provider": "Novita",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:50",
+   "attempt": 1,
+   "response_id": "gen-1793353660-ttJmZ1RMr2vKb4sjCoZx",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:51",
+   "attempt": 1,
+   "response_id": "gen-1793353670-Nak41PTfnQg9Z5gRanwV",
+   "provider": "DeepInfra",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:52",
+   "attempt": 1,
+   "response_id": "gen-1793353682-zIvHHkJM1E6icX2A1OtJ",
+   "provider": "Crusoe",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:53",
+   "attempt": 1,
+   "response_id": "gen-1793353684-1v4LhiwL1rCmJuIW5EyA",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:53",
+   "attempt": 2,
+   "response_id": "gen-1793353700-un1GLhqmbAtg43uw3pi2",
+   "provider": "CoreWeave",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:54",
+   "attempt": 1,
+   "response_id": "gen-1793353711-KMVJzPTxmRQpEmGJfHXL",
+   "provider": "AkashML",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:55",
+   "attempt": 1,
+   "response_id": "gen-1793353718-p391JJGxzgNSjhHRrQF5",
+   "provider": "AkashML",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:56",
+   "attempt": 1,
+   "response_id": "gen-1793353728-LbPUJvZqezXbMf2tyylK",
+   "provider": "CoreWeave",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:57",
+   "attempt": 1,
+   "response_id": "gen-1793353745-oEXFtS35a7Jr86ivJjoy",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:58",
+   "attempt": 1,
+   "response_id": "gen-1793353764-EU5spBxcUguCErPspviy",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:59",
+   "attempt": 1,
+   "response_id": "gen-1793353775-IlUKdkmrbCcc9I3Bnpzv",
+   "provider": "AkashML",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:60",
+   "attempt": 1,
+   "response_id": "gen-1793353779-ODfGJIWOecP5CbJK79Ln",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:61",
+   "attempt": 1,
+   "response_id": "gen-1793353802-CpcApMiuv4d3XEHsy96l",
+   "provider": "DekaLLM",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:62",
+   "attempt": 1,
+   "response_id": "gen-1793353823-ObUcZpA4vlnuQ5ljGgud",
+   "provider": "CoreWeave",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:63",
+   "attempt": 1,
+   "response_id": "gen-1793353842-62pFYWrDIwHmUOEBKJOu",
+   "provider": "AkashML",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:64",
+   "attempt": 1,
+   "response_id": "gen-1793353849-vPsF5k5InhWU6NnkVUjA",
+   "provider": "Parasail",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:65",
+   "attempt": 1,
+   "response_id": "gen-1793353852-sZGHujhEJXSpP3yQS5zg",
+   "provider": "CoreWeave",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:66",
+   "attempt": 1,
+   "response_id": "gen-1793353872-Oy6TfYRgD3SjpqkEdImf",
+   "provider": "AkashML",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:68",
+   "attempt": 1,
+   "response_id": "gen-1793353878-RVVnGwocDfJpgHKfaGGR",
+   "provider": "Crusoe",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:70",
+   "attempt": 1,
+   "response_id": "gen-1793353881-QbAmOvPMg4bLrOP5I2Xu",
+   "provider": "Novita",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:71",
+   "attempt": 1,
+   "response_id": "gen-1793353888-A5BF8ZopxPBG6q6R4xly",
+   "provider": "Sail Research",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:72",
+   "attempt": 1,
+   "response_id": "gen-1793353894-6hiiGdtanvpNgQ45X4gU",
+   "provider": "Mancer 2",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:73",
+   "attempt": 1,
+   "response_id": "gen-1793353935-kyWPZadOL9350j3EA6Dj",
+   "provider": "Groq",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:74",
+   "attempt": 1,
+   "response_id": "gen-1793353937-fgU7Jo91JOGfRpK1N9SZ",
+   "provider": "CoreWeave",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:75",
+   "attempt": 1,
+   "response_id": "gen-1793353955-TgCbL69tNurXRq2dKGrL",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:78",
+   "attempt": 1,
+   "response_id": "gen-1793353975-N7f8tO6Mg4trOALk31GO",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:80",
+   "attempt": 1,
+   "response_id": "gen-1793353989-wocLjaGx8NBEeXNbdRf7",
+   "provider": "DekaLLM",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:82",
+   "attempt": 1,
+   "response_id": "gen-1793353994-qgosdIaqQGsoRxurFfwS",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:84",
+   "attempt": 1,
+   "response_id": "gen-1793354010-HIXjBWaUL7MAkzsiUzcY",
+   "provider": "AkashML",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:85",
+   "attempt": 1,
+   "response_id": "gen-1793354024-VixYRD0bd1onyVotVEDi",
+   "provider": "CoreWeave",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:86",
+   "attempt": 1,
+   "response_id": "gen-1793354069-dOy3zxsLYF488vmgxS1g",
+   "provider": "DeepInfra",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:87",
+   "attempt": 1,
+   "response_id": "gen-1793354092-1lxyZM104GBTp7GXCdCu",
+   "provider": "DeepInfra",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:88",
+   "attempt": 1,
+   "response_id": "gen-1793354103-JN2hSe7cLDaQoqWwlDh7",
+   "provider": "CoreWeave",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:89",
+   "attempt": 1,
+   "response_id": "gen-1793354124-GZmNmTlQ78ZnGv6UnRhl",
+   "provider": "CoreWeave",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:90",
+   "attempt": 1,
+   "response_id": "gen-1793354136-3eZADTmmnyEAw4nLsRhV",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:92",
+   "attempt": 1,
+   "response_id": "gen-1793354150-sRbsAwwsZTyGQBG3lGFU",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:93",
+   "attempt": 1,
+   "response_id": "gen-1793354170-xrJniftuTbMguaW61Sye",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:94",
+   "attempt": 1,
+   "response_id": "gen-1793354183-8CT3CVI0guE9flRVecta",
+   "provider": "Sail Research",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:96",
+   "attempt": 1,
+   "response_id": "gen-1793354186-rZMFfA5X8obMODuujArG",
+   "provider": "AkashML",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:97",
+   "attempt": 1,
+   "response_id": "gen-1793354194-lVziO8HgRrFwFS0etOXa",
+   "provider": "CoreWeave",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:98",
+   "attempt": 1,
+   "response_id": "gen-1793354212-6Ok6tOSNYFZT1rJAvCTy",
+   "provider": "Mancer 2",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:99",
+   "attempt": 1,
+   "response_id": "gen-1793354243-FITXVcmqKx6y7mF6eQLl",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:100",
+   "attempt": 1,
+   "response_id": "gen-1793354257-FVKI6SvrHz7jVdB78hUn",
+   "provider": "Together",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:101",
+   "attempt": 1,
+   "response_id": "gen-1793354268-wYoiBIkFZxPCGyCFOFOz",
+   "provider": "DeepInfra",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:104",
+   "attempt": 1,
+   "response_id": "gen-1793354278-PBccW4WntSS4Wl2RRAiL",
+   "provider": "DekaLLM",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:104",
+   "attempt": 2,
+   "response_id": "gen-1793354288-6qE6tB3O70iqu20ZPFdm",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:105",
+   "attempt": 1,
+   "response_id": "gen-1793354301-PcOIjjqRmJs7mEqMCix6",
+   "provider": "Sail Research",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:107",
+   "attempt": 1,
+   "response_id": "gen-1793354305-rV6F5UwRh6QfzYKDdHX1",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:107",
+   "attempt": 2,
+   "response_id": "gen-1793354322-yGTjvgCwTWfIwZExOUD7",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:108",
+   "attempt": 1,
+   "response_id": "gen-1793354339-mc4lgK2DuwDgX8hbepZv",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:110",
+   "attempt": 1,
+   "response_id": "gen-1793354354-6SGzV7QTz2ynqgOmAJ92",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:112",
+   "attempt": 1,
+   "response_id": "gen-1793354365-E6igeW61fSACHw50L6jp",
+   "provider": "Crusoe",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:114",
+   "attempt": 1,
+   "response_id": "gen-1793354367-kekuHqDdmZxT2s0yMszu",
+   "provider": "DekaLLM",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:115",
+   "attempt": 1,
+   "response_id": "gen-1793354388-2EVW4GzXdYyXvAopQyAY",
+   "provider": "Novita",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:116",
+   "attempt": 1,
+   "response_id": "gen-1793354395-eFpARqfj8XWLCRICTo2Q",
+   "provider": "DeepInfra",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:117",
+   "attempt": 1,
+   "response_id": "gen-1793354411-9gazRiMP9SEVbejzSvV0",
+   "provider": "DeepInfra",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:118",
+   "attempt": 1,
+   "response_id": "gen-1793354424-7KXkeVXmJ9cK6FlMF5KX",
+   "provider": "Crusoe",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:119",
+   "attempt": 1,
+   "response_id": "gen-1793354428-fPU8aUw0IfyCIVkurUZD",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:120",
+   "attempt": 1,
+   "response_id": "gen-1793354439-En6g80Yed3iFhRjhy5kY",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:123",
+   "attempt": 1,
+   "response_id": "gen-1793354455-JZLc2fstepWoIt9YEHuq",
+   "provider": "Amazon Bedrock",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:124",
+   "attempt": 1,
+   "response_id": "gen-1793354457-Ah2WNS8y3eJdsZVdwzIZ",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:125",
+   "attempt": 1,
+   "response_id": "gen-1793354477-z7w6V03lQHHEWzGjNmMw",
+   "provider": "Mancer 2",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:126",
+   "attempt": 1,
+   "response_id": "gen-1793354493-ezBFXM4CxgWTS0LtUBoM",
+   "provider": "DeepInfra",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:127",
+   "attempt": 1,
+   "response_id": "gen-1793354501-xrqMQbIiLLy5Z7X74nuu",
+   "provider": "CoreWeave",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:128",
+   "attempt": 1,
+   "response_id": "gen-1793354520-87CuBymqE56F6fgiSW4m",
+   "provider": "CoreWeave",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:132",
+   "attempt": 1,
+   "response_id": "gen-1793354542-BpRwkVUO7SfFaX3RSXKO",
+   "provider": "Crusoe",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:134",
+   "attempt": 1,
+   "response_id": "gen-1793354543-rk8gRdlSSVJEsHAQK9Ho",
+   "provider": "Parasail",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:135",
+   "attempt": 1,
+   "response_id": "gen-1793354547-BVP0Y9ZetMHnAuo6XGMs",
+   "provider": "DeepInfra",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:138",
+   "attempt": 1,
+   "response_id": "gen-1793354556-G7R1NNm7eO5DSwCAbbTt",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:139",
+   "attempt": 1,
+   "response_id": "gen-1793354574-PmkPIiF1ecFlZ3STT4aW",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:140",
+   "attempt": 1,
+   "response_id": "gen-1793354590-5yoVsjlQMvqwq04bQgEc",
+   "provider": "Together",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:141",
+   "attempt": 1,
+   "response_id": "gen-1793354597-ExX6hH6f21Ta3HSFw8QT",
+   "provider": "Crusoe",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:142",
+   "attempt": 1,
+   "response_id": "gen-1793354601-nAXuFgA2Y6ekhTvPpRzW",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:143",
+   "attempt": 1,
+   "response_id": "gen-1793354615-fQdrgRU2YMiAR6L6N53F",
+   "provider": "DeepInfra",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:144",
+   "attempt": 1,
+   "response_id": "gen-1793354631-FyQPoNfwfUlbqghr1I1t",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:145",
+   "attempt": 1,
+   "response_id": "gen-1793354649-QMXzqhJGUniZSxg4Urce",
+   "provider": "Mancer 2",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:146",
+   "attempt": 1,
+   "response_id": "gen-1793354667-nCFLzcwhXO02cPvHLkCU",
+   "provider": "AkashML",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:147",
+   "attempt": 1,
+   "response_id": "gen-1793354673-3nROcriEx4yrSNkdVzDu",
+   "provider": "DeepInfra",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:149",
+   "attempt": 1,
+   "response_id": "gen-1793354686-BDfhYUHr4enDKrZd7tz4",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:150",
+   "attempt": 1,
+   "response_id": "gen-1793354698-jLRZwUChHQfKvosYl3Mh",
+   "provider": "CoreWeave",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:151",
+   "attempt": 1,
+   "response_id": "gen-1793354718-W3saSt0D3H2QxvUW9IbX",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:152",
+   "attempt": 1,
+   "response_id": "gen-1793354737-Iq7Jg6ZmU0sJqo6ujx9M",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:153",
+   "attempt": 1,
+   "response_id": "gen-1793354748-uhfEavxYZxBBMJvBbtad",
+   "provider": "AkashML",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:156",
+   "attempt": 1,
+   "response_id": "gen-1793354755-VTQQItdQ7kWTQ1LXmiyO",
+   "provider": "DekaLLM",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:157",
+   "attempt": 1,
+   "response_id": "gen-1793354764-itHbKZZRTLeyoTjLPYGy",
+   "provider": "CoreWeave",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:158",
+   "attempt": 1,
+   "response_id": "gen-1793354778-vHFjFm8PRkHYW12AHFtB",
+   "provider": "DekaLLM",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:159",
+   "attempt": 1,
+   "response_id": "gen-1793354807-UDTvlFaXappBg283uwCZ",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:161",
+   "attempt": 1,
+   "response_id": "gen-1793354844-uUO6dxIZjAHLXEC67Bou",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:162",
+   "attempt": 1,
+   "response_id": "gen-1793354853-8XfxWJUowgAQCsftgrS1",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:163",
+   "attempt": 1,
+   "response_id": "gen-1793354875-6pUdetajo0WqgFhTLOn7",
+   "provider": "CoreWeave",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:164",
+   "attempt": 1,
+   "response_id": "gen-1793354890-ejlOSFJOe76hoPVHFqW8",
+   "provider": "Sail Research",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:166",
+   "attempt": 1,
+   "response_id": "gen-1793354897-w2s6ti7v3bX8EnZxxRig",
+   "provider": "SiliconFlow",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:167",
+   "attempt": 1,
+   "response_id": "gen-1793354904-pqGW5oXbwQSyecVD0RHY",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:170",
+   "attempt": 1,
+   "response_id": "gen-1793354919-mbSyalMrl7BMikzL8pzy",
+   "provider": "AkashML",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:171",
+   "attempt": 1,
+   "response_id": "gen-1793354932-O8ybUwvpRrlJq4UWtHlh",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:172",
+   "attempt": 1,
+   "response_id": "gen-1793354947-BtGYa3DYpYA2XShSt4Mn",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:173",
+   "attempt": 1,
+   "response_id": "gen-1793354970-DWxm8VdVsnb0cY9utGIF",
+   "provider": "DeepInfra",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:174",
+   "attempt": 1,
+   "response_id": "gen-1793354981-PHcH03G4Ax5BbXbHi6yD",
+   "provider": "Mancer 2",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:175",
+   "attempt": 1,
+   "response_id": "gen-1793354997-gwttGZL5C1iJIlqlikKO",
+   "provider": "DeepInfra",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:176",
+   "attempt": 1,
+   "response_id": "gen-1793355012-Idnw6cGK3ufoQDMtwj7N",
+   "provider": "Mancer 2",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:177",
+   "attempt": 1,
+   "response_id": "gen-1793355027-63bCZFyQs1RRUVlf94W3",
+   "provider": "CoreWeave",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:178",
+   "attempt": 1,
+   "response_id": "gen-1793355058-2fkXifWqGEYdx0peFbGh",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:179",
+   "attempt": 1,
+   "response_id": "gen-1793355091-iJ1J3iNm8PgKZIfrvFx5",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:180",
+   "attempt": 1,
+   "response_id": "gen-1793355100-1WZSxf8c0jkw0lkljF3C",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:181",
+   "attempt": 1,
+   "response_id": "gen-1793355113-3sabtvTvrGm1eCDMXE7F",
+   "provider": "AkashML",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:183",
+   "attempt": 1,
+   "response_id": "gen-1793355125-AeXCPD5AeOUH7vbw4dyL",
+   "provider": "DeepInfra",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:184",
+   "attempt": 1,
+   "response_id": "gen-1793355136-WIIkSqnhRGW9ML0r0LU8",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:185",
+   "attempt": 1,
+   "response_id": "gen-1793355152-dHbt7khPgsD7UIJ5LGl3",
+   "provider": "DeepInfra",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:185",
+   "attempt": 2,
+   "response_id": "gen-1793355163-4ssUrgPNg9kNgD1RZ4kF",
+   "provider": "AkashML",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:188",
+   "attempt": 1,
+   "response_id": "gen-1793355175-OPW0bHazuSqJv8YXauo3",
+   "provider": "Sail Research",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:189",
+   "attempt": 1,
+   "response_id": "gen-1793355184-WyN1p6ij9oUewarzUoau",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:190",
+   "attempt": 1,
+   "response_id": "gen-1793355198-yuHv7MVPbJ6Tcf10EvUg",
+   "provider": "CoreWeave",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:191",
+   "attempt": 1,
+   "response_id": "gen-1793355214-vbp2mgynyJNmkpjwGU2x",
+   "provider": "AkashML",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:193",
+   "attempt": 1,
+   "response_id": "gen-1793355217-E2jpCTw9xKIwxRqFkeMZ",
+   "provider": "Parasail",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:194",
+   "attempt": 1,
+   "response_id": "gen-1793355222-BcGJttsXhYqKnupFqtAD",
+   "provider": "DekaLLM",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:196",
+   "attempt": 1,
+   "response_id": "gen-1793355239-246dPiRHzT7dVmdyBoa8",
+   "provider": "CoreWeave",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:198",
+   "attempt": 1,
+   "response_id": "gen-1793355265-K855Yx1ojMuUxhNi8cza",
+   "provider": "Sail Research",
+   "quantization": null
+  },
+  {
+   "split": "validation",
+   "case_id": "validation:199",
+   "attempt": 1,
+   "response_id": "gen-1793355268-aDBDKwPuIB38hPngnYOX",
+   "provider": "AkashML",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:0",
+   "attempt": 1,
+   "response_id": "gen-1793355274-a7ghqnNn0IxUuorHet64",
+   "provider": "DeepInfra",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:1",
+   "attempt": 1,
+   "response_id": "gen-1793355283-CbOUIcyKWkwM0C4EJNZF",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:2",
+   "attempt": 1,
+   "response_id": "gen-1793355298-SpgwneKqAAY7b1OrKOpd",
+   "provider": "CoreWeave",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:3",
+   "attempt": 1,
+   "response_id": "gen-1793355331-vR3rEjoKtOlOLRFdYvuH",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:4",
+   "attempt": 1,
+   "response_id": "gen-1793355353-8e1R1W1gkGrXVXpd7itx",
+   "provider": "Mancer 2",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:6",
+   "attempt": 1,
+   "response_id": "gen-1793355364-MvNvyRAeFpKskmlz8eyX",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:7",
+   "attempt": 1,
+   "response_id": "gen-1793355372-irJpQLMHkUgQD7Pk4Pgf",
+   "provider": "DeepInfra",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:8",
+   "attempt": 1,
+   "response_id": "gen-1793355383-6TbBkUtIJ46bJDdINE0Q",
+   "provider": "Crusoe",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:9",
+   "attempt": 1,
+   "response_id": "gen-1793355384-rbnUAUAZ1mgrOirvrrcD",
+   "provider": "Crusoe",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:10",
+   "attempt": 1,
+   "response_id": "gen-1793355386-JWG6WGgPuxyKyblgA9Pn",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:11",
+   "attempt": 1,
+   "response_id": "gen-1793355400-8YpCCMDEmiPaCVcWp51f",
+   "provider": "BaseTen",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:12",
+   "attempt": 1,
+   "response_id": "gen-1793355404-IoFq6FIs0ZVxCkReeEga",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:13",
+   "attempt": 1,
+   "response_id": "gen-1793355415-uHfoYMXNbARQPncgpF3I",
+   "provider": "Novita",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:14",
+   "attempt": 1,
+   "response_id": "gen-1793355420-PNQaV2ZZyslLKvUkL7ew",
+   "provider": "AkashML",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:15",
+   "attempt": 1,
+   "response_id": "gen-1793355423-Sx4dZwPjIlaxV7mz3D5i",
+   "provider": "Mancer 2",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:16",
+   "attempt": 1,
+   "response_id": "gen-1793355436-2ubKp4Se3qrdM8aVYBzq",
+   "provider": "CoreWeave",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:17",
+   "attempt": 1,
+   "response_id": "gen-1793355450-G0dUG5M1HkV7IIp9e5Tw",
+   "provider": "DeepInfra",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:18",
+   "attempt": 1,
+   "response_id": "gen-1793355461-OkC6rZ2mD9w99itS6fWW",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:19",
+   "attempt": 1,
+   "response_id": "gen-1793355490-CGSfso0Pvq7im3ZZVqPV",
+   "provider": "DekaLLM",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:20",
+   "attempt": 1,
+   "response_id": "gen-1793355497-KkKCVvRs4zcfLIrml5aR",
+   "provider": "Sail Research",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:21",
+   "attempt": 1,
+   "response_id": "gen-1793355501-Rf83jrNSUu6Hu2Nh7kRu",
+   "provider": "Crusoe",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:22",
+   "attempt": 1,
+   "response_id": "gen-1793355504-VXBOHT91MqMMI91DSVP0",
+   "provider": "Mancer 2",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:23",
+   "attempt": 1,
+   "response_id": "gen-1793355514-Q2JE7UUj1eoTVKxru4u5",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:25",
+   "attempt": 1,
+   "response_id": "gen-1793355524-1lrwTg60YJIqjBN2inEw",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:26",
+   "attempt": 1,
+   "response_id": "gen-1793355554-hYsiPDY2wQ5LriDF47Ry",
+   "provider": "Mancer 2",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:30",
+   "attempt": 1,
+   "response_id": "gen-1793355564-aLI1vsANTEJJ8CV5oUOU",
+   "provider": "DekaLLM",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:31",
+   "attempt": 1,
+   "response_id": "gen-1793355584-qtE19D2R2SRjCIrtOfzN",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:34",
+   "attempt": 1,
+   "response_id": "gen-1793355615-qxVz7qeyaHlMXV08G1Nm",
+   "provider": "DekaLLM",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:35",
+   "attempt": 1,
+   "response_id": "gen-1793355622-pbVZYLK1bWGi3JS9JWcc",
+   "provider": "DeepInfra",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:36",
+   "attempt": 1,
+   "response_id": "gen-1793355639-JoWSnsvwF7D16J2RNELq",
+   "provider": "Novita",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:37",
+   "attempt": 1,
+   "response_id": "gen-1793355652-W2ZpKeFHDIdWt4q8QTJo",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:38",
+   "attempt": 1,
+   "response_id": "gen-1793355676-SySeaRA6dpp9SnLffzxp",
+   "provider": "AkashML",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:39",
+   "attempt": 1,
+   "response_id": "gen-1793355686-Ia6doHCLwDd3uLfkO7ih",
+   "provider": "Mancer 2",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:40",
+   "attempt": 1,
+   "response_id": "gen-1793355696-f7fWChXiJO3fisvsTFwK",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:41",
+   "attempt": 1,
+   "response_id": "gen-1793355736-dcTWo7Q2wql3UlXNjhBn",
+   "provider": "AkashML",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:42",
+   "attempt": 1,
+   "response_id": "gen-1793355743-7XJzjhQSWAS9rrjkzbpC",
+   "provider": "DeepInfra",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:43",
+   "attempt": 1,
+   "response_id": "gen-1793355754-NTpOIg04ynYXeJx3h075",
+   "provider": "DekaLLM",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:44",
+   "attempt": 1,
+   "response_id": "gen-1793355779-sa6Q6yxje7Ef0y4Ed0yG",
+   "provider": "DekaLLM",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:45",
+   "attempt": 1,
+   "response_id": "gen-1793355791-OPDwEAwuiFh33wgixsge",
+   "provider": "DeepInfra",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:46",
+   "attempt": 1,
+   "response_id": "gen-1793355803-2u1odY79D8qP0A5PbOjh",
+   "provider": "Nebius",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:47",
+   "attempt": 1,
+   "response_id": "gen-1793355807-RAW06h5QHXkUMV8uaSym",
+   "provider": "Mancer 2",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:48",
+   "attempt": 1,
+   "response_id": "gen-1793355815-rD62yqYlVYfKqRhaWbFu",
+   "provider": "CoreWeave",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:49",
+   "attempt": 1,
+   "response_id": "gen-1793355829-UxvJoFsKq2tyLCNNoQuI",
+   "provider": "DekaLLM",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:50",
+   "attempt": 1,
+   "response_id": "gen-1793355833-XFfxHg85rWecsnYNBVIb",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:51",
+   "attempt": 1,
+   "response_id": "gen-1793355854-uxCVZSS28GpT54vvh7rO",
+   "provider": "DeepInfra",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:52",
+   "attempt": 1,
+   "response_id": "gen-1793355871-HjpMEhLoSkckf3prFI5D",
+   "provider": "Mara",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:53",
+   "attempt": 1,
+   "response_id": "gen-1793355873-GRItiXk2e02O5vN8M1wx",
+   "provider": "AkashML",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:54",
+   "attempt": 1,
+   "response_id": "gen-1793355883-q4hCEs4VALj9Aq4ytGtf",
+   "provider": "DeepInfra",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:55",
+   "attempt": 1,
+   "response_id": "gen-1793355894-tPnvMobt1Dsh7e1RG6Av",
+   "provider": "Sail Research",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:56",
+   "attempt": 1,
+   "response_id": "gen-1793355898-TPEFpBMtnVNununPzZSa",
+   "provider": "CoreWeave",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:57",
+   "attempt": 1,
+   "response_id": "gen-1793355914-XdxTDR0GBm1NshpLt0lF",
+   "provider": "DekaLLM",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:58",
+   "attempt": 1,
+   "response_id": "gen-1793355930-jGpYFTzTbXJkPvih78Xd",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:59",
+   "attempt": 1,
+   "response_id": "gen-1793355949-vgUp7XdTLsWwVzpOsmE1",
+   "provider": "AkashML",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:60",
+   "attempt": 1,
+   "response_id": "gen-1793355956-gBh5Rom051SwiSdjBQef",
+   "provider": "CoreWeave",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:61",
+   "attempt": 1,
+   "response_id": "gen-1793355974-uik2mPMMFMVsz5yITq0t",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:61",
+   "attempt": 2,
+   "response_id": "gen-1793356000-Q9GFiLOywGjyeZJbOw19",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:62",
+   "attempt": 1,
+   "response_id": "gen-1793356027-Cav3L2Q6mhhL7FFnjD6y",
+   "provider": "Sail Research",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:63",
+   "attempt": 1,
+   "response_id": "gen-1793356030-K6DRP82FwsuQ5xeR0xTg",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:64",
+   "attempt": 1,
+   "response_id": "gen-1793356039-d5FWTpDwPs2EeiXFdAmk",
+   "provider": "Mara",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:65",
+   "attempt": 1,
+   "response_id": "gen-1793356042-EBpvuwCVg6PElJV4fAPH",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:66",
+   "attempt": 1,
+   "response_id": "gen-1793356062-iwDefubVdJJ1UVuRJzbJ",
+   "provider": "AkashML",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:68",
+   "attempt": 1,
+   "response_id": "gen-1793356070-kW2IfUokk44ftILJ1xzu",
+   "provider": "DekaLLM",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:69",
+   "attempt": 1,
+   "response_id": "gen-1793356078-4t7LT1otBIE6kRBBNTyG",
+   "provider": "CoreWeave",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:70",
+   "attempt": 1,
+   "response_id": "gen-1793356090-7bBHZGrBzmkEDItQjlub",
+   "provider": "AkashML",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:71",
+   "attempt": 1,
+   "response_id": "gen-1793356096-HFhRtcN46swMpSNsBgXD",
+   "provider": "Groq",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:72",
+   "attempt": 1,
+   "response_id": "gen-1793356097-QZDNoZWRf2CZiBdadC1O",
+   "provider": "AkashML",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:73",
+   "attempt": 1,
+   "response_id": "gen-1793356105-o7CEkp7eLhA5btMU1kPj",
+   "provider": "CoreWeave",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:76",
+   "attempt": 1,
+   "response_id": "gen-1793356123-RWwEbJQZNDdDKx8ArrCD",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:77",
+   "attempt": 1,
+   "response_id": "gen-1793356145-08cH7ZwAHgTv5zKAy731",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:79",
+   "attempt": 1,
+   "response_id": "gen-1793356161-0MJYmTGsE5B45jqOe7VT",
+   "provider": "DekaLLM",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:81",
+   "attempt": 1,
+   "response_id": "gen-1793356173-lb9qEqQ9rHznPvRRCEuO",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:82",
+   "attempt": 1,
+   "response_id": "gen-1793356202-DrNaUexKDPD3aNdwEukm",
+   "provider": "Parasail",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:83",
+   "attempt": 1,
+   "response_id": "gen-1793356207-Vy3auzFQuZs8CvSEfIa0",
+   "provider": "CoreWeave",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:84",
+   "attempt": 1,
+   "response_id": "gen-1793356215-kWS8W8adTAZmlBsLHmrv",
+   "provider": "Amazon Bedrock",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:85",
+   "attempt": 1,
+   "response_id": "gen-1793356217-NSWupH30qJriyd2swcKI",
+   "provider": "AkashML",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:86",
+   "attempt": 1,
+   "response_id": "gen-1793356222-nsogHRyhy7wcrRqG6Kqi",
+   "provider": "Crusoe",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:87",
+   "attempt": 1,
+   "response_id": "gen-1793356224-x181dTRo31p5QvT2B8Rb",
+   "provider": "CoreWeave",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:88",
+   "attempt": 1,
+   "response_id": "gen-1793356239-Is204Omm3XoJMZG9e8m8",
+   "provider": "Novita",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:88",
+   "attempt": 2,
+   "response_id": "gen-1793356243-dh7uSarRetKY7RIaqL7X",
+   "provider": "Crusoe",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:91",
+   "attempt": 1,
+   "response_id": "gen-1793356244-nmPs26KwmEChood5V2eu",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:91",
+   "attempt": 2,
+   "response_id": "gen-1793356265-I7t0mWhZeWQmqyNtHasK",
+   "provider": "Mancer 2",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:92",
+   "attempt": 1,
+   "response_id": "gen-1793356299-z4RuxuTu8dEvxyKlPH8R",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:94",
+   "attempt": 1,
+   "response_id": "gen-1793356308-xRStCISslUhhdcmZkeAT",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:95",
+   "attempt": 1,
+   "response_id": "gen-1793356320-vmWqEFZaXUW6HkCWM5pQ",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:96",
+   "attempt": 1,
+   "response_id": "gen-1793356364-e5UEh1nXhLAatwzRqxhb",
+   "provider": "AkashML",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:97",
+   "attempt": 1,
+   "response_id": "gen-1793356378-76ndlFZRH3XzT4K7TnaV",
+   "provider": "SambaNova",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:98",
+   "attempt": 1,
+   "response_id": "gen-1793356381-SAUOofEMnpwoRQeKpECI",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:99",
+   "attempt": 1,
+   "response_id": "gen-1793356400-pIqFJ3JAgVls30lPb4Uz",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:100",
+   "attempt": 1,
+   "response_id": "gen-1793356411-OkqlOEco0sjWF9F02Xq0",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:101",
+   "attempt": 1,
+   "response_id": "gen-1793356427-88WwPNU6rkwsXHG28Pqy",
+   "provider": "CoreWeave",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:103",
+   "attempt": 1,
+   "response_id": "gen-1793356456-h7NMuzmvAOaMqqRTRzUz",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:104",
+   "attempt": 1,
+   "response_id": "gen-1793356472-EpbCmrtYU5yvxw4tuy53",
+   "provider": "Novita",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:105",
+   "attempt": 1,
+   "response_id": "gen-1793356482-XHFY26zv4PnzDIGJhgXY",
+   "provider": "DekaLLM",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:106",
+   "attempt": 1,
+   "response_id": "gen-1793356503-LMTMRhkGXE48UgEZnO45",
+   "provider": "Sail Research",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:107",
+   "attempt": 1,
+   "response_id": "gen-1793356505-1a8fDpOv5JPWeiDSBBP4",
+   "provider": "DekaLLM",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:109",
+   "attempt": 1,
+   "response_id": "gen-1793356515-gqomOwn4FdZYb1FBxsJd",
+   "provider": "CoreWeave",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:110",
+   "attempt": 1,
+   "response_id": "gen-1793356541-CMIGYfOt7J99k9pRwp6Q",
+   "provider": "Novita",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:111",
+   "attempt": 1,
+   "response_id": "gen-1793356550-XlsswYwYenBP9FkSKa3o",
+   "provider": "DekaLLM",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:113",
+   "attempt": 1,
+   "response_id": "gen-1793356563-4ZRqMtxicCq2DAucu4cB",
+   "provider": "AkashML",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:114",
+   "attempt": 1,
+   "response_id": "gen-1793356568-ubicU7ZgfSvSHRcpObt2",
+   "provider": "BaseTen",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:115",
+   "attempt": 1,
+   "response_id": "gen-1793356572-P8H9x1ZjmaIMbJNhrQ0L",
+   "provider": "Crusoe",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:117",
+   "attempt": 1,
+   "response_id": "gen-1793356574-6kiQ4Cek9LMhbeYYPQdP",
+   "provider": "DeepInfra",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:118",
+   "attempt": 1,
+   "response_id": "gen-1793356597-bBZVSRWzke2oebeTRIQ7",
+   "provider": "DekaLLM",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:120",
+   "attempt": 1,
+   "response_id": "gen-1793356616-tDXY6AwbyoncRbYALPin",
+   "provider": "CoreWeave",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:121",
+   "attempt": 1,
+   "response_id": "gen-1793356636-HxxVaruPyMIHd4q42lzV",
+   "provider": "DekaLLM",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:122",
+   "attempt": 1,
+   "response_id": "gen-1793356654-n9DIlrggJFgSmWas5gGY",
+   "provider": "DeepInfra",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:123",
+   "attempt": 1,
+   "response_id": "gen-1793356686-fhnKY4RXbFeA4FSTciRW",
+   "provider": "DeepInfra",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:124",
+   "attempt": 1,
+   "response_id": "gen-1793356700-FfUX5Arv56WduuVBkq86",
+   "provider": "AkashML",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:125",
+   "attempt": 1,
+   "response_id": "gen-1793356705-T5CuMQitW09HSxr7g7kb",
+   "provider": "Novita",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:126",
+   "attempt": 1,
+   "response_id": "gen-1793356707-x5u82GOxCIOBBrhv5xi5",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:127",
+   "attempt": 1,
+   "response_id": "gen-1793356737-5EVDgK9FT7j7AR2wN9eu",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:128",
+   "attempt": 1,
+   "response_id": "gen-1793356756-46Z7esKuQ4FiFLiP094V",
+   "provider": "AkashML",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:129",
+   "attempt": 1,
+   "response_id": "gen-1793356759-3u6Sl6HDzg5chG410pav",
+   "provider": "DeepInfra",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:130",
+   "attempt": 1,
+   "response_id": "gen-1793356775-jmkS1RMmDZflHksEPyCk",
+   "provider": "CoreWeave",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:131",
+   "attempt": 1,
+   "response_id": "gen-1793356788-3FAI8lzZvoBAdQa5US6g",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:132",
+   "attempt": 1,
+   "response_id": "gen-1793356797-tP9svLNwhVw5RMj0uyvY",
+   "provider": "Crusoe",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:133",
+   "attempt": 1,
+   "response_id": "gen-1793356799-AkBQTkpM1Y6XHsO36Mrq",
+   "provider": "Mancer 2",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:134",
+   "attempt": 1,
+   "response_id": "gen-1793356812-KdCXdlGrKcVpI8RJHqI8",
+   "provider": "CoreWeave",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:135",
+   "attempt": 1,
+   "response_id": "gen-1793356835-1A8XvxdgEew8Ey6InzGH",
+   "provider": "DekaLLM",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:137",
+   "attempt": 1,
+   "response_id": "gen-1793356850-ud7k2t0WNlzobISRlcJe",
+   "provider": "DekaLLM",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:140",
+   "attempt": 1,
+   "response_id": "gen-1793356870-iFxo4HdDh98eE9vCRKU4",
+   "provider": "Crusoe",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:141",
+   "attempt": 1,
+   "response_id": "gen-1793356872-iuKTnEZCjNDmoOkNsW6J",
+   "provider": "Novita",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:143",
+   "attempt": 1,
+   "response_id": "gen-1793356875-QFo7w1x0Lqx1926rKNBb",
+   "provider": "CoreWeave",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:146",
+   "attempt": 1,
+   "response_id": "gen-1793356892-duSieYaDS3cXWRdKPfXF",
+   "provider": "DeepInfra",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:147",
+   "attempt": 1,
+   "response_id": "gen-1793356940-MkMYfRgboESuUhTLsagL",
+   "provider": "Novita",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:147",
+   "attempt": 2,
+   "response_id": "gen-1793356946-j0sdfIjY5qaH0lfMG6tD",
+   "provider": "DeepInfra",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:148",
+   "attempt": 1,
+   "response_id": "gen-1793357028-1yW1w1dJxZG66dtO4qRK",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:149",
+   "attempt": 1,
+   "response_id": "gen-1793357066-55d2u4sCVWv2ipsQ7Dmx",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:151",
+   "attempt": 1,
+   "response_id": "gen-1793357083-ue5aEtwucqSQBwdYbj6a",
+   "provider": "DeepInfra",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:152",
+   "attempt": 1,
+   "response_id": "gen-1793357099-Gr3DfhywPfimwRI8vW8k",
+   "provider": "Mancer 2",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:153",
+   "attempt": 1,
+   "response_id": "gen-1793357121-RD39QDoZCK56mSRHTmcx",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:154",
+   "attempt": 1,
+   "response_id": "gen-1793357133-VusBTudyCcrIb5SNg0lZ",
+   "provider": "CoreWeave",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:155",
+   "attempt": 1,
+   "response_id": "gen-1793357156-KQcSPyt2rPHFNvjLG6Ms",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:156",
+   "attempt": 1,
+   "response_id": "gen-1793357178-CUItpjVOTPSDgNIklVg8",
+   "provider": "DeepInfra",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:157",
+   "attempt": 1,
+   "response_id": "gen-1793357214-3reGXGeZTsuph0mVGw15",
+   "provider": "Mancer 2",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:158",
+   "attempt": 1,
+   "response_id": "gen-1793357223-XhMcX8uSiPTMVU9l0mAM",
+   "provider": "DeepInfra",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:159",
+   "attempt": 1,
+   "response_id": "gen-1793357238-luI1vDzOGaWQbls8ILQR",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:161",
+   "attempt": 1,
+   "response_id": "gen-1793357264-FldcviIdHKYqOHhpvbuX",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:162",
+   "attempt": 1,
+   "response_id": "gen-1793357290-sNXkWGwwqvNCtOAG5R3H",
+   "provider": "CoreWeave",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:163",
+   "attempt": 1,
+   "response_id": "gen-1793357317-VTQcBnSglx1T0YjTJBFf",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:164",
+   "attempt": 1,
+   "response_id": "gen-1793357338-eI8cEvedidrmzDo1Tpga",
+   "provider": "DekaLLM",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:165",
+   "attempt": 1,
+   "response_id": "gen-1793357354-c8Dbb9CkOucJWW3zfAj1",
+   "provider": "Mancer 2",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:166",
+   "attempt": 1,
+   "response_id": "gen-1793357378-mjER990QkY7Vor7E1NMY",
+   "provider": "AkashML",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:167",
+   "attempt": 1,
+   "response_id": "gen-1793357382-colbYFgeUoU9ANLOdNBT",
+   "provider": "Parasail",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:168",
+   "attempt": 1,
+   "response_id": "gen-1793357385-YoiWDlKUCXNkG3hDt48A",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:170",
+   "attempt": 1,
+   "response_id": "gen-1793357398-wlDF4fqvjOJlpiLRpdBx",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:171",
+   "attempt": 1,
+   "response_id": "gen-1793357414-rZnQJ9BunDvJ48em8bVd",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:172",
+   "attempt": 1,
+   "response_id": "gen-1793357424-t3LzIKgFRWEMGOu4XPRK",
+   "provider": "Mancer 2",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:173",
+   "attempt": 1,
+   "response_id": "gen-1793357451-L4PCB6P5222gpuPF8Hqe",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:174",
+   "attempt": 1,
+   "response_id": "gen-1793357466-LVvAvMSuvY1nLbMuFUt0",
+   "provider": "AkashML",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:175",
+   "attempt": 1,
+   "response_id": "gen-1793357473-99LMx6m29nHzggvhHCnd",
+   "provider": "CoreWeave",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:176",
+   "attempt": 1,
+   "response_id": "gen-1793357493-dMH1W4d9WWpim1hLRhR4",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:177",
+   "attempt": 1,
+   "response_id": "gen-1793357512-EFC2DSidhTOapuojT6CR",
+   "provider": "Sail Research",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:178",
+   "attempt": 1,
+   "response_id": "gen-1793357515-Z71NyeT9QEWeizr1Y3oO",
+   "provider": "DeepInfra",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:179",
+   "attempt": 1,
+   "response_id": "gen-1793357518-PUzAi9kcpej9pj3udnPL",
+   "provider": "Sail Research",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:180",
+   "attempt": 1,
+   "response_id": "gen-1793357523-UFJM7KQ45M2iRj9DqQK6",
+   "provider": "CoreWeave",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:181",
+   "attempt": 1,
+   "response_id": "gen-1793357554-ykwMBFiUdctaUDQI0FRr",
+   "provider": "Mancer 2",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:182",
+   "attempt": 1,
+   "response_id": "gen-1793357569-PWLj0Q86cR4nZcNevRXo",
+   "provider": "CoreWeave",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:184",
+   "attempt": 1,
+   "response_id": "gen-1793357608-mmw1euDZQ7Dxv2WX2Ue3",
+   "provider": "AkashML",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:185",
+   "attempt": 1,
+   "response_id": "gen-1793357612-GI4IClYbLnCdSgDnjwPP",
+   "provider": "Sail Research",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:186",
+   "attempt": 1,
+   "response_id": "gen-1793357616-4qgneUHprFZyBA6hzwS3",
+   "provider": "DeepInfra",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:187",
+   "attempt": 1,
+   "response_id": "gen-1793357637-EYbEciPE6dlaIu5qvzjD",
+   "provider": "DekaLLM",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:189",
+   "attempt": 1,
+   "response_id": "gen-1793357658-FxMPoZDGIoQu1bNkEVHY",
+   "provider": "DekaLLM",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:190",
+   "attempt": 1,
+   "response_id": "gen-1793357666-8WGgfOVSHpKSv85poPkq",
+   "provider": "DeepInfra",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:191",
+   "attempt": 1,
+   "response_id": "gen-1793357676-FMKr7nh3TMrFtFo18hGE",
+   "provider": "CoreWeave",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:192",
+   "attempt": 1,
+   "response_id": "gen-1793357701-hFlX4kY6BwxuFEq70gn7",
+   "provider": "DeepInfra",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:193",
+   "attempt": 1,
+   "response_id": "gen-1793357716-5lPbBFSZyHV8E6SMqAuz",
+   "provider": "DekaLLM",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:194",
+   "attempt": 1,
+   "response_id": "gen-1793357728-h2gmw92NxGaeq6mqh78v",
+   "provider": "Venice",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:195",
+   "attempt": 1,
+   "response_id": "gen-1793357751-syqCNUTRNGzTXRpRpVUV",
+   "provider": "CoreWeave",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:196",
+   "attempt": 1,
+   "response_id": "gen-1793357763-9FVRDlQCPlzubSxIKN8s",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:197",
+   "attempt": 1,
+   "response_id": "gen-1793357773-eep0q4gg2JZ5nrp1Q8ed",
+   "provider": "DeepInfra",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:198",
+   "attempt": 1,
+   "response_id": "gen-1793357794-cC4XR8FJcqMB4tzkG1Rr",
+   "provider": "Near AI",
+   "quantization": null
+  },
+  {
+   "split": "test",
+   "case_id": "test:199",
+   "attempt": 1,
+   "response_id": "gen-1793357799-4zGp21reLJNGWlDA3H0d",
+   "provider": "Venice",
+   "quantization": null
+  }
+ ]
+}

@@ -1,0 +1,503 @@
+{
+ "main_v1": {
+  "digit_gap": {
+   "n_cases": 169,
+   "levels": {
+    "2": {
+     "acc_A": 0.87,
+     "acc_B": 0.87,
+     "diff_B_minus_A": 0.0,
+     "diff_ci95": [
+      -0.036,
+      0.036
+     ],
+     "detectable": false
+    },
+    "4": {
+     "acc_A": 0.698,
+     "acc_B": 0.698,
+     "diff_B_minus_A": 0.0,
+     "diff_ci95": [
+      -0.047,
+      0.047
+     ],
+     "detectable": false
+    },
+    "6": {
+     "acc_A": 0.609,
+     "acc_B": 0.604,
+     "diff_B_minus_A": -0.006,
+     "diff_ci95": [
+      -0.065,
+      0.047
+     ],
+     "detectable": false
+    },
+    "8": {
+     "acc_A": 0.402,
+     "acc_B": 0.467,
+     "diff_B_minus_A": 0.065,
+     "diff_ci95": [
+      0.006,
+      0.124
+     ],
+     "detectable": true
+    },
+    "10": {
+     "acc_A": 0.201,
+     "acc_B": 0.314,
+     "diff_B_minus_A": 0.112,
+     "diff_ci95": [
+      0.053,
+      0.172
+     ],
+     "detectable": true
+    }
+   },
+   "gap_beyond_6_digits": 0.118
+  },
+  "confidence_ranking": {
+   "A": {
+    "n": 169,
+    "n_correct": 34,
+    "auroc_raw": 0.849,
+    "auroc_raw_ci95": [
+     0.769,
+     0.921
+    ],
+    "auroc_calibrated": 0.849,
+    "auroc_calibrated_ci95": [
+     0.769,
+     0.921
+    ],
+    "distinct_raw": 19,
+    "distinct_calibrated": 19
+   },
+   "B": {
+    "n": 169,
+    "n_correct": 53,
+    "auroc_raw": 0.701,
+    "auroc_raw_ci95": [
+     0.615,
+     0.782
+    ],
+    "auroc_calibrated": 0.701,
+    "auroc_calibrated_ci95": [
+     0.615,
+     0.782
+    ],
+    "distinct_raw": 51,
+    "distinct_calibrated": 51
+   },
+   "pooled": {
+    "n": 338,
+    "n_correct": 87,
+    "auroc_raw": 0.782,
+    "auroc_raw_ci95": [
+     0.726,
+     0.834
+    ],
+    "auroc_calibrated": 0.758,
+    "auroc_calibrated_ci95": [
+     0.695,
+     0.815
+    ],
+    "distinct_raw": 59,
+    "distinct_calibrated": 70
+   }
+  },
+  "schedule_check": {
+   "A": {
+    "n": 169,
+    "coverage": 0.7,
+    "k": 118,
+    "invalid_codes": 82,
+    "invalid_codes_wrong": 74,
+    "share_of_errors_flagged": 0.548,
+    "risk_confidence_only": 0.737,
+    "risk_schedule_check": 0.72,
+    "risk_reduction": 0.017,
+    "risk_reduction_ci95_case_clustered": [
+     0.0,
+     0.042
+    ],
+    "invalid_streamlined_confidence_only": 45,
+    "invalid_streamlined_schedule_check": 31,
+    "risk_valid_codes_only": 0.701,
+    "coverage_valid_codes_only": 0.515
+   },
+   "B": {
+    "n": 169,
+    "coverage": 0.7,
+    "k": 118,
+    "invalid_codes": 65,
+    "invalid_codes_wrong": 56,
+    "share_of_errors_flagged": 0.483,
+    "risk_confidence_only": 0.602,
+    "risk_schedule_check": 0.585,
+    "risk_reduction": 0.017,
+    "risk_reduction_ci95_case_clustered": [
+     -0.017,
+     0.076
+    ],
+    "invalid_streamlined_confidence_only": 43,
+    "invalid_streamlined_schedule_check": 14,
+    "risk_valid_codes_only": 0.577,
+    "coverage_valid_codes_only": 0.615
+   },
+   "pooled": {
+    "n": 338,
+    "coverage": 0.7,
+    "k": 237,
+    "invalid_codes": 147,
+    "invalid_codes_wrong": 130,
+    "share_of_errors_flagged": 0.518,
+    "risk_confidence_only": 0.654,
+    "risk_schedule_check": 0.654,
+    "risk_reduction": 0.0,
+    "risk_reduction_ci95_case_clustered": [
+     -0.025,
+     0.021
+    ],
+    "invalid_streamlined_confidence_only": 86,
+    "invalid_streamlined_schedule_check": 46,
+    "risk_valid_codes_only": 0.634,
+    "coverage_valid_codes_only": 0.565
+   }
+  }
+ },
+ "oss_v1": {
+  "digit_gap": {
+   "n_cases": 169,
+   "levels": {
+    "2": {
+     "acc_A": 0.864,
+     "acc_B": 0.74,
+     "diff_B_minus_A": -0.124,
+     "diff_ci95": [
+      -0.183,
+      -0.065
+     ],
+     "detectable": true
+    },
+    "4": {
+     "acc_A": 0.692,
+     "acc_B": 0.296,
+     "diff_B_minus_A": -0.396,
+     "diff_ci95": [
+      -0.473,
+      -0.32
+     ],
+     "detectable": true
+    },
+    "6": {
+     "acc_A": 0.609,
+     "acc_B": 0.065,
+     "diff_B_minus_A": -0.544,
+     "diff_ci95": [
+      -0.621,
+      -0.467
+     ],
+     "detectable": true
+    },
+    "8": {
+     "acc_A": 0.432,
+     "acc_B": 0.03,
+     "diff_B_minus_A": -0.402,
+     "diff_ci95": [
+      -0.473,
+      -0.331
+     ],
+     "detectable": true
+    },
+    "10": {
+     "acc_A": 0.254,
+     "acc_B": 0.018,
+     "diff_B_minus_A": -0.237,
+     "diff_ci95": [
+      -0.302,
+      -0.178
+     ],
+     "detectable": true
+    }
+   },
+   "gap_beyond_6_digits": 0.308
+  },
+  "confidence_ranking": {
+   "A": {
+    "n": 169,
+    "n_correct": 43,
+    "auroc_raw": 0.767,
+    "auroc_raw_ci95": [
+     0.683,
+     0.844
+    ],
+    "auroc_calibrated": 0.767,
+    "auroc_calibrated_ci95": [
+     0.683,
+     0.844
+    ],
+    "distinct_raw": 18,
+    "distinct_calibrated": 18
+   },
+   "B": {
+    "n": 168,
+    "n_correct": 3,
+    "auroc_raw": 0.557,
+    "auroc_raw_ci95": [
+     0.12,
+     0.858
+    ],
+    "auroc_calibrated": 0.5,
+    "auroc_calibrated_ci95": [
+     0.5,
+     0.5
+    ],
+    "distinct_raw": 26,
+    "distinct_calibrated": 1
+   },
+   "pooled": {
+    "n": 337,
+    "n_correct": 46,
+    "auroc_raw": 0.483,
+    "auroc_raw_ci95": [
+     0.397,
+     0.566
+    ],
+    "auroc_calibrated": 0.859,
+    "auroc_calibrated_ci95": [
+     0.799,
+     0.911
+    ],
+    "distinct_raw": 38,
+    "distinct_calibrated": 19
+   }
+  },
+  "schedule_check": {
+   "A": {
+    "n": 169,
+    "coverage": 0.7,
+    "k": 118,
+    "invalid_codes": 71,
+    "invalid_codes_wrong": 64,
+    "share_of_errors_flagged": 0.508,
+    "risk_confidence_only": 0.695,
+    "risk_schedule_check": 0.644,
+    "risk_reduction": 0.051,
+    "risk_reduction_ci95_case_clustered": [
+     0.008,
+     0.085
+    ],
+    "invalid_streamlined_confidence_only": 44,
+    "invalid_streamlined_schedule_check": 20,
+    "risk_valid_codes_only": 0.633,
+    "coverage_valid_codes_only": 0.58
+   },
+   "B": {
+    "n": 168,
+    "coverage": 0.7,
+    "k": 118,
+    "invalid_codes": 147,
+    "invalid_codes_wrong": 146,
+    "share_of_errors_flagged": 0.885,
+    "risk_confidence_only": 0.983,
+    "risk_schedule_check": 0.975,
+    "risk_reduction": 0.008,
+    "risk_reduction_ci95_case_clustered": [
+     0.0,
+     0.025
+    ],
+    "invalid_streamlined_confidence_only": 104,
+    "invalid_streamlined_schedule_check": 97,
+    "risk_valid_codes_only": 0.905,
+    "coverage_valid_codes_only": 0.125
+   },
+   "pooled": {
+    "n": 337,
+    "coverage": 0.7,
+    "k": 236,
+    "invalid_codes": 218,
+    "invalid_codes_wrong": 210,
+    "share_of_errors_flagged": 0.722,
+    "risk_confidence_only": 0.864,
+    "risk_schedule_check": 0.814,
+    "risk_reduction": 0.051,
+    "risk_reduction_ci95_case_clustered": [
+     0.021,
+     0.077
+    ],
+    "invalid_streamlined_confidence_only": 169,
+    "invalid_streamlined_schedule_check": 117,
+    "risk_valid_codes_only": 0.681,
+    "coverage_valid_codes_only": 0.353
+   }
+  }
+ },
+ "hscc_v1": {
+  "digit_gap": {
+   "n_cases": 325,
+   "levels": {
+    "2": {
+     "acc_A": 0.815,
+     "acc_B": 0.825,
+     "diff_B_minus_A": 0.009,
+     "diff_ci95": [
+      -0.022,
+      0.04
+     ],
+     "detectable": false
+    },
+    "4": {
+     "acc_A": 0.732,
+     "acc_B": 0.717,
+     "diff_B_minus_A": -0.015,
+     "diff_ci95": [
+      -0.049,
+      0.018
+     ],
+     "detectable": false
+    },
+    "6": {
+     "acc_A": 0.637,
+     "acc_B": 0.603,
+     "diff_B_minus_A": -0.034,
+     "diff_ci95": [
+      -0.074,
+      0.006
+     ],
+     "detectable": false
+    },
+    "8": {
+     "acc_A": 0.4,
+     "acc_B": 0.397,
+     "diff_B_minus_A": -0.003,
+     "diff_ci95": [
+      -0.052,
+      0.046
+     ],
+     "detectable": false
+    },
+    "10": {
+     "acc_A": 0.24,
+     "acc_B": 0.265,
+     "diff_B_minus_A": 0.025,
+     "diff_ci95": [
+      -0.028,
+      0.074
+     ],
+     "detectable": false
+    }
+   },
+   "gap_beyond_6_digits": 0.058
+  },
+  "confidence_ranking": {
+   "A": {
+    "n": 325,
+    "n_correct": 78,
+    "auroc_raw": 0.805,
+    "auroc_raw_ci95": [
+     0.742,
+     0.86
+    ],
+    "auroc_calibrated": 0.805,
+    "auroc_calibrated_ci95": [
+     0.742,
+     0.86
+    ],
+    "distinct_raw": 20,
+    "distinct_calibrated": 20
+   },
+   "B": {
+    "n": 325,
+    "n_correct": 86,
+    "auroc_raw": 0.689,
+    "auroc_raw_ci95": [
+     0.618,
+     0.755
+    ],
+    "auroc_calibrated": 0.689,
+    "auroc_calibrated_ci95": [
+     0.618,
+     0.755
+    ],
+    "distinct_raw": 49,
+    "distinct_calibrated": 49
+   },
+   "pooled": {
+    "n": 650,
+    "n_correct": 164,
+    "auroc_raw": 0.737,
+    "auroc_raw_ci95": [
+     0.693,
+     0.779
+    ],
+    "auroc_calibrated": 0.753,
+    "auroc_calibrated_ci95": [
+     0.713,
+     0.796
+    ],
+    "distinct_raw": 56,
+    "distinct_calibrated": 69
+   }
+  },
+  "schedule_check": {
+   "A": {
+    "n": 325,
+    "coverage": 0.7,
+    "k": 227,
+    "invalid_codes": 145,
+    "invalid_codes_wrong": 144,
+    "share_of_errors_flagged": 0.583,
+    "risk_confidence_only": 0.683,
+    "risk_schedule_check": 0.656,
+    "risk_reduction": 0.026,
+    "risk_reduction_ci95_case_clustered": [
+     0.004,
+     0.048
+    ],
+    "invalid_streamlined_confidence_only": 80,
+    "invalid_streamlined_schedule_check": 47,
+    "risk_valid_codes_only": 0.572,
+    "coverage_valid_codes_only": 0.554
+   },
+   "B": {
+    "n": 325,
+    "coverage": 0.7,
+    "k": 227,
+    "invalid_codes": 106,
+    "invalid_codes_wrong": 105,
+    "share_of_errors_flagged": 0.439,
+    "risk_confidence_only": 0.683,
+    "risk_schedule_check": 0.626,
+    "risk_reduction": 0.057,
+    "risk_reduction_ci95_case_clustered": [
+     0.026,
+     0.088
+    ],
+    "invalid_streamlined_confidence_only": 74,
+    "invalid_streamlined_schedule_check": 8,
+    "risk_valid_codes_only": 0.612,
+    "coverage_valid_codes_only": 0.674
+   },
+   "pooled": {
+    "n": 650,
+    "coverage": 0.7,
+    "k": 455,
+    "invalid_codes": 251,
+    "invalid_codes_wrong": 249,
+    "share_of_errors_flagged": 0.512,
+    "risk_confidence_only": 0.681,
+    "risk_schedule_check": 0.642,
+    "risk_reduction": 0.04,
+    "risk_reduction_ci95_case_clustered": [
+     0.024,
+     0.059
+    ],
+    "invalid_streamlined_confidence_only": 142,
+    "invalid_streamlined_schedule_check": 56,
+    "risk_valid_codes_only": 0.594,
+    "coverage_valid_codes_only": 0.614
+   }
+  }
+ }
+}

@@ -1,0 +1,80 @@
+{
+  "A": {
+    "n_all": 10,
+    "n_valid": 10,
+    "n_failed": 0,
+    "n_missing": 0,
+    "all_case_exact10_accuracy": 0.3,
+    "valid_output_metrics": {
+      "n": 10,
+      "conventional": {
+        "exact_10": 0.3,
+        "exact_6": 0.7,
+        "chapter_acc": 1.0,
+        "heading_acc": 1.0,
+        "rate_line_acc": 0.4
+      },
+      "prefix_accuracy": {
+        "prefix_2_chapter": 1.0,
+        "prefix_4_heading": 1.0,
+        "prefix_6_subheading": 0.7,
+        "prefix_8_rate_line": 0.4,
+        "prefix_10_full": 0.3
+      },
+      "severity_distribution": {
+        "correct_10": 0.3,
+        "wrong_stat_suffix": 0.1,
+        "wrong_rate_line": 0.3,
+        "wrong_subheading": 0.3,
+        "wrong_heading": 0.0,
+        "wrong_chapter": 0.0
+      },
+      "mean_partial_credit": {
+        "balanced": 0.6849999999999999,
+        "subheading_heavy": 0.655,
+        "extension_heavy": 0.6
+      },
+      "major_error_rate": 0.0,
+      "mean_severity_ordinal": 1.6
+    }
+  },
+  "B": {
+    "n_all": 10,
+    "n_valid": 10,
+    "n_failed": 0,
+    "n_missing": 0,
+    "all_case_exact10_accuracy": 0.1,
+    "valid_output_metrics": {
+      "n": 10,
+      "conventional": {
+        "exact_10": 0.1,
+        "exact_6": 0.7,
+        "chapter_acc": 1.0,
+        "heading_acc": 0.9,
+        "rate_line_acc": 0.4
+      },
+      "prefix_accuracy": {
+        "prefix_2_chapter": 1.0,
+        "prefix_4_heading": 0.9,
+        "prefix_6_subheading": 0.7,
+        "prefix_8_rate_line": 0.4,
+        "prefix_10_full": 0.1
+      },
+      "severity_distribution": {
+        "correct_10": 0.1,
+        "wrong_stat_suffix": 0.3,
+        "wrong_rate_line": 0.3,
+        "wrong_subheading": 0.2,
+        "wrong_heading": 0.1,
+        "wrong_chapter": 0.0
+      },
+      "mean_partial_credit": {
+        "balanced": 0.6350000000000001,
+        "subheading_heavy": 0.61,
+        "extension_heavy": 0.5349999999999999
+      },
+      "major_error_rate": 0.0,
+      "mean_severity_ordinal": 1.9
+    }
+  }
+}

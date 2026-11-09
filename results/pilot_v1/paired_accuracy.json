@@ -1,0 +1,8 @@
+{
+  "difference_A_minus_B": 0.1,
+  "ci95": [
+    -0.2,
+    0.4
+  ],
+  "unit": "paired_product"
+}

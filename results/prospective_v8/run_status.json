@@ -1,0 +1,27 @@
+{
+  "state": "stopped",
+  "detail": "BudgetExceeded: technical review required; outputs preserved",
+  "updated_at": "2026-11-04T17:33:04.361998+00:00",
+  "pid": 21482,
+  "counts": {
+    "validation/A": {
+      "completed": 136,
+      "failed": 0
+    },
+    "validation/B": {
+      "completed": 28,
+      "failed": 2
+    },
+    "test/A": {
+      "completed": 0,
+      "failed": 0
+    },
+    "test/B": {
+      "completed": 0,
+      "failed": 0
+    }
+  },
+  "reserved_eur_upper_bound": 12.375,
+  "budget_eur": 100,
+  "actual_invoice_cost": "not yet reconciled; reservations are conservative upper bounds"
+}

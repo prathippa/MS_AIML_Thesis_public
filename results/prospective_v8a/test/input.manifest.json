@@ -1,0 +1,12 @@
+{
+  "sha256": "27ac8f1b0902f8465596b5eab61b394ed8751b10e99d0a797099182b9e3e726b",
+  "contents": {
+    "input_count": 700,
+    "included_count": 700,
+    "excluded_count": 0,
+    "multi_policy": "exclude",
+    "exclusions": [],
+    "file_hash": "479e963c22b85aa5571c729ad14133ed07580a3f558adcc0550db40228ff7f5c",
+    "records_hash": "8f45fbaacb35a84d0328da440ee2f55f7f085b77b61bd40de7fb3498feb6475b"
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "sha256": "f04dbaf25a666b88296f29531c95d9d05a7242990990667f7f59d9209b06d9d0",
+  "contents": {
+    "input_count": 200,
+    "included_count": 154,
+    "excluded_count": 46,
+    "multi_policy": "exclude",
+    "exclusions": [
+      {
+        "case_id": "validation:9",
+        "source_index": 9,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:13",
+        "source_index": 13,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:17",
+        "source_index": 17,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:28",
+        "source_index": 28,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:29",
+        "source_index": 29,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:30",
+        "source_index": 30,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:33",
+        "source_index": 33,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:37",
+        "source_index": 37,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:46",
+        "source_index": 46,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:47",
+        "source_index": 47,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:67",
+        "source_index": 67,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:69",
+        "source_index": 69,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:76",
+        "source_index": 76,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:77",
+        "source_index": 77,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:79",
+        "source_index": 79,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:81",
+        "source_index": 81,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:83",
+        "source_index": 83,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:91",
+        "source_index": 91,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:95",
+        "source_index": 95,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:102",
+        "source_index": 102,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:103",
+        "source_index": 103,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:106",
+        "source_index": 106,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:109",
+        "source_index": 109,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:111",
+        "source_index": 111,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:113",
+        "source_index": 113,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:121",
+        "source_index": 121,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:122",
+        "source_index": 122,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:129",
+        "source_index": 129,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:130",
+        "source_index": 130,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:131",
+        "source_index": 131,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:133",
+        "source_index": 133,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:136",
+        "source_index": 136,
+        "reason": "no_10_digit_gold"
+      },
+      {
+        "case_id": "validation:137",
+        "source_index": 137,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:148",
+        "source_index": 148,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:154",
+        "source_index": 154,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:155",
+        "source_index": 155,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:160",
+        "source_index": 160,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:165",
+        "source_index": 165,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:168",
+        "source_index": 168,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:169",
+        "source_index": 169,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:182",
+        "source_index": 182,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:186",
+        "source_index": 186,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:187",
+        "source_index": 187,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:192",
+        "source_index": 192,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:195",
+        "source_index": 195,
+        "reason": "multi_code_excluded"
+      },
+      {
+        "case_id": "validation:197",
+        "source_index": 197,
+        "reason": "multi_code_excluded"
+      }
+    ],
+    "file_hash": "36900c8bbd1758b4404ba3f6c7f233314e9ac2bf5895794e0cc815d0ae2ab5d1",
+    "records_hash": "7485eee1e904050bca1dfbce5c992f080d9b86f7a58471d4993af15efb7b5bff"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "ready_for_paid_run": false,
+  "blockers": [
+    "ANTHROPIC_API_KEY not configured in process",
+    "OPENAI_API_KEY not configured in process",
+    "Prospective protocol is draft: primary comparison, precision and sample size not finalised",
+    "Provider pricing and conservative per-request EUR bounds not supplied"
+  ],
+  "budget_eur": 100,
+  "new_api_spend_eur": 0,
+  "model_calls_made_by_this_check": 0
+}

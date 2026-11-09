@@ -1,0 +1,30 @@
+{
+  "specification": {
+    "designated_model": "B",
+    "policy": "combined",
+    "baseline": "confidence",
+    "coverage": 0.5,
+    "outcome": "exact_code_selective_risk",
+    "difference": "combined minus confidence",
+    "criterion": "two-sided paired product-bootstrap 95% CI entirely below zero",
+    "bootstrap_resamples": 2000,
+    "seed": 7
+  },
+  "observed": {
+    "policy": "combined",
+    "requested_coverage": 0.5,
+    "n_products": 700,
+    "n_streamlined": 350,
+    "n_referred": 350,
+    "coverage": 0.5,
+    "selective_risk": 0.6085714285714285,
+    "wrong_chapter_risk": 0.11428571428571428,
+    "risk_minus_confidence": -0.08285714285714285,
+    "paired_ci95": [
+      -0.10857142857142854,
+      -0.0485714285714286
+    ]
+  },
+  "supports_directional_hypothesis": true,
+  "scope": "one prospective primary comparison; other intervals secondary/descriptive"
+}

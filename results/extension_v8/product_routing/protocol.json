@@ -1,0 +1,41 @@
+{
+  "sha256": "ee6d3c746a5437109fe43cc8a2011a53f104c1234080c369552d1eb91eba033e",
+  "contents": {
+    "analysis_status": "post_hoc_exploratory_existing_seen_results",
+    "unit": "product",
+    "designations": [
+      "A",
+      "B"
+    ],
+    "policies": [
+      "confidence",
+      "agreement"
+    ],
+    "coverage_points": [
+      0.3,
+      0.5,
+      0.7
+    ],
+    "bootstrap": "paired_product_percentile",
+    "n_boot": 2000,
+    "seed": 7,
+    "failure_policy": "refer designated failures; secondary failures cannot agree",
+    "tie_rule": "SHA256 product ID; same for every policy",
+    "multiplicity": "pointwise descriptive intervals, no confirmatory significance declarations",
+    "schedule_sha256": null,
+    "schedule_policy_status": "not_run_missing_verified_snapshot",
+    "api_calls": 0,
+    "new_api_cost_eur": 0,
+    "source_sha256": "89e585671381d584b9eca036db2d09ceeafeea5a823c62f9af5fce440df0a7f4",
+    "inputs": {
+      "main_v1/validation/scored_A.jsonl": "d63a2cbf9cd5895c94ffa009388ec4460180f0603845ff92090d20b1d8c3aa62",
+      "main_v1/validation/scored_B.jsonl": "b74e2b1d34af31045e3ac5014dfb1fa74c48156d49b98139b83babde5e71328d",
+      "main_v1/test/scored_A.jsonl": "c9f8da25f403ce41f44f9c149b6f5b88a56ab280be94259a09c963a6a5200593",
+      "main_v1/test/scored_B.jsonl": "b7e488ed0191eeb0a3296a3aac8c4d64da8c37acfeb2a2ad1d281fe663aed3b9",
+      "hscc_v1/validation/scored_A.jsonl": "fe800c4e1d604f3be067b64656e9affe4181e6a17d00686c939e976e904798cd",
+      "hscc_v1/validation/scored_B.jsonl": "1848b918211e49174e78370d1ce03232b31c750bfdf11f3eb25ae256160acb1a",
+      "hscc_v1/test/scored_A.jsonl": "18de75f812a7692e62cd3ed83b51b5afdb91b1df9996313f971145baf6e14132",
+      "hscc_v1/test/scored_B.jsonl": "525e42956d5610a1a19fd6e9ae4646130ff3422b28b68d6912d2a87303c8768c"
+    }
+  }
+}

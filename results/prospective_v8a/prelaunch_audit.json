@@ -1,0 +1,12 @@
+{
+  "sha256": "b309692b0ddb0720b5f274f67d657bd5de46f885ace799e83f3af3ee6082949b",
+  "contents": {
+    "at": "2026-11-04T18:53:35.060537+00:00",
+    "tests": "162 passed",
+    "protocol_sha256": "9569666c8e1e0903ac59cd591a00049d02bce48aaec48e11760228adbcc3dcf1",
+    "amendment_sha256": "a6ca3a68334620f2ee793b2c7c0798f683872b44b5349fc75a55a9f75b81eef4",
+    "old_pilot_preserved": true,
+    "evaluation_generations_before_launch": 0,
+    "precision_script_sha256": "b717deed653208bcc53f860ddbaabe403977d8119db8c9e5e2670fd68878dd46"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "input_count": 325,
+  "included_count": 325,
+  "excluded_count": 0,
+  "multi_policy": "exclude",
+  "exclusions": [],
+  "file_hash": "28faa0cb61f1bad11392691b22856d697475f4f5daf08c2ca76b608ffadecddd",
+  "records_hash": "6d2dae2b1852fb1d2c13bbec22f7ce82cee23fec79f6c137ea953279c6fedf55"
+}

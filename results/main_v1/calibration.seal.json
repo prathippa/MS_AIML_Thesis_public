@@ -1,0 +1,12 @@
+{
+  "inputs": "f4087c1993bddb6a9f68a41516ddc783138edd84dd02b49feedea76d202024e1",
+  "files": {
+    "calibration.json": "3134fe490fab10750f4f6f8a7dd4a1d1b5a927b827a774d566868820ea0ba50b",
+    "calibrator_A.json": "acb8573617635d183aaab03dc2d2cf98fbfe6a57c4036059e19a63de78ff31e5",
+    "validation/scored_A.jsonl": "d63a2cbf9cd5895c94ffa009388ec4460180f0603845ff92090d20b1d8c3aa62",
+    "test/scored_A.jsonl": "c9f8da25f403ce41f44f9c149b6f5b88a56ab280be94259a09c963a6a5200593",
+    "calibrator_B.json": "de33498513233bc5c2681b0aea5cd58fe90aecd2de5c4a95b377b3ecc831bf4e",
+    "validation/scored_B.jsonl": "b74e2b1d34af31045e3ac5014dfb1fa74c48156d49b98139b83babde5e71328d",
+    "test/scored_B.jsonl": "b7e488ed0191eeb0a3296a3aac8c4d64da8c37acfeb2a2ad1d281fe663aed3b9"
+  }
+}

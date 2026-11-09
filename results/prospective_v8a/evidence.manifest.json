@@ -1,0 +1,9 @@
+{
+  "sha256": "ee35fb5d0604d3ea8d98d85d73155cd871e9fcb541f956bce39dbbf957e27f25",
+  "contents": {
+    "corpus_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "records": "55f073e9d9d1b5acf4931218b8590f56f9f114d1e22acfb32607af535d0bd84b",
+    "top_k": 3,
+    "method": "TF-IDF unigram+bigram cosine"
+  }
+}

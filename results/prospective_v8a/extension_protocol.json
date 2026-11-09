@@ -1,0 +1,117 @@
+{
+  "sha256": "33bc77cbd6a67238b973924d6bcb060472caa287d24c2e63114301e7c012585a",
+  "contents": {
+    "plan": {
+      "status": "frozen",
+      "deadline": "2026-12-10",
+      "budget_eur": 100,
+      "candidate_development_n": 100,
+      "candidate_evaluation_n": 700,
+      "sample_size_status": "Precision-driven 700 evaluation products. 5000 paired empirical resamples of earlier validation products suggest half-width 0.029-0.030 at n=700 versus 0.035-0.038 at n=400. Conditional planning approximation, not formal power or guaranteed MDE. A non-significant result does not establish equivalence or rule out a four-point gain. See results/extension_v8/precision_planning_v8a.json.",
+      "unit": "product",
+      "designations": [
+        "A",
+        "B"
+      ],
+      "candidate_policies": [
+        "confidence",
+        "agreement",
+        "schedule",
+        "combined"
+      ],
+      "candidate_coverages": [
+        0.3,
+        0.5,
+        0.7
+      ],
+      "primary_comparison": {
+        "designated_model": "B",
+        "policy": "combined",
+        "baseline": "confidence",
+        "coverage": 0.5,
+        "outcome": "exact_code_selective_risk",
+        "difference": "combined minus confidence",
+        "criterion": "two-sided paired product-bootstrap 95% CI entirely below zero",
+        "bootstrap_resamples": 2000,
+        "seed": 7
+      },
+      "evaluation_outcomes_seen": false,
+      "verified_price_table": {
+        "A": {
+          "model": "claude-sonnet-5-5",
+          "usd_input_per_million": 2,
+          "usd_output_per_million": 10,
+          "max_request_eur": "0.075",
+          "max_prompt_utf8_bytes": 2048,
+          "max_output_tokens": 4000,
+          "source_url": "https://platform.claude.com/docs/en/models/sonnet-5-5/overview",
+          "verified_date": "2026-11-04",
+          "authenticated_model_access": "HTTP 200"
+        },
+        "B": {
+          "model": "gpt-5",
+          "usd_input_per_million": 1.25,
+          "usd_output_per_million": 10,
+          "max_request_eur": "0.13",
+          "max_prompt_utf8_bytes": 2048,
+          "max_output_tokens": 8000,
+          "source_url": "https://developers.openai.com/api/docs/models/gpt-5",
+          "verified_date": "2026-11-04",
+          "authenticated_model_access": "HTTP 200"
+        }
+      },
+      "currency_guard_integrated": true,
+      "original_protocol_changes": "none; new study must use its own protocol and output directory",
+      "requirements_before_generation": [
+        "Fix primary comparison and coverage, supporting comparisons and multiplicity policy",
+        "Document candidate data overlap and historical-release limitations",
+        "Justify cohort size against achievable precision",
+        "Check authenticated model availability and current provider charges",
+        "Reserve a conservative monetary bound before every request, including possible failures",
+        "Freeze protocol before inspecting new evaluation outputs"
+      ],
+      "paid_entry_point": "analysis/launch_prospective_v8a.py",
+      "frozen_date": "2026-11-04",
+      "secondary_comparisons": "All four policies, both designations, 30/50/70% coverage, wrong-chapter rates and full curves; descriptive pointwise intervals, no extra confirmatory claims",
+      "development_use": "First 100 original development products rerun under amendment settings; known GPT-5 cap failures run first for diagnostics. Development used only for technical checks and descriptive calibration, never policy selection. All original 200 development products excluded from evaluation.",
+      "outcome_integrity": "New evaluation model outputs not seen before this freeze; original tests informed design and are not reused as confirmation",
+      "request_output_cap": {
+        "A": 4000,
+        "B": 8000
+      },
+      "decoding_change": "GPT-5 cap raised from technical-pilot 4000 to8000; Claude remains4000. All100 development and700 evaluation products generated anew under these settings; provider defaults otherwise unchanged. No evaluation outputs exist at amendment freeze. Original studies and stopped pilot preserved.",
+      "max_requests": 1760,
+      "budget_accounting": "Same EUR100 shared ledger includes stopped pilot. Before each call reserve A EUR0.075 or B EUR0.13; release unused reservation only against complete recorded provider usage at official rates multiplied by1.5 conservative EUR/USD fee/FX allowance, rounding upward. Unknown or failed requests without usage keep full reservation. No deletions or reset. Stop before next call if outstanding reservations plus conservative usage would exceed cap. Completion is not guaranteed within budget; incomplete evaluation is reported as incomplete, with no confirmatory conclusion.",
+      "price_bound_basis": "Text-only prompts <=2048 UTF8 bytes; allow4096 inputtokens. A4000 output tokens: (4096*2+4000*10)/1e6*1.5=EUR0.072288, reserve0.075. B8000 output tokens: (4096*1.25+8000*10)/1e6*1.5=EUR0.127680, reserve0.13. Reasoning tokens count within output.1.5 is an accounting allowance, not current FX.",
+      "models": {
+        "A": "claude-sonnet-5-5",
+        "B": "gpt-5"
+      },
+      "credentials_file_external": "/Users/prathippadevi/Downloads/MS_thesis_keys/.env",
+      "candidate_data_status": "700 evaluation products from pinned ATLAS training mirror; original400 plus300 additions with documented heuristic overlap filtering. Model-training exposure and source-ruling independence unknown; gold schedule membership not a selection condition.",
+      "candidate_files": {
+        "data/prospective_candidate_v8a/development.jsonl": "c7bcd9b407fa05659e65f361bab55c308b1076f0a917a7a547d6daba304d96e1",
+        "data/prospective_candidate_v8a/development_records.jsonl": "543df3ce445849c18ae6db6fddedae813afab023be45a26ebd8bebfe834babff",
+        "data/prospective_candidate_v8a/evaluation.jsonl": "479e963c22b85aa5571c729ad14133ed07580a3f558adcc0550db40228ff7f5c",
+        "data/prospective_candidate_v8a/evaluation_records.jsonl": "341d04bb3b411ce458018f87060f5fd85f65ab91170b34cb176456792a7c92d3",
+        "data/prospective_candidate_v8a/files.sha256.json": "24390e6203b346d22797536bf4adc5567d84f4dc499dd6442c38559e1e9df638",
+        "data/prospective_candidate_v8a/selection_protocol.json": "b0fa485736be8b47d205296cda0d2eb763609b3136797c6ce33bff7be2b64dfe"
+      },
+      "amendment": "v8a",
+      "frozen_at": "2026-11-04T18:53:01.999999+00:00",
+      "primary_coverage_rationale": "50% represents a substantial review allocation and examines a less inclusive automated queue than70%. Earlier observed70% routing results informed this choice; disclose this design motivation. Same50% primary fixed before any new evaluation outputs.",
+      "null_interpretation": "Report effect and95%CI; no equivalence or minimum-gain-exclusion claim unless the resulting interval supports that specific bound.",
+      "amendment_parent_sha256": "3bdbfe273da30ed6151be54da96f460c7d1874ed460830883bfbffebe4910b57",
+      "amendment_cohort": "Original400 unseen evaluation plus300 new eligible products;100 original development reused only as development; no validation-to-test migration.",
+      "planned_base_requests": 1600,
+      "sample_planning_sha256": "cfc124b47de3cc92f855e9742ada5da7b60dd814d68f90737e54131f1e8cb0d0"
+    },
+    "sources": {
+      "launch_prospective_v8a.py": "ad63fcca64d9d502ae991708a09ea614528f54daf76aef72d2010e7997d604ee",
+      "euro_guard.py": "e2821eb8c0a1e07fbdb97fddd8b5a4b8640c9490404047b4365445ba109f8251",
+      "euro_guard_v2.py": "ceab657ba7a84a549347189b4ec620c62dae8c94cd6c15ac4e78f2a73f89d819",
+      "product_routing.py": "89e585671381d584b9eca036db2d09ceeafeea5a823c62f9af5fce440df0a7f4",
+      "analyse_prospective.py": "fb4f8e21759b4a095fa86272cd7ee4bacbc8fda0516667df0fa60371627a900b"
+    }
+  }
+}

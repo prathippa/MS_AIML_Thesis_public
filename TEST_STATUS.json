@@ -1,0 +1,29 @@
+{
+  "executed_at_utc": "2026-10-24T17:46:47.773039+00:00",
+  "command": "python -m pytest -q",
+  "result": "passed",
+  "tests_passed": 121,
+  "environment": {
+    "python": "3.12.8",
+    "platform": "Linux-6.1.155+-x86_64-with-glibc2.43",
+    "packages": {
+      "numpy": "1.26.4",
+      "scipy": "1.13.1",
+      "scikit-learn": "1.6.1",
+      "pytest": "8.3.5",
+      "anthropic": "0.51.0",
+      "groq": null,
+      "python-dotenv": null,
+      "matplotlib": "3.10.3"
+    }
+  },
+  "paid_api_requests_run": false,
+  "real_benchmark_run": false,
+  "human_annotations_real": false,
+  "limits": [
+    "Offline canned fixtures only; not real thesis results",
+    "Provider compatibility/model availability unverified live",
+    "No real data, corpus or credentials packaged",
+    "Original uploaded source snapshot is archival, not the enhanced execution path"
+  ]
+}

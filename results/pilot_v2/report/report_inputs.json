@@ -1,0 +1,12 @@
+{
+  "sha256": {
+    "protocol.json": "a3cdbae0d40c3821f4f455702d2a670cfda18acc2857f93ab1feccaef3bb97cd",
+    "environment.json": "f412097af7614e08ef86a0fa590d8648b12581947074f5e41492b27749a186c7",
+    "metrics.json": "5c3aa55637da3a92fb99c4893081c57bc3e3a628950ce6a02eccce7a3ff22fa8",
+    "calibration.json": "d21adc8d3e7e6d69511d3079bb40a44948d361c96283523449ffb1818c55bdfd",
+    "routing.json": "26780527f6d106714a153f38fd3421b26e38819945107ee4c3c718bc2bd2b24b",
+    "paired_accuracy.json": "69d1acf62e83aae59a4cbb4866056647ab49adaba0fbe6fb184af6f7d80efb17"
+  },
+  "human_annotations_complete": false,
+  "judge_validity_established": false
+}
